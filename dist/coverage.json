@@ -1,0 +1,1166 @@
+{
+  "source": "User-uploaded Chemistry Syllabus 2025.pdf",
+  "edition": "First assessment 2025",
+  "outcomes": 165,
+  "sharedSL": 104,
+  "HLextensions": 61,
+  "topics": 22,
+  "practiceQuestions": 130,
+  "outcomeMap": [
+    {
+      "id": "S1.1.1",
+      "title": "Elements, compounds and mixtures",
+      "hl": false,
+      "pdfPage": 39,
+      "guidePage": 33
+    },
+    {
+      "id": "S1.1.2",
+      "title": "Kinetic molecular theory",
+      "hl": false,
+      "pdfPage": 39,
+      "guidePage": 33
+    },
+    {
+      "id": "S1.1.3",
+      "title": "Temperature and particle energy",
+      "hl": false,
+      "pdfPage": 39,
+      "guidePage": 33
+    },
+    {
+      "id": "S1.2.1",
+      "title": "Nuclear structure and notation",
+      "hl": false,
+      "pdfPage": 40,
+      "guidePage": 34
+    },
+    {
+      "id": "S1.2.2",
+      "title": "Isotopes and average atomic mass",
+      "hl": false,
+      "pdfPage": 40,
+      "guidePage": 34
+    },
+    {
+      "id": "S1.2.3",
+      "title": "Mass spectra",
+      "hl": true,
+      "pdfPage": 40,
+      "guidePage": 34
+    },
+    {
+      "id": "S1.3.1",
+      "title": "Emission spectra",
+      "hl": false,
+      "pdfPage": 40,
+      "guidePage": 34
+    },
+    {
+      "id": "S1.3.2",
+      "title": "Hydrogen line emission spectrum",
+      "hl": false,
+      "pdfPage": 41,
+      "guidePage": 35
+    },
+    {
+      "id": "S1.3.3",
+      "title": "Main energy levels",
+      "hl": false,
+      "pdfPage": 41,
+      "guidePage": 35
+    },
+    {
+      "id": "S1.3.4",
+      "title": "Sublevels and orbitals",
+      "hl": false,
+      "pdfPage": 41,
+      "guidePage": 35
+    },
+    {
+      "id": "S1.3.5",
+      "title": "Aufbau, Hund and Pauli",
+      "hl": false,
+      "pdfPage": 41,
+      "guidePage": 35
+    },
+    {
+      "id": "S1.3.6",
+      "title": "First ionization energy",
+      "hl": true,
+      "pdfPage": 41,
+      "guidePage": 35
+    },
+    {
+      "id": "S1.3.7",
+      "title": "Successive ionization energies",
+      "hl": true,
+      "pdfPage": 42,
+      "guidePage": 36
+    },
+    {
+      "id": "S1.4.1",
+      "title": "The Avogadro constant",
+      "hl": false,
+      "pdfPage": 42,
+      "guidePage": 36
+    },
+    {
+      "id": "S1.4.2",
+      "title": "Relative atomic and formula masses",
+      "hl": false,
+      "pdfPage": 42,
+      "guidePage": 36
+    },
+    {
+      "id": "S1.4.3",
+      "title": "Mass and amount of substance",
+      "hl": false,
+      "pdfPage": 42,
+      "guidePage": 36
+    },
+    {
+      "id": "S1.4.4",
+      "title": "Empirical and molecular formula",
+      "hl": false,
+      "pdfPage": 42,
+      "guidePage": 36
+    },
+    {
+      "id": "S1.4.5",
+      "title": "Concentration",
+      "hl": false,
+      "pdfPage": 43,
+      "guidePage": 37
+    },
+    {
+      "id": "S1.4.6",
+      "title": "Avogadro’s law and gas volume",
+      "hl": false,
+      "pdfPage": 43,
+      "guidePage": 37
+    },
+    {
+      "id": "S1.5.1",
+      "title": "Assumptions of ideal gases",
+      "hl": false,
+      "pdfPage": 43,
+      "guidePage": 37
+    },
+    {
+      "id": "S1.5.2",
+      "title": "Deviations from ideal behaviour",
+      "hl": false,
+      "pdfPage": 43,
+      "guidePage": 37
+    },
+    {
+      "id": "S1.5.3",
+      "title": "Gas graphs and molar volume",
+      "hl": false,
+      "pdfPage": 43,
+      "guidePage": 37
+    },
+    {
+      "id": "S1.5.4",
+      "title": "Ideal and combined gas equations",
+      "hl": false,
+      "pdfPage": 44,
+      "guidePage": 38
+    },
+    {
+      "id": "S2.1.1",
+      "title": "Formation of ions",
+      "hl": false,
+      "pdfPage": 44,
+      "guidePage": 38
+    },
+    {
+      "id": "S2.1.2",
+      "title": "Ionic bonds and formulas",
+      "hl": false,
+      "pdfPage": 44,
+      "guidePage": 38
+    },
+    {
+      "id": "S2.1.3",
+      "title": "Giant ionic lattices and physical properties",
+      "hl": false,
+      "pdfPage": 44,
+      "guidePage": 38
+    },
+    {
+      "id": "S2.2.1",
+      "title": "Covalent bonds and Lewis formulas",
+      "hl": false,
+      "pdfPage": 45,
+      "guidePage": 39
+    },
+    {
+      "id": "S2.2.2",
+      "title": "Single, double and triple bonds",
+      "hl": false,
+      "pdfPage": 45,
+      "guidePage": 39
+    },
+    {
+      "id": "S2.2.3",
+      "title": "Coordinate bonding",
+      "hl": false,
+      "pdfPage": 45,
+      "guidePage": 39
+    },
+    {
+      "id": "S2.2.4",
+      "title": "VSEPR: shape and electron domains",
+      "hl": false,
+      "pdfPage": 45,
+      "guidePage": 39
+    },
+    {
+      "id": "S2.2.5",
+      "title": "Electronegativity and bond polarity",
+      "hl": false,
+      "pdfPage": 46,
+      "guidePage": 40
+    },
+    {
+      "id": "S2.2.6",
+      "title": "Molecular polarity",
+      "hl": false,
+      "pdfPage": 46,
+      "guidePage": 40
+    },
+    {
+      "id": "S2.2.7",
+      "title": "Covalent networks",
+      "hl": false,
+      "pdfPage": 46,
+      "guidePage": 40
+    },
+    {
+      "id": "S2.2.8",
+      "title": "Intermolecular forces",
+      "hl": false,
+      "pdfPage": 46,
+      "guidePage": 40
+    },
+    {
+      "id": "S2.2.9",
+      "title": "Properties of covalent substances",
+      "hl": false,
+      "pdfPage": 46,
+      "guidePage": 40
+    },
+    {
+      "id": "S2.2.10",
+      "title": "Chromatography and Rf",
+      "hl": false,
+      "pdfPage": 47,
+      "guidePage": 41
+    },
+    {
+      "id": "S2.2.11",
+      "title": "Resonance and delocalization",
+      "hl": true,
+      "pdfPage": 47,
+      "guidePage": 41
+    },
+    {
+      "id": "S2.2.12",
+      "title": "Evidence for benzene resonance",
+      "hl": true,
+      "pdfPage": 47,
+      "guidePage": 41
+    },
+    {
+      "id": "S2.2.13",
+      "title": "Expanded octets and five/six domains",
+      "hl": true,
+      "pdfPage": 47,
+      "guidePage": 41
+    },
+    {
+      "id": "S2.2.14",
+      "title": "Formal charge",
+      "hl": true,
+      "pdfPage": 47,
+      "guidePage": 41
+    },
+    {
+      "id": "S2.2.15",
+      "title": "Sigma and pi bonds",
+      "hl": true,
+      "pdfPage": 47,
+      "guidePage": 41
+    },
+    {
+      "id": "S2.2.16",
+      "title": "Hybridization",
+      "hl": true,
+      "pdfPage": 48,
+      "guidePage": 42
+    },
+    {
+      "id": "S2.3.1",
+      "title": "Metallic bonding and metal properties",
+      "hl": false,
+      "pdfPage": 48,
+      "guidePage": 42
+    },
+    {
+      "id": "S2.3.2",
+      "title": "What strengthens metallic bonding?",
+      "hl": false,
+      "pdfPage": 48,
+      "guidePage": 42
+    },
+    {
+      "id": "S2.3.3",
+      "title": "Transition-metal bonding",
+      "hl": true,
+      "pdfPage": 48,
+      "guidePage": 42
+    },
+    {
+      "id": "S2.4.1",
+      "title": "The bonding continuum",
+      "hl": false,
+      "pdfPage": 48,
+      "guidePage": 42
+    },
+    {
+      "id": "S2.4.2",
+      "title": "Using electronegativity in a bonding triangle",
+      "hl": false,
+      "pdfPage": 49,
+      "guidePage": 43
+    },
+    {
+      "id": "S2.4.3",
+      "title": "Alloys and enhanced properties",
+      "hl": false,
+      "pdfPage": 49,
+      "guidePage": 43
+    },
+    {
+      "id": "S2.4.4",
+      "title": "Polymer structure and plastic properties",
+      "hl": false,
+      "pdfPage": 49,
+      "guidePage": 43
+    },
+    {
+      "id": "S2.4.5",
+      "title": "Addition polymerization",
+      "hl": false,
+      "pdfPage": 49,
+      "guidePage": 43
+    },
+    {
+      "id": "S2.4.6",
+      "title": "Condensation polymers",
+      "hl": true,
+      "pdfPage": 49,
+      "guidePage": 43
+    },
+    {
+      "id": "S3.1.1",
+      "title": "Periods, groups and blocks",
+      "hl": false,
+      "pdfPage": 50,
+      "guidePage": 44
+    },
+    {
+      "id": "S3.1.2",
+      "title": "Position and electron configuration",
+      "hl": false,
+      "pdfPage": 50,
+      "guidePage": 44
+    },
+    {
+      "id": "S3.1.3",
+      "title": "Periodic trends",
+      "hl": false,
+      "pdfPage": 50,
+      "guidePage": 44
+    },
+    {
+      "id": "S3.1.4",
+      "title": "Group 1 and group 17 reactivity",
+      "hl": false,
+      "pdfPage": 50,
+      "guidePage": 44
+    },
+    {
+      "id": "S3.1.5",
+      "title": "Oxide acidity and environmental effects",
+      "hl": false,
+      "pdfPage": 50,
+      "guidePage": 44
+    },
+    {
+      "id": "S3.1.6",
+      "title": "Oxidation states",
+      "hl": false,
+      "pdfPage": 50,
+      "guidePage": 44
+    },
+    {
+      "id": "S3.1.7",
+      "title": "Ionization-energy discontinuities",
+      "hl": true,
+      "pdfPage": 51,
+      "guidePage": 45
+    },
+    {
+      "id": "S3.1.8",
+      "title": "Characteristic transition-element properties",
+      "hl": true,
+      "pdfPage": 51,
+      "guidePage": 45
+    },
+    {
+      "id": "S3.1.9",
+      "title": "Transition-metal ions and oxidation states",
+      "hl": true,
+      "pdfPage": 51,
+      "guidePage": 45
+    },
+    {
+      "id": "S3.1.10",
+      "title": "Colour in transition complexes",
+      "hl": true,
+      "pdfPage": 51,
+      "guidePage": 45
+    },
+    {
+      "id": "S3.2.1",
+      "title": "Representations of organic molecules",
+      "hl": false,
+      "pdfPage": 52,
+      "guidePage": 46
+    },
+    {
+      "id": "S3.2.2",
+      "title": "Recognizing functional groups",
+      "hl": false,
+      "pdfPage": 52,
+      "guidePage": 46
+    },
+    {
+      "id": "S3.2.3",
+      "title": "Homologous series and general formulas",
+      "hl": false,
+      "pdfPage": 52,
+      "guidePage": 46
+    },
+    {
+      "id": "S3.2.4",
+      "title": "Physical-property trends in organic families",
+      "hl": false,
+      "pdfPage": 52,
+      "guidePage": 46
+    },
+    {
+      "id": "S3.2.5",
+      "title": "IUPAC naming up to six-carbon parents",
+      "hl": false,
+      "pdfPage": 52,
+      "guidePage": 46
+    },
+    {
+      "id": "S3.2.6",
+      "title": "Structural isomers and carbon classification",
+      "hl": false,
+      "pdfPage": 53,
+      "guidePage": 47
+    },
+    {
+      "id": "S3.2.7",
+      "title": "Stereoisomers, cis–trans and chirality",
+      "hl": true,
+      "pdfPage": 53,
+      "guidePage": 47
+    },
+    {
+      "id": "S3.2.8",
+      "title": "Organic mass spectra and fragmentation",
+      "hl": true,
+      "pdfPage": 53,
+      "guidePage": 47
+    },
+    {
+      "id": "S3.2.9",
+      "title": "IR spectroscopy and bond identification",
+      "hl": true,
+      "pdfPage": 53,
+      "guidePage": 47
+    },
+    {
+      "id": "S3.2.10",
+      "title": "Proton NMR: signals, shifts and integration",
+      "hl": true,
+      "pdfPage": 53,
+      "guidePage": 47
+    },
+    {
+      "id": "S3.2.11",
+      "title": "Proton NMR splitting",
+      "hl": true,
+      "pdfPage": 54,
+      "guidePage": 48
+    },
+    {
+      "id": "S3.2.12",
+      "title": "Combining analytical evidence",
+      "hl": true,
+      "pdfPage": 54,
+      "guidePage": 48
+    },
+    {
+      "id": "R1.1.1",
+      "title": "System, surroundings, heat and temperature",
+      "hl": false,
+      "pdfPage": 54,
+      "guidePage": 48
+    },
+    {
+      "id": "R1.1.2",
+      "title": "Exothermic and endothermic reactions",
+      "hl": false,
+      "pdfPage": 54,
+      "guidePage": 48
+    },
+    {
+      "id": "R1.1.3",
+      "title": "Energy profiles and relative stability",
+      "hl": false,
+      "pdfPage": 54,
+      "guidePage": 48
+    },
+    {
+      "id": "R1.1.4",
+      "title": "Calorimetry calculations",
+      "hl": false,
+      "pdfPage": 54,
+      "guidePage": 48
+    },
+    {
+      "id": "R1.2.1",
+      "title": "Average bond enthalpy calculations",
+      "hl": false,
+      "pdfPage": 55,
+      "guidePage": 49
+    },
+    {
+      "id": "R1.2.2",
+      "title": "Hess’s law",
+      "hl": false,
+      "pdfPage": 55,
+      "guidePage": 49
+    },
+    {
+      "id": "R1.2.3",
+      "title": "Standard formation and combustion enthalpies",
+      "hl": true,
+      "pdfPage": 55,
+      "guidePage": 49
+    },
+    {
+      "id": "R1.2.4",
+      "title": "Formation and combustion data in cycles",
+      "hl": true,
+      "pdfPage": 55,
+      "guidePage": 49
+    },
+    {
+      "id": "R1.2.5",
+      "title": "Interpreting Born–Haber cycles",
+      "hl": true,
+      "pdfPage": 55,
+      "guidePage": 49
+    },
+    {
+      "id": "R1.3.1",
+      "title": "Complete combustion equations",
+      "hl": false,
+      "pdfPage": 56,
+      "guidePage": 50
+    },
+    {
+      "id": "R1.3.2",
+      "title": "Incomplete combustion",
+      "hl": false,
+      "pdfPage": 56,
+      "guidePage": 50
+    },
+    {
+      "id": "R1.3.3",
+      "title": "Comparing fossil fuels",
+      "hl": false,
+      "pdfPage": 56,
+      "guidePage": 50
+    },
+    {
+      "id": "R1.3.4",
+      "title": "Biofuels and renewable carbon",
+      "hl": false,
+      "pdfPage": 56,
+      "guidePage": 50
+    },
+    {
+      "id": "R1.3.5",
+      "title": "Hydrogen and methanol fuel cells",
+      "hl": false,
+      "pdfPage": 57,
+      "guidePage": 51
+    },
+    {
+      "id": "R1.4.1",
+      "title": "Entropy and dispersal",
+      "hl": true,
+      "pdfPage": 57,
+      "guidePage": 51
+    },
+    {
+      "id": "R1.4.2",
+      "title": "Gibbs energy calculations",
+      "hl": true,
+      "pdfPage": 57,
+      "guidePage": 51
+    },
+    {
+      "id": "R1.4.3",
+      "title": "Spontaneity and temperature thresholds",
+      "hl": true,
+      "pdfPage": 57,
+      "guidePage": 51
+    },
+    {
+      "id": "R1.4.4",
+      "title": "Gibbs energy and equilibrium",
+      "hl": true,
+      "pdfPage": 57,
+      "guidePage": 51
+    },
+    {
+      "id": "R2.1.1",
+      "title": "Balancing chemical equations",
+      "hl": false,
+      "pdfPage": 58,
+      "guidePage": 52
+    },
+    {
+      "id": "R2.1.2",
+      "title": "Reacting masses, gas volumes and concentrations",
+      "hl": false,
+      "pdfPage": 58,
+      "guidePage": 52
+    },
+    {
+      "id": "R2.1.3",
+      "title": "Limiting reactants and theoretical yield",
+      "hl": false,
+      "pdfPage": 58,
+      "guidePage": 52
+    },
+    {
+      "id": "R2.1.4",
+      "title": "Percentage yield",
+      "hl": false,
+      "pdfPage": 58,
+      "guidePage": 52
+    },
+    {
+      "id": "R2.1.5",
+      "title": "Atom economy and green chemistry",
+      "hl": false,
+      "pdfPage": 58,
+      "guidePage": 52
+    },
+    {
+      "id": "R2.2.1",
+      "title": "Measuring reaction rates",
+      "hl": false,
+      "pdfPage": 58,
+      "guidePage": 52
+    },
+    {
+      "id": "R2.2.2",
+      "title": "Collision theory",
+      "hl": false,
+      "pdfPage": 59,
+      "guidePage": 53
+    },
+    {
+      "id": "R2.2.3",
+      "title": "Factors controlling rate",
+      "hl": false,
+      "pdfPage": 59,
+      "guidePage": 53
+    },
+    {
+      "id": "R2.2.4",
+      "title": "Activation energy and Maxwell–Boltzmann curves",
+      "hl": false,
+      "pdfPage": 59,
+      "guidePage": 53
+    },
+    {
+      "id": "R2.2.5",
+      "title": "Catalysts and energy profiles",
+      "hl": false,
+      "pdfPage": 59,
+      "guidePage": 53
+    },
+    {
+      "id": "R2.2.6",
+      "title": "Multistep mechanisms and the rate-determining step",
+      "hl": true,
+      "pdfPage": 59,
+      "guidePage": 53
+    },
+    {
+      "id": "R2.2.7",
+      "title": "Energy profiles for multistep reactions",
+      "hl": true,
+      "pdfPage": 60,
+      "guidePage": 54
+    },
+    {
+      "id": "R2.2.8",
+      "title": "Molecularity of elementary steps",
+      "hl": true,
+      "pdfPage": 60,
+      "guidePage": 54
+    },
+    {
+      "id": "R2.2.9",
+      "title": "Determining rate equations experimentally",
+      "hl": true,
+      "pdfPage": 60,
+      "guidePage": 54
+    },
+    {
+      "id": "R2.2.10",
+      "title": "Reaction orders and graphical evidence",
+      "hl": true,
+      "pdfPage": 60,
+      "guidePage": 54
+    },
+    {
+      "id": "R2.2.11",
+      "title": "Rate constants and their units",
+      "hl": true,
+      "pdfPage": 60,
+      "guidePage": 54
+    },
+    {
+      "id": "R2.2.12",
+      "title": "The Arrhenius relationship",
+      "hl": true,
+      "pdfPage": 60,
+      "guidePage": 54
+    },
+    {
+      "id": "R2.2.13",
+      "title": "The Arrhenius factor",
+      "hl": true,
+      "pdfPage": 60,
+      "guidePage": 54
+    },
+    {
+      "id": "R2.3.1",
+      "title": "Dynamic equilibrium",
+      "hl": false,
+      "pdfPage": 61,
+      "guidePage": 55
+    },
+    {
+      "id": "R2.3.2",
+      "title": "Writing equilibrium-constant expressions",
+      "hl": false,
+      "pdfPage": 61,
+      "guidePage": 55
+    },
+    {
+      "id": "R2.3.3",
+      "title": "What the size of K tells you",
+      "hl": false,
+      "pdfPage": 61,
+      "guidePage": 55
+    },
+    {
+      "id": "R2.3.4",
+      "title": "Le Châtelier’s principle",
+      "hl": false,
+      "pdfPage": 61,
+      "guidePage": 55
+    },
+    {
+      "id": "R2.3.5",
+      "title": "Reaction quotient and direction",
+      "hl": true,
+      "pdfPage": 61,
+      "guidePage": 55
+    },
+    {
+      "id": "R2.3.6",
+      "title": "Calculating equilibrium composition",
+      "hl": true,
+      "pdfPage": 61,
+      "guidePage": 55
+    },
+    {
+      "id": "R2.3.7",
+      "title": "Gibbs energy and equilibrium constants",
+      "hl": true,
+      "pdfPage": 61,
+      "guidePage": 55
+    },
+    {
+      "id": "R3.1.1",
+      "title": "Brønsted–Lowry acids and bases",
+      "hl": false,
+      "pdfPage": 62,
+      "guidePage": 56
+    },
+    {
+      "id": "R3.1.2",
+      "title": "Conjugate acid–base pairs",
+      "hl": false,
+      "pdfPage": 62,
+      "guidePage": 56
+    },
+    {
+      "id": "R3.1.3",
+      "title": "Species that can donate or accept protons",
+      "hl": false,
+      "pdfPage": 62,
+      "guidePage": 56
+    },
+    {
+      "id": "R3.1.4",
+      "title": "The pH scale",
+      "hl": false,
+      "pdfPage": 62,
+      "guidePage": 56
+    },
+    {
+      "id": "R3.1.5",
+      "title": "The ionic product of water",
+      "hl": false,
+      "pdfPage": 62,
+      "guidePage": 56
+    },
+    {
+      "id": "R3.1.6",
+      "title": "Strong versus weak acids and bases",
+      "hl": false,
+      "pdfPage": 63,
+      "guidePage": 57
+    },
+    {
+      "id": "R3.1.7",
+      "title": "Neutralization and salt formation",
+      "hl": false,
+      "pdfPage": 63,
+      "guidePage": 57
+    },
+    {
+      "id": "R3.1.8",
+      "title": "Strong acid–strong base titration curves",
+      "hl": false,
+      "pdfPage": 63,
+      "guidePage": 57
+    },
+    {
+      "id": "R3.1.9",
+      "title": "pOH and acid–base conversions",
+      "hl": true,
+      "pdfPage": 63,
+      "guidePage": 57
+    },
+    {
+      "id": "R3.1.10",
+      "title": "Ka, Kb, pKa and pKb",
+      "hl": true,
+      "pdfPage": 63,
+      "guidePage": 57
+    },
+    {
+      "id": "R3.1.11",
+      "title": "Conjugate constants and weak-acid calculations",
+      "hl": true,
+      "pdfPage": 63,
+      "guidePage": 57
+    },
+    {
+      "id": "R3.1.12",
+      "title": "Salt hydrolysis and pH",
+      "hl": true,
+      "pdfPage": 64,
+      "guidePage": 58
+    },
+    {
+      "id": "R3.1.13",
+      "title": "Weak/strong titration-curve combinations",
+      "hl": true,
+      "pdfPage": 64,
+      "guidePage": 58
+    },
+    {
+      "id": "R3.1.14",
+      "title": "Acid–base indicators",
+      "hl": true,
+      "pdfPage": 64,
+      "guidePage": 58
+    },
+    {
+      "id": "R3.1.15",
+      "title": "Choosing a titration indicator",
+      "hl": true,
+      "pdfPage": 64,
+      "guidePage": 58
+    },
+    {
+      "id": "R3.1.16",
+      "title": "How buffers work",
+      "hl": true,
+      "pdfPage": 64,
+      "guidePage": 58
+    },
+    {
+      "id": "R3.1.17",
+      "title": "Calculating buffer pH and dilution effects",
+      "hl": true,
+      "pdfPage": 64,
+      "guidePage": 58
+    },
+    {
+      "id": "R3.2.1",
+      "title": "Oxidation states and redox agents",
+      "hl": false,
+      "pdfPage": 65,
+      "guidePage": 59
+    },
+    {
+      "id": "R3.2.2",
+      "title": "Balancing redox half-equations",
+      "hl": false,
+      "pdfPage": 65,
+      "guidePage": 59
+    },
+    {
+      "id": "R3.2.3",
+      "title": "Reactivity and displacement",
+      "hl": false,
+      "pdfPage": 65,
+      "guidePage": 59
+    },
+    {
+      "id": "R3.2.4",
+      "title": "Reactive metals with dilute acids",
+      "hl": false,
+      "pdfPage": 65,
+      "guidePage": 59
+    },
+    {
+      "id": "R3.2.5",
+      "title": "Anodes, cathodes and polarity",
+      "hl": false,
+      "pdfPage": 66,
+      "guidePage": 60
+    },
+    {
+      "id": "R3.2.6",
+      "title": "Primary voltaic cells",
+      "hl": false,
+      "pdfPage": 66,
+      "guidePage": 60
+    },
+    {
+      "id": "R3.2.7",
+      "title": "Secondary cells and storage choices",
+      "hl": false,
+      "pdfPage": 66,
+      "guidePage": 60
+    },
+    {
+      "id": "R3.2.8",
+      "title": "Electrolysis of molten salts",
+      "hl": false,
+      "pdfPage": 66,
+      "guidePage": 60
+    },
+    {
+      "id": "R3.2.9",
+      "title": "Oxidation of alcohols",
+      "hl": false,
+      "pdfPage": 66,
+      "guidePage": 60
+    },
+    {
+      "id": "R3.2.10",
+      "title": "Reduction of carbonyl compounds",
+      "hl": false,
+      "pdfPage": 66,
+      "guidePage": 60
+    },
+    {
+      "id": "R3.2.11",
+      "title": "Hydrogenation of unsaturated compounds",
+      "hl": false,
+      "pdfPage": 67,
+      "guidePage": 61
+    },
+    {
+      "id": "R3.2.12",
+      "title": "Standard electrode potentials",
+      "hl": true,
+      "pdfPage": 67,
+      "guidePage": 61
+    },
+    {
+      "id": "R3.2.13",
+      "title": "Calculating standard cell potential",
+      "hl": true,
+      "pdfPage": 67,
+      "guidePage": 61
+    },
+    {
+      "id": "R3.2.14",
+      "title": "Cell potential and Gibbs energy",
+      "hl": true,
+      "pdfPage": 67,
+      "guidePage": 61
+    },
+    {
+      "id": "R3.2.15",
+      "title": "Electrolysis of aqueous solutions",
+      "hl": true,
+      "pdfPage": 67,
+      "guidePage": 61
+    },
+    {
+      "id": "R3.2.16",
+      "title": "Electroplating",
+      "hl": true,
+      "pdfPage": 67,
+      "guidePage": 61
+    },
+    {
+      "id": "R3.3.1",
+      "title": "Radicals and unpaired electrons",
+      "hl": false,
+      "pdfPage": 68,
+      "guidePage": 62
+    },
+    {
+      "id": "R3.3.2",
+      "title": "Homolytic fission and initiation",
+      "hl": false,
+      "pdfPage": 68,
+      "guidePage": 62
+    },
+    {
+      "id": "R3.3.3",
+      "title": "Radical substitution chains",
+      "hl": false,
+      "pdfPage": 68,
+      "guidePage": 62
+    },
+    {
+      "id": "R3.4.1",
+      "title": "Recognizing nucleophiles",
+      "hl": false,
+      "pdfPage": 68,
+      "guidePage": 62
+    },
+    {
+      "id": "R3.4.2",
+      "title": "Nucleophilic substitution",
+      "hl": false,
+      "pdfPage": 68,
+      "guidePage": 62
+    },
+    {
+      "id": "R3.4.3",
+      "title": "Heterolytic fission and curly arrows",
+      "hl": false,
+      "pdfPage": 69,
+      "guidePage": 63
+    },
+    {
+      "id": "R3.4.4",
+      "title": "Recognizing electrophiles",
+      "hl": false,
+      "pdfPage": 69,
+      "guidePage": 63
+    },
+    {
+      "id": "R3.4.5",
+      "title": "Electrophilic addition to alkenes",
+      "hl": false,
+      "pdfPage": 69,
+      "guidePage": 63
+    },
+    {
+      "id": "R3.4.6",
+      "title": "Lewis acid–base theory",
+      "hl": true,
+      "pdfPage": 69,
+      "guidePage": 63
+    },
+    {
+      "id": "R3.4.7",
+      "title": "Coordinate bonds in Lewis reactions",
+      "hl": true,
+      "pdfPage": 69,
+      "guidePage": 63
+    },
+    {
+      "id": "R3.4.8",
+      "title": "Ligands and complex-ion charges",
+      "hl": true,
+      "pdfPage": 70,
+      "guidePage": 64
+    },
+    {
+      "id": "R3.4.9",
+      "title": "SN1 and SN2 mechanisms",
+      "hl": true,
+      "pdfPage": 70,
+      "guidePage": 64
+    },
+    {
+      "id": "R3.4.10",
+      "title": "Leaving groups and substitution rates",
+      "hl": true,
+      "pdfPage": 70,
+      "guidePage": 64
+    },
+    {
+      "id": "R3.4.11",
+      "title": "Mechanisms of electrophilic addition",
+      "hl": true,
+      "pdfPage": 70,
+      "guidePage": 64
+    },
+    {
+      "id": "R3.4.12",
+      "title": "Unsymmetrical addition and carbocation stability",
+      "hl": true,
+      "pdfPage": 70,
+      "guidePage": 64
+    },
+    {
+      "id": "R3.4.13",
+      "title": "Electrophilic substitution of benzene",
+      "hl": true,
+      "pdfPage": 70,
+      "guidePage": 64
+    }
+  ]
+}

@@ -1,0 +1,1628 @@
+[
+  {
+    "id": "S1.1",
+    "name": "Particulate nature of matter",
+    "group": "Structure 1",
+    "sections": [
+      {
+        "id": "S1.1.1",
+        "title": "Elements, compounds and mixtures",
+        "hl": false,
+        "summary": "Matter is classified according to its chemical composition.",
+        "objectives": [
+          "An element cannot be broken down into simpler substances by chemical means.",
+          "A compound contains atoms of different elements chemically bonded in a fixed ratio.",
+          "A mixture contains more than one element or compound in a variable ratio without chemical bonding.",
+          "Homogeneous mixtures are uniform throughout; heterogeneous mixtures are non-uniform.",
+          "Separate mixtures through solvation, filtration, recrystallization, evaporation, distillation or chromatography."
+        ],
+        "explain": [
+          "Matter is grouped by what particles it contains and whether those particles are chemically bonded. **An element** contains only one kind of atom, **a compound** contains different elements bonded in a fixed ratio, and **a mixture** contains substances that are physically combined rather than chemically joined.",
+          "This difference tells you how substances can be separated. A compound requires a chemical change to separate its elements; a mixture can be separated by exploiting differences in properties such as particle size, solubility or boiling point. A **homogeneous** mixture has uniform composition; a **heterogeneous** mixture does not."
+        ],
+        "steps": [
+          "Ask whether more than one substance is present. If no, the sample is a pure substance.",
+          "If pure, ask whether it contains one element or chemically bonded different elements.",
+          "If mixed, identify a physical property that differs: filtration for insoluble solids, evaporation or recrystallization for a dissolved solid, distillation for different boiling points, or chromatography for different attractions."
+        ],
+        "example": {
+          "q": "A sample contains sand, dissolved salt and water. How could you obtain dry salt?",
+          "steps": [
+            "Filter the sample: insoluble sand stays on the filter paper.",
+            "The filtrate is salt solution. Evaporate some water to obtain crystals, or use careful crystallization to recover the solid.",
+            "Dry the separated crystals."
+          ],
+          "answer": "Filtration followed by evaporation / recrystallization."
+        },
+        "mistake": "Do not call salt water a compound. Its composition can vary, and its components are not chemically bonded to one another.",
+        "formula": "",
+        "visual": {
+          "kind": "classification",
+          "title": "Elements, compounds and mixtures",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.1.2",
+        "title": "Kinetic molecular theory",
+        "hl": false,
+        "summary": "A particulate model explains solids, liquids, gases and changes of state.",
+        "objectives": [
+          "Solid particles occupy relatively fixed positions; liquid particles move past each other; gas particles move freely.",
+          "Know melting, freezing, evaporation, boiling, condensation, sublimation and deposition.",
+          "Include the state symbols (s), (l), (g) and (aq) in equations.",
+          "During changes of state, distinguish energy changes from temperature changes."
+        ],
+        "explain": [
+          "The **kinetic molecular theory** imagines matter as moving particles. In a solid, particles vibrate in relatively fixed positions; in a liquid, particles remain close but flow around one another; in a gas, particles are widely separated and move freely.",
+          "A change of state does **not** change the identity of the substance. Instead, the arrangement, spacing and movement of particles change. Melting, vaporization and sublimation require energy input to overcome attractions; freezing, condensation and deposition release energy as stronger attractions develop."
+        ],
+        "steps": [
+          "Identify the initial and final physical states.",
+          "Name the process: solid→liquid melting; liquid→gas vaporization; gas→liquid condensation; gas→solid deposition.",
+          "Explain in particle terms how separation and movement change, not that the particles themselves grow or shrink."
+        ],
+        "example": {
+          "q": "Why does liquid water require heating to become water vapour?",
+          "steps": [
+            "Water molecules in a liquid are close enough for substantial attractions between them.",
+            "Energy is needed to overcome enough of those intermolecular attractions for molecules to separate.",
+            "The molecules become far more separated in the gas; they remain H₂O molecules."
+          ],
+          "answer": "Vaporization requires energy to overcome intermolecular attractions."
+        },
+        "mistake": "Boiling does not break the O–H covalent bonds within water molecules.",
+        "formula": "",
+        "visual": {
+          "kind": "states",
+          "title": "Kinetic molecular theory",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.1.3",
+        "title": "Temperature and particle energy",
+        "hl": false,
+        "summary": "Kelvin temperature is a measure of average particle kinetic energy.",
+        "objectives": [
+          "Kelvin (K) is the SI temperature unit.",
+          "A 1 K interval equals a 1 °C interval.",
+          "Convert using T(K) = t(°C) + 273.15.",
+          "Interpret temperature plateaus on heating and cooling curves as changes of state."
+        ],
+        "explain": [
+          "Temperature is related to the **average kinetic energy** of particles. The kelvin scale begins at absolute zero; a temperature change of 1 K is the same size as a change of 1 °C. For calculations use **T(K) = t(°C) + 273.15**.",
+          "When a pure substance undergoes a change of state at constant pressure, it can absorb or release energy while its temperature stays constant. During a heating-curve plateau, the supplied energy primarily changes particle arrangement and intermolecular potential energy rather than increasing average kinetic energy."
+        ],
+        "steps": [
+          "Convert °C to K by adding 273.15; subtract 273.15 for K to °C.",
+          "On a heating curve, sloping sections show temperature rising within one state.",
+          "Flat sections show a phase change; label the states and the relevant change."
+        ],
+        "example": {
+          "q": "Convert 25.0 °C to kelvin. What happens to temperature during melting of a pure substance at constant pressure?",
+          "steps": [
+            "Use T = t + 273.15.",
+            "T = 25.0 + 273.15 = 298.15 K.",
+            "Temperature stays constant at the melting point until the phase change is complete."
+          ],
+          "answer": "298.15 K; a melting plateau occurs."
+        },
+        "mistake": "Never insert Celsius temperatures directly into an ideal-gas calculation.",
+        "formula": "T(K) = t(°C) + 273.15",
+        "visual": {
+          "kind": "heating",
+          "title": "Temperature and particle energy",
+          "labels": []
+        },
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "id": "S1.2",
+    "name": "The nuclear atom",
+    "group": "Structure 1",
+    "sections": [
+      {
+        "id": "S1.2.1",
+        "title": "Nuclear structure and notation",
+        "hl": false,
+        "summary": "A dense, positively charged nucleus contains protons and neutrons; electrons surround it.",
+        "objectives": [
+          "Atomic number Z = number of protons.",
+          "Mass number A = protons + neutrons.",
+          "Neutrons = A − Z.",
+          "For a neutral atom electrons = Z; for a positive ion subtract its charge, for a negative ion add charge magnitude.",
+          "Know charges and relative masses of protons, neutrons and electrons; the electron mass is negligible."
+        ],
+        "explain": [
+          "The atom has a tiny, dense, positively charged **nucleus** that contains protons and neutrons. Negatively charged electrons occupy the surrounding region. Most of the atom’s mass is concentrated in the nucleus.",
+          "The **atomic number Z** counts protons and identifies the element; the **mass number A** counts protons plus neutrons. Ion formation changes the number of electrons, not the number of protons in the nucleus. The nuclear symbol is written ᴬ_ZX."
+        ],
+        "steps": [
+          "Read Z to find the number of protons.",
+          "Calculate neutrons = A − Z.",
+          "A neutral atom has Z electrons. Subtract for a positive ion and add for a negative ion."
+        ],
+        "example": {
+          "q": "Find the number of protons, neutrons and electrons in ²⁷₁₃Al³⁺.",
+          "steps": [
+            "Protons = Z = 13.",
+            "Neutrons = A − Z = 27 − 13 = 14.",
+            "A 3+ ion has lost three electrons, so electrons = 13 − 3 = 10."
+          ],
+          "answer": "13 protons, 14 neutrons and 10 electrons."
+        },
+        "mistake": "The charge of an ion changes electron count; it does not change the atomic number.",
+        "formula": "n(neutrons) = A − Z",
+        "visual": {
+          "kind": "atom",
+          "title": "Nuclear structure and notation",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.2.2",
+        "title": "Isotopes and average atomic mass",
+        "hl": false,
+        "summary": "Isotopes have the same proton number and different neutron numbers.",
+        "objectives": [
+          "Different isotopes can have different physical properties.",
+          "Calculate weighted relative atomic mass using isotopic abundances.",
+          "Percentage abundances must total 100%.",
+          "You do not need to memorize specific named isotopes."
+        ],
+        "explain": [
+          "**Isotopes** are atoms of the same element with equal proton number but different neutron numbers. They occupy the same place in the periodic table because their identity is fixed by proton number. Their masses differ, which can affect physical properties.",
+          "The relative atomic mass shown in the periodic table is usually not a whole number because it is a **weighted average** over naturally occurring isotopes. A more abundant isotope contributes more to the average than a rare one."
+        ],
+        "steps": [
+          "Convert isotope percentages to fractions of 1.",
+          "Multiply each isotope mass by its fractional abundance.",
+          "Add the contributions and check that the result lies between the smallest and largest isotope masses."
+        ],
+        "example": {
+          "q": "An element has isotopes of masses 35 (75%) and 37 (25%). Find its relative atomic mass.",
+          "steps": [
+            "Convert: 75% → 0.75 and 25% → 0.25.",
+            "Calculate (35 × 0.75) + (37 × 0.25).",
+            "Add 26.25 + 9.25 = 35.50."
+          ],
+          "answer": "Aᵣ = 35.50 (no units)."
+        },
+        "mistake": "Do not simply average isotope masses unless they are equally abundant.",
+        "formula": "Aᵣ = Σ(isotope mass × fractional abundance)",
+        "visual": {
+          "kind": "isotopes",
+          "title": "Isotopes and average atomic mass",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.2.3",
+        "title": "Mass spectra",
+        "hl": true,
+        "summary": "Mass spectra reveal isotopic masses and relative abundances.",
+        "objectives": [
+          "Use mass-to-charge peaks to identify isotopes when the ion charge is known.",
+          "Use relative peak intensities for isotope abundance.",
+          "Compute weighted average atomic mass from isotope data.",
+          "Instrument operating details are not assessed."
+        ],
+        "explain": [
+          "A **mass spectrum** shows peaks associated with ions of different mass-to-charge ratio (m/z). For singly charged atomic ions, their m/z values identify the isotopes. Peak height or area gives information about **relative abundance**.",
+          "You can therefore read a spectrum and calculate the weighted average atomic mass from the relative intensities. The syllabus requires interpretation, not memorization of the mass spectrometer’s hardware or operating stages."
+        ],
+        "steps": [
+          "Identify the isotopic peaks from the horizontal m/z axis.",
+          "Read the peak intensities; divide by their sum to obtain fractional abundance.",
+          "Calculate Σ(isotopic mass × fraction)."
+        ],
+        "example": {
+          "q": "A spectrum has singly charged peaks at m/z 10 (20 units) and 11 (80 units). Estimate Aᵣ.",
+          "steps": [
+            "Total intensity = 20 + 80 = 100.",
+            "Fractions: 0.20 and 0.80.",
+            "Aᵣ = 10 × 0.20 + 11 × 0.80 = 10.8."
+          ],
+          "answer": "Estimated relative atomic mass = 10.8."
+        },
+        "mistake": "The tallest peak is the most abundant isotope, not necessarily the isotope with the greatest mass.",
+        "formula": "",
+        "visual": {
+          "kind": "spectrum",
+          "title": "Mass spectra",
+          "labels": []
+        },
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "id": "S1.3",
+    "name": "Electron configurations",
+    "group": "Structure 1",
+    "sections": [
+      {
+        "id": "S1.3.1",
+        "title": "Emission spectra",
+        "hl": false,
+        "summary": "Excited atoms emit photons when electrons move to lower-energy states.",
+        "objectives": [
+          "A line spectrum consists of discrete wavelengths, unlike a continuous spectrum.",
+          "Shorter wavelength corresponds to higher frequency and photon energy.",
+          "Explain the relationship between colour, wavelength, frequency and energy."
+        ],
+        "explain": [
+          "When an atom absorbs energy, an electron can move into an **excited state**. When it drops to a lower energy level, a photon is emitted with an energy equal to the difference between those levels.",
+          "Light has wavelength λ and frequency f, related by **c = λf**. Photon energy is **E = hf**. Therefore shorter wavelength means higher frequency and greater photon energy. A **continuous spectrum** contains an unbroken range of wavelengths; a line spectrum has discrete wavelengths."
+        ],
+        "steps": [
+          "Identify whether light is emitted (downward electron transition) or absorbed (upward transition).",
+          "Use c = λf to change wavelength into frequency.",
+          "Use E = hf to relate frequency to the energy difference."
+        ],
+        "example": {
+          "q": "Which photon has more energy: one of wavelength 400 nm or one of 700 nm?",
+          "steps": [
+            "For electromagnetic radiation in vacuum, frequency f = c/λ.",
+            "400 nm is the shorter wavelength, hence has the larger frequency.",
+            "Since E = hf, 400 nm corresponds to the higher-energy photon."
+          ],
+          "answer": "The 400 nm photon has more energy."
+        },
+        "mistake": "A higher-energy photon has a shorter, not longer, wavelength.",
+        "formula": "E = hf ; c = λf",
+        "visual": {
+          "kind": "photon",
+          "title": "Emission spectra",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.3.2",
+        "title": "Hydrogen line emission spectrum",
+        "hl": false,
+        "summary": "Distinct spectral lines indicate quantized electron energies.",
+        "objectives": [
+          "Identify the transitions that terminate at n = 1, n = 2 and n = 3.",
+          "The lines become closer together at higher energy and converge.",
+          "Names of the different hydrogen spectral series are not assessed."
+        ],
+        "explain": [
+          "Hydrogen produces distinct spectral lines because its electron may occupy only particular **quantized energies**. Each emission line represents a transition from a higher level n to a lower one. Transitions ending at n = 1, n = 2 and n = 3 form different sets of lines.",
+          "At higher energy the energy levels move closer together. This is why the spectral lines become increasingly close and eventually approach a **convergence limit**. A line spectrum is evidence for discrete levels rather than a continuous range of electron energies."
+        ],
+        "steps": [
+          "Identify the lower level at which the transition ends.",
+          "Relate a greater energy gap to a higher-energy photon, higher frequency and shorter wavelength.",
+          "Explain closer spectral lines by the smaller separations between high-energy levels."
+        ],
+        "example": {
+          "q": "Why are the spectral lines from transitions to n = 2 not equally spaced?",
+          "steps": [
+            "Allowed electronic energies are not equally spaced.",
+            "Different transitions therefore release unequal photon-energy differences.",
+            "Those energies correspond to unevenly separated frequencies and wavelengths."
+          ],
+          "answer": "Because the atomic energy levels are quantized and unequally spaced."
+        },
+        "mistake": "Do not draw equally spaced electron energy levels for the hydrogen atom.",
+        "formula": "",
+        "visual": {
+          "kind": "hydrogen",
+          "title": "Hydrogen line emission spectrum",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.3.3",
+        "title": "Main energy levels",
+        "hl": false,
+        "summary": "Each principal shell has an integer n and a maximum electron capacity.",
+        "objectives": [
+          "Use 2n² for the maximum number of electrons in the nth main energy level."
+        ],
+        "explain": [
+          "The **principal quantum number n** labels a main energy level. The IB syllabus gives the maximum number of electrons in that shell as **2n²**. Higher values of n correspond to shells with greater maximum capacity.",
+          "This shell-capacity rule is a useful counting model. However, for actual electron configurations you also need the **sublevel and orbital** model in the next lessons, because electrons occupy orbitals in a specific energy order."
+        ],
+        "steps": [
+          "Identify the principal level n.",
+          "Square n and multiply by 2.",
+          "Give the maximum electron count, not necessarily the number an actual atom has in that level."
+        ],
+        "example": {
+          "q": "What is the maximum capacity of the n = 3 shell?",
+          "steps": [
+            "Use 2n².",
+            "Substitute n = 3: 2 × 3².",
+            "2 × 9 = 18 electrons."
+          ],
+          "answer": "18 electrons."
+        },
+        "mistake": "The 2n² capacity is not a statement that every atom completely fills lower numbered shells before all higher sublevels.",
+        "formula": "maximum electrons = 2n²",
+        "visual": {
+          "kind": "shells",
+          "title": "Main energy levels",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.3.4",
+        "title": "Sublevels and orbitals",
+        "hl": false,
+        "summary": "Main levels are divided into s, p, d and f sublevels.",
+        "objectives": [
+          "Recognize spherical s orbitals and three differently oriented p orbitals.",
+          "An orbital is a region with high probability of finding an electron."
+        ],
+        "explain": [
+          "An **orbital** is a region of space where an electron is likely to be found. Main energy levels contain sublevels labelled s, p, d and f. They have different orbital counts and energies.",
+          "An **s orbital** is approximately spherical. Each p sublevel has **three p orbitals**, oriented along different spatial axes; each one is approximately dumbbell-shaped. Every individual orbital can hold at most two electrons."
+        ],
+        "steps": [
+          "Identify whether the orbital is s (spherical) or p (two lobes).",
+          "For p, imagine three mutually perpendicular orientations: pₓ, pᵧ and p_z.",
+          "Count capacity from orbital count × 2 electrons per orbital."
+        ],
+        "example": {
+          "q": "How many electrons can a p sublevel hold?",
+          "steps": [
+            "A p sublevel contains three orbitals.",
+            "Each orbital accommodates up to two electrons.",
+            "3 × 2 = 6 electrons."
+          ],
+          "answer": "Six electrons."
+        },
+        "mistake": "A p sublevel has three orbitals, not three electrons.",
+        "formula": "",
+        "visual": {
+          "kind": "orbitals",
+          "title": "Sublevels and orbitals",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.3.5",
+        "title": "Aufbau, Hund and Pauli",
+        "hl": false,
+        "summary": "Use orbital filling rules for atoms and ions with Z ≤ 36.",
+        "objectives": [
+          "Aufbau: fill lower-energy orbitals before higher-energy orbitals.",
+          "Hund: occupy equivalent-energy orbitals singly before pairing.",
+          "Pauli: an orbital accommodates at most two electrons with opposite spin.",
+          "Write full and noble-gas condensed configurations and arrow-in-box orbital diagrams.",
+          "Know the chromium and copper exceptions."
+        ],
+        "explain": [
+          "An electron configuration specifies the occupied orbitals of an atom or ion. The **Aufbau principle** fills lower-energy available orbitals first. **Pauli exclusion** allows no more than two electrons in each orbital, and they must have opposite spins. **Hund’s rule** places single electrons in separate equal-energy orbitals before pairing.",
+          "Write configurations in full (for example 1s² 2s² 2p²) or with a noble-gas core. For the first 36 elements, remember the **chromium and copper exceptions**: Cr is [Ar] 3d⁵ 4s¹ and Cu is [Ar] 3d¹⁰ 4s¹, rather than [Ar] 3d⁴ 4s² and [Ar] 3d⁹ 4s². When forming transition-metal cations, remove electrons from the outermost n shell before electrons from d."
+        ],
+        "steps": [
+          "Determine the number of electrons, adjusting for ion charge.",
+          "Fill orbitals in the energy sequence, applying Aufbau, Pauli and Hund.",
+          "Check the count; verify any known Cr/Cu exception and remove outer-shell electrons first for cations."
+        ],
+        "example": {
+          "q": "Write the electron configuration of Fe²⁺ (Z = 26).",
+          "steps": [
+            "Neutral Fe is [Ar] 4s² 3d⁶.",
+            "The 2+ ion has lost two electrons from 4s before 3d.",
+            "The remaining configuration is [Ar] 3d⁶."
+          ],
+          "answer": "[Ar] 3d⁶."
+        },
+        "mistake": "Do not remove electrons from 3d before 4s when making Fe²⁺.",
+        "formula": "",
+        "visual": {
+          "kind": "filling",
+          "title": "Aufbau, Hund and Pauli",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.3.6",
+        "title": "First ionization energy",
+        "hl": true,
+        "summary": "Explain patterns across periods and down groups, including discontinuities.",
+        "objectives": [
+          "First ionization energy is the energy needed to remove the first electron from gaseous atoms (per mole).",
+          "Across a period increasing effective nuclear attraction generally raises IE; exceptions arise from orbital energies and pairing.",
+          "Down a group increasing radius and shielding generally lower IE.",
+          "Use the convergence limit frequency or wavelength to calculate ionization energy."
+        ],
+        "explain": [
+          "**First ionization energy** is the energy needed to remove one electron from each gaseous atom in one mole of gaseous atoms. In a period it generally increases because nuclear charge increases and the atomic radius decreases; down a group it generally decreases because increased shielding and distance weaken attraction.",
+          "Exceptions or **discontinuities** appear when an electron is removed from a different-energy sublevel or when electron pairing raises repulsion. At the hydrogen spectral convergence limit the electron is removed completely, so the photon energy at that limit corresponds to ionization."
+        ],
+        "steps": [
+          "Across a period, consider proton number, shielding and whether the removed electron changes sublevel or becomes paired.",
+          "Down a group, consider increasing principal shell, radius and shielding.",
+          "For convergence-limit calculations, convert λ to metres, compute E = hc/λ per photon, then multiply by Nₐ for molar energy."
+        ],
+        "example": {
+          "q": "The hydrogen convergence limit is at 91.2 nm. Estimate its molar ionization energy using h = 6.63 × 10⁻³⁴ J s, c = 3.00 × 10⁸ m s⁻¹ and Nₐ = 6.02 × 10²³ mol⁻¹.",
+          "steps": [
+            "Convert wavelength: 91.2 nm = 91.2 × 10⁻⁹ m.",
+            "E per photon = hc/λ = (6.63 × 10⁻³⁴ × 3.00 × 10⁸)/(91.2 × 10⁻⁹) ≈ 2.18 × 10⁻¹⁸ J.",
+            "Multiply by Nₐ: (2.18 × 10⁻¹⁸ × 6.02 × 10²³) / 1000 ≈ 1310 kJ mol⁻¹."
+          ],
+          "answer": "Approximately 1.31 × 10³ kJ mol⁻¹."
+        },
+        "mistake": "E = hf gives the energy of one photon. Multiply by Avogadro’s constant for molar ionization energy.",
+        "formula": "E(photon) = hf = hc/λ",
+        "visual": {
+          "kind": "ionization",
+          "title": "First ionization energy",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.3.7",
+        "title": "Successive ionization energies",
+        "hl": true,
+        "summary": "Large jumps reveal where core electrons begin to be removed.",
+        "objectives": [
+          "Identify a large jump in successive IE data.",
+          "The number of electrons removed before a large jump often indicates the number of valence electrons in a main-group atom.",
+          "Use the pattern to deduce group placement."
+        ],
+        "explain": [
+          "**Successive ionization energies** are measured by removing electrons one at a time from increasingly positive gaseous ions. Each removal generally requires more energy because the remaining electrons experience a greater net attraction.",
+          "A very **large jump** indicates that the next electron would be removed from a lower, inner energy level rather than the outer valence level. For a main-group element, the number of electrons removed before this large jump helps identify its group."
+        ],
+        "steps": [
+          "Compare successive IE values, especially their ratios, rather than only absolute sizes.",
+          "Locate the first extremely large jump.",
+          "Count how many electrons were removed before it: that identifies the number of outer electrons for a typical main-group element."
+        ],
+        "example": {
+          "q": "IE values rise moderately for removals 1, 2 and 3, then jump dramatically at IE₄. What does this suggest?",
+          "steps": [
+            "Three electrons are removed before the large jump.",
+            "The fourth electron comes from an inner shell.",
+            "The atom has three valence electrons and would generally belong to group 13."
+          ],
+          "answer": "Three outer electrons, typical of group 13."
+        },
+        "mistake": "Do not assume every successive increase is a shell change; look for the unusually large jump.",
+        "formula": "",
+        "visual": {
+          "kind": "successive",
+          "title": "Successive ionization energies",
+          "labels": []
+        },
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "id": "S1.4",
+    "name": "The mole",
+    "group": "Structure 1",
+    "sections": [
+      {
+        "id": "S1.4.1",
+        "title": "The Avogadro constant",
+        "hl": false,
+        "summary": "One mole contains a specified number of elementary entities.",
+        "objectives": [
+          "Use amount of substance n in mol.",
+          "Entities can be atoms, molecules, ions, electrons or other specified particles.",
+          "Use the Avogadro constant Nₐ provided by the IB data booklet."
+        ],
+        "explain": [
+          "A **mole** is a counting unit, much like a dozen, but for microscopic entities. One mole contains **6.02214076 × 10²³** specified particles (the Avogadro constant, Nₐ). You must always say what is being counted: atoms, molecules, ions or electrons.",
+          "Moles make it possible to connect microscopic numbers of particles with measurable quantities in a laboratory. **N = nNₐ**, where N is the number of specified entities and n is the amount in moles."
+        ],
+        "steps": [
+          "Identify the particle or elementary entity being counted.",
+          "Multiply moles by Nₐ to obtain number of entities.",
+          "Divide number of entities by Nₐ to convert back to moles."
+        ],
+        "example": {
+          "q": "How many molecules are in 0.250 mol of water?",
+          "steps": [
+            "Use N = nNₐ.",
+            "N = 0.250 × 6.02214076 × 10²³.",
+            "N ≈ 1.51 × 10²³ molecules."
+          ],
+          "answer": "1.51 × 10²³ H₂O molecules."
+        },
+        "mistake": "One mole of H₂O molecules contains three moles of individual atoms.",
+        "formula": "number of particles = n × Nₐ",
+        "visual": {
+          "kind": "mole",
+          "title": "The Avogadro constant",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.4.2",
+        "title": "Relative atomic and formula masses",
+        "hl": false,
+        "summary": "Relative masses use the carbon-12 scale.",
+        "objectives": [
+          "Aᵣ and Mᵣ have no units.",
+          "Sum atomic masses to obtain formula mass.",
+          "Use data-booklet atomic mass values to two decimal places."
+        ],
+        "explain": [
+          "**Relative atomic mass Aᵣ** compares the average mass of atoms of an element to 1/12 of the mass of a carbon-12 atom. **Relative formula mass Mᵣ** is obtained by adding Aᵣ values according to a chemical formula.",
+          "Both Aᵣ and Mᵣ are **relative numbers with no units**. The related molar mass M is expressed in **g mol⁻¹**. For examination calculations, take values from the IB data booklet and follow the specified rounding."
+        ],
+        "steps": [
+          "Read each element’s Aᵣ from the data booklet.",
+          "Multiply by the number of that atom in the chemical formula.",
+          "Add all contributions to obtain Mᵣ; attach g mol⁻¹ only when stating molar mass M."
+        ],
+        "example": {
+          "q": "Find the relative formula mass of Ca(OH)₂ using Ca = 40.08, O = 16.00, H = 1.01.",
+          "steps": [
+            "There is one Ca atom, two O atoms and two H atoms.",
+            "Mᵣ = 40.08 + 2(16.00 + 1.01).",
+            "Mᵣ = 74.10."
+          ],
+          "answer": "Mᵣ = 74.10 (no units); M = 74.10 g mol⁻¹."
+        },
+        "mistake": "Brackets multiply every atom inside them, not just the first.",
+        "formula": "",
+        "visual": {
+          "kind": "mass",
+          "title": "Relative atomic and formula masses",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.4.3",
+        "title": "Mass and amount of substance",
+        "hl": false,
+        "summary": "Convert between mass, molar mass and the amount in moles.",
+        "objectives": [
+          "Molar mass M has units g mol⁻¹.",
+          "Use n = m/M.",
+          "Be consistent with units."
+        ],
+        "explain": [
+          "**Molar mass M** is the mass of one mole of a substance. It is the link between a sample’s mass measured in grams and its amount of substance measured in moles.",
+          "The relationship **n = m/M** can be rearranged to **m = nM** or **M = m/n**. After finding moles, you can also multiply by Nₐ to estimate the number of specified particles."
+        ],
+        "steps": [
+          "Determine M from the chemical formula or data booklet.",
+          "Convert mass in grams to amount using n = m/M.",
+          "If needed, convert amount to particles using N = nNₐ."
+        ],
+        "example": {
+          "q": "How many moles are present in 9.00 g of H₂O (M ≈ 18.02 g mol⁻¹)?",
+          "steps": [
+            "Select n = m/M.",
+            "n = 9.00 g ÷ 18.02 g mol⁻¹.",
+            "n ≈ 0.499 mol."
+          ],
+          "answer": "Approximately 0.499 mol."
+        },
+        "mistake": "Moles (mol) and molar mass (g mol⁻¹) are different quantities.",
+        "formula": "n = m / M",
+        "visual": {
+          "kind": "conversion",
+          "title": "Mass and amount of substance",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.4.4",
+        "title": "Empirical and molecular formula",
+        "hl": false,
+        "summary": "Empirical formulas show simplest ratios; molecular formulas show actual numbers.",
+        "objectives": [
+          "Convert percentage masses to assumed masses and then to moles.",
+          "Divide each mole value by the smallest value.",
+          "Multiply ratios when needed to get whole numbers.",
+          "Compare empirical formula mass with actual molar mass to determine molecular formula."
+        ],
+        "explain": [
+          "The **empirical formula** shows the simplest whole-number ratio of atoms in a compound. The **molecular formula** shows the actual number of each atom in a discrete molecule. An empirical formula might be CH₂O, while a particular molecular formula could be C₆H₁₂O₆.",
+          "Percentage composition can be converted to an empirical formula because the relative masses of elements can be converted to relative **mole amounts**, and chemical formulas express ratios of atoms rather than ratios of masses."
+        ],
+        "steps": [
+          "Assume 100 g of compound so each mass percentage becomes grams.",
+          "Divide each element’s mass by its molar mass to get moles.",
+          "Divide by the smallest mole amount, then multiply if needed to obtain whole numbers.",
+          "Compare actual molar mass with empirical formula mass to find the molecular multiplier."
+        ],
+        "example": {
+          "q": "A substance contains 40.0% C, 6.7% H and 53.3% O. Find its empirical formula.",
+          "steps": [
+            "Assume 100 g: C 40.0 g, H 6.7 g, O 53.3 g.",
+            "Convert to moles: C ≈ 3.33, H ≈ 6.63, O ≈ 3.33.",
+            "Divide by 3.33: C:H:O ≈ 1:2:1."
+          ],
+          "answer": "Empirical formula CH₂O."
+        },
+        "mistake": "Do not write the mass-percentage ratio as the atom ratio; first convert masses into moles.",
+        "formula": "",
+        "visual": {
+          "kind": "empirical",
+          "title": "Empirical and molecular formula",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.4.5",
+        "title": "Concentration",
+        "hl": false,
+        "summary": "Molar concentration links solution volume and amount of solute.",
+        "objectives": [
+          "Use n = CV with V in dm³ when C is mol dm⁻³.",
+          "Convert between mol dm⁻³ and g dm⁻³ using molar mass.",
+          "Use square brackets to denote molar concentration."
+        ],
+        "explain": [
+          "**Concentration** tells you how much solute is present in a given volume of solution. Molar concentration C is measured in mol dm⁻³ and related to amount n and volume V by **n = CV**.",
+          "You may also be given mass concentration in g dm⁻³. To convert g dm⁻³ to mol dm⁻³, divide by molar mass. To use the equation n = CV, convert volumes from cm³ to dm³ by dividing by 1000."
+        ],
+        "steps": [
+          "Check whether concentration is in mol dm⁻³ or g dm⁻³.",
+          "Convert volume to dm³ if the given volume is in cm³.",
+          "Use n = CV or rearrange; convert using molar mass when needed."
+        ],
+        "example": {
+          "q": "How many moles of solute are in 250 cm³ of a 0.200 mol dm⁻³ solution?",
+          "steps": [
+            "Convert 250 cm³ to 0.250 dm³.",
+            "Use n = CV.",
+            "n = 0.200 × 0.250 = 0.0500 mol."
+          ],
+          "answer": "0.0500 mol."
+        },
+        "mistake": "Using 250 instead of 0.250 in n = CV is a common factor-of-1000 error.",
+        "formula": "n = CV",
+        "visual": {
+          "kind": "solution",
+          "title": "Concentration",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.4.6",
+        "title": "Avogadro’s law and gas volume",
+        "hl": false,
+        "summary": "Equal gas volumes at the same T and P contain equal numbers of molecules.",
+        "objectives": [
+          "Gas volumes are proportional to mole amounts at the same temperature and pressure.",
+          "Use balanced equation stoichiometric ratios to calculate gas volumes."
+        ],
+        "explain": [
+          "At the **same temperature and pressure**, gas volume is proportional to the number of molecules. This is Avogadro’s law: equal gas volumes under identical conditions contain equal numbers of molecules, even when the gases are different.",
+          "Balanced gas-reaction equations give mole ratios. When temperature and pressure match, those ratios are also **volume ratios** for gaseous reactants and products. This lets you answer gas-volume questions without first converting into grams."
+        ],
+        "steps": [
+          "Write and balance the chemical equation.",
+          "Read the mole ratio for the two gaseous species.",
+          "Use the same ratio for gas volumes if all relevant gases are compared at the same T and P."
+        ],
+        "example": {
+          "q": "For N₂(g) + 3H₂(g) → 2NH₃(g), what volume of NH₃ forms from 12 dm³ H₂ if N₂ is in excess?",
+          "steps": [
+            "The equation shows 3 mol H₂ produce 2 mol NH₃.",
+            "At the same conditions, volume ratio H₂:NH₃ = 3:2.",
+            "V(NH₃) = 12 × (2/3) = 8.0 dm³."
+          ],
+          "answer": "8.0 dm³ NH₃."
+        },
+        "mistake": "Volume ratios only follow mole ratios directly when gases are compared at the same temperature and pressure.",
+        "formula": "",
+        "visual": {
+          "kind": "avogadro",
+          "title": "Avogadro’s law and gas volume",
+          "labels": []
+        },
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "id": "S1.5",
+    "name": "Ideal gases",
+    "group": "Structure 1",
+    "sections": [
+      {
+        "id": "S1.5.1",
+        "title": "Assumptions of ideal gases",
+        "hl": false,
+        "summary": "Ideal-gas particles have negligible volume and no intermolecular forces.",
+        "objectives": [
+          "Particles move and collide elastically.",
+          "Collisions conserve total kinetic energy.",
+          "The ideal gas is a simplified model."
+        ],
+        "explain": [
+          "An **ideal gas** is a simplified model of freely moving particles. Its particles are treated as point-like with negligible volume, there are no attractive or repulsive intermolecular forces and collisions are perfectly elastic.",
+          "These assumptions make gas behaviour mathematically predictable. Real particles do have size and attract one another, but the model works well when those effects are small compared with the volume and motion of the gas."
+        ],
+        "steps": [
+          "State the three assumptions explicitly.",
+          "Explain elastic collisions as collisions without a net loss of kinetic energy.",
+          "Recognize that the model approximates real gases under suitable conditions."
+        ],
+        "example": {
+          "q": "Why does the ideal-gas model predict pressure on container walls?",
+          "steps": [
+            "Gas particles move continually and randomly.",
+            "Their collisions with walls transfer momentum.",
+            "The many collisions produce force per unit area: pressure."
+          ],
+          "answer": "Pressure results from gas-particle collisions with the walls."
+        },
+        "mistake": "Ideal gas particles are not stationary; their continuous random motion is essential.",
+        "formula": "",
+        "visual": {
+          "kind": "gasmodel",
+          "title": "Assumptions of ideal gases",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.5.2",
+        "title": "Deviations from ideal behaviour",
+        "hl": false,
+        "summary": "Real gases deviate most at low temperature and high pressure.",
+        "objectives": [
+          "At low temperature, attractions between molecules become more important.",
+          "At high pressure, finite particle volume becomes important.",
+          "The syllabus requires qualitative, not mathematical, explanation of these deviations."
+        ],
+        "explain": [
+          "**Real gases** deviate from ideal predictions when model assumptions become inaccurate. At **high pressure**, particles are squeezed closer together so their own volumes matter. At **low temperature**, particles move more slowly and intermolecular attractions become relatively important.",
+          "The effect depends on the gas: larger or more strongly polarizable molecules and those with stronger intermolecular forces may depart more noticeably from ideal behaviour. The IB syllabus requires a qualitative explanation, not a mathematical correction equation."
+        ],
+        "steps": [
+          "Identify whether temperature is low or pressure is high.",
+          "Match high pressure with finite particle volume.",
+          "Match low temperature with increased importance of intermolecular attractions."
+        ],
+        "example": {
+          "q": "A gas at low temperature and high pressure behaves non-ideally. Give two reasons.",
+          "steps": [
+            "At high pressure, finite molecular volumes are not negligible relative to container volume.",
+            "At low temperature, attractions between molecules are significant compared with thermal motion.",
+            "These violate the ideal-gas assumptions."
+          ],
+          "answer": "Finite particle volume and intermolecular attractions."
+        },
+        "mistake": "Do not claim all gases behave ideally simply because they are above their boiling point.",
+        "formula": "",
+        "visual": {
+          "kind": "realgas",
+          "title": "Deviations from ideal behaviour",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.5.3",
+        "title": "Gas graphs and molar volume",
+        "hl": false,
+        "summary": "Examine P, V and T relationships for a fixed amount of gas.",
+        "objectives": [
+          "Use Kelvin in gas relationships.",
+          "Identify inversely proportional pressure–volume behaviour under constant temperature.",
+          "Identify proportional volume–temperature behaviour under constant pressure.",
+          "STP molar volume is supplied in the IB data booklet."
+        ],
+        "explain": [
+          "For a fixed amount of ideal gas, pressure, volume and absolute temperature are related. At constant temperature, volume decreases as pressure increases; at constant pressure, volume increases as kelvin temperature increases.",
+          "**Molar volume** is the volume occupied by one mole of gas at a specified temperature and pressure. You must use values provided in the IB data booklet for the stated conditions and interpret graph shapes rather than just memorizing named gas laws."
+        ],
+        "steps": [
+          "Identify which variable is held constant.",
+          "For fixed T: P and V are inversely proportional; the P–V graph curves downward.",
+          "For fixed P: V and T(K) are directly proportional; the V–T graph is a straight line through the origin."
+        ],
+        "example": {
+          "q": "A gas occupies 4.0 dm³ at a certain pressure and temperature. What happens to volume if pressure doubles at fixed temperature?",
+          "steps": [
+            "For fixed n and T, PV is constant.",
+            "P₂ = 2P₁, so V₂ = V₁/2.",
+            "V₂ = 2.0 dm³."
+          ],
+          "answer": "2.0 dm³."
+        },
+        "mistake": "Volume is proportional to kelvin temperature, not Celsius temperature.",
+        "formula": "",
+        "visual": {
+          "kind": "gasgraphs",
+          "title": "Gas graphs and molar volume",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S1.5.4",
+        "title": "Ideal and combined gas equations",
+        "hl": false,
+        "summary": "Use SI pressure and volume and the gas constant.",
+        "objectives": [
+          "Use PV = nRT with pressure in pascal and volume in m³.",
+          "Use P₁V₁/T₁ = P₂V₂/T₂ when the amount of gas is constant.",
+          "Convert temperatures to kelvin."
+        ],
+        "explain": [
+          "The ideal gas equation combines the relationships between pressure **P**, volume **V**, amount **n**, temperature **T**, and gas constant **R**: **PV = nRT**. If the amount of gas is fixed between two states, use **P₁V₁/T₁ = P₂V₂/T₂**.",
+          "In SI calculations with R in J mol⁻¹ K⁻¹, use pressure in **Pa**, volume in **m³**, and temperature in **K**. Check unit conversions before substituting numbers; 1 dm³ = 1 × 10⁻³ m³."
+        ],
+        "steps": [
+          "List the known quantities and the required unknown.",
+          "Convert all quantities into compatible SI units.",
+          "Choose PV = nRT or the combined gas law, rearrange before substituting and check the result."
+        ],
+        "example": {
+          "q": "Calculate P for 0.200 mol gas at 300 K in 0.00500 m³. Use R = 8.31 J mol⁻¹ K⁻¹.",
+          "steps": [
+            "Rearrange PV = nRT to P = nRT/V.",
+            "Substitute: P = (0.200 × 8.31 × 300)/0.00500.",
+            "P = 99,720 Pa = 9.97 × 10⁴ Pa to 3 significant figures."
+          ],
+          "answer": "9.97 × 10⁴ Pa."
+        },
+        "mistake": "If volume is supplied in dm³, convert to m³ before using R = 8.31.",
+        "formula": "PV = nRT ; P₁V₁/T₁ = P₂V₂/T₂",
+        "visual": {
+          "kind": "piston",
+          "title": "Ideal and combined gas equations",
+          "labels": []
+        },
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "id": "S2.1",
+    "name": "The ionic model",
+    "group": "Structure 2",
+    "sections": [
+      {
+        "id": "S2.1.1",
+        "title": "Formation of ions",
+        "hl": false,
+        "summary": "Atoms gain or lose electrons to form cations or anions.",
+        "objectives": [
+          "Metals commonly lose electrons and form positive ions.",
+          "Non-metals commonly gain electrons and form negative ions.",
+          "Predict charges from electron configuration.",
+          "Include variable charges of transition element ions."
+        ],
+        "explain": [
+          "An atom becomes an **ion** when it gains or loses electrons. Metals commonly lose their outer electrons to form positively charged **cations**; non-metals commonly gain electrons to form negatively charged **anions**.",
+          "Electron configuration is the reasoning behind many common ion charges. An element often forms an ion that reaches a stable outer-shell configuration. Some transition elements form ions with more than one charge because their electron arrangements can lose different numbers of electrons."
+        ],
+        "steps": [
+          "Write the neutral atom’s outer electron arrangement.",
+          "Ask how many electrons are lost or gained to obtain an energetically favourable configuration.",
+          "Use a positive sign for electron loss and negative for electron gain."
+        ],
+        "example": {
+          "q": "Explain formation of Mg²⁺ from a neutral Mg atom.",
+          "steps": [
+            "A magnesium atom has two outer 3s electrons.",
+            "It loses two electrons.",
+            "The resulting Mg²⁺ ion has 12 protons but only 10 electrons."
+          ],
+          "answer": "Mg → Mg²⁺ + 2e⁻."
+        },
+        "mistake": "A 2+ ion has lost two electrons, not gained two protons.",
+        "formula": "",
+        "visual": {
+          "kind": "ionformation",
+          "title": "Formation of ions",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.1.2",
+        "title": "Ionic bonds and formulas",
+        "hl": false,
+        "summary": "An ionic bond is electrostatic attraction between opposite ions.",
+        "objectives": [
+          "Balance charges to form neutral empirical formulas.",
+          "For binary ionic names, write the cation then the anion ending in -ide.",
+          "Memorize ammonium NH₄⁺, hydroxide OH⁻, nitrate NO₃⁻, hydrogencarbonate HCO₃⁻, carbonate CO₃²⁻, sulfate SO₄²⁻ and phosphate PO₄³⁻."
+        ],
+        "explain": [
+          "An **ionic bond** is the electrostatic attraction between oppositely charged ions. It is not simply the act of electron transfer: transfer forms ions, while attraction holds the ions together in the compound.",
+          "In an ionic formula the total positive charge must balance the total negative charge. For binary compounds, write the cation name first and the anion with an **-ide** ending. For compounds containing polyatomic ions, retain the correct ion formula and use brackets when more than one is required."
+        ],
+        "steps": [
+          "Write each ion symbol and its charge.",
+          "Find the smallest whole-number combination that gives zero net charge.",
+          "Write the empirical formula without charges; then name the ions in order."
+        ],
+        "example": {
+          "q": "Find the formula for aluminium sulfate from Al³⁺ and SO₄²⁻.",
+          "steps": [
+            "A common total charge is 6: two Al³⁺ ions give +6.",
+            "Three SO₄²⁻ ions give −6.",
+            "Use brackets for repeated polyatomic ions."
+          ],
+          "answer": "Al₂(SO₄)₃."
+        },
+        "mistake": "Never alter subscripts inside a polyatomic ion to force charge balance.",
+        "formula": "",
+        "visual": {
+          "kind": "ionicbond",
+          "title": "Ionic bonds and formulas",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.1.3",
+        "title": "Giant ionic lattices and physical properties",
+        "hl": false,
+        "summary": "Ionic solids form three-dimensional lattices.",
+        "objectives": [
+          "Explain high melting temperatures and low volatility using strong ionic attractions.",
+          "Explain why solids do not conduct but molten and aqueous forms can.",
+          "Discuss solubility as a competition between lattice interactions and solvent interactions.",
+          "Discuss lattice enthalpy as a measure of bond strength affected by ionic radii and charges."
+        ],
+        "explain": [
+          "Ionic compounds form a **three-dimensional repeating lattice** of alternating cations and anions. Strong electrostatic attractions act throughout the lattice, explaining many ionic solids’ relatively high melting temperatures and low volatility.",
+          "An ionic solid usually does not conduct electricity because its ions are locked in lattice positions. When molten, or dissolved in water if sufficiently soluble, its **mobile ions** can carry charge. Lattice enthalpy reflects bonding strength and is influenced by **ion charge and ionic radius**."
+        ],
+        "steps": [
+          "Start with the lattice model rather than separate “molecules”.",
+          "Connect high melting point to the energy needed to overcome strong electrostatic attractions.",
+          "Connect conductivity to whether charged particles can move.",
+          "For lattice strength, compare charges and distances between ions."
+        ],
+        "example": {
+          "q": "Why can molten NaCl conduct electricity when solid NaCl cannot?",
+          "steps": [
+            "Both contain positively and negatively charged ions.",
+            "In the solid, ions cannot move through the rigid lattice.",
+            "In the melt, ions are mobile and carry electrical charge."
+          ],
+          "answer": "Only molten NaCl has sufficiently mobile charge-carrying ions."
+        },
+        "mistake": "Solid ionic compounds have ions, but not freely moving ions.",
+        "formula": "",
+        "visual": {
+          "kind": "lattice",
+          "title": "Giant ionic lattices and physical properties",
+          "labels": []
+        },
+        "legacy": true
+      }
+    ]
+  },
+  {
+    "id": "S2.2",
+    "name": "The covalent model",
+    "group": "Structure 2",
+    "sections": [
+      {
+        "id": "S2.2.1",
+        "title": "Covalent bonds and Lewis formulas",
+        "hl": false,
+        "summary": "A shared electron pair attracts two positive nuclei.",
+        "objectives": [
+          "Draw Lewis structures showing bonding pairs and lone pairs.",
+          "Apply the octet rule where applicable, including permitted incomplete octets.",
+          "Use dots, crosses or dashes to show electrons.",
+          "Work with ions as well as neutral molecules and with organic and inorganic examples."
+        ],
+        "explain": [
+          "A **covalent bond** is the electrostatic attraction between a **shared pair of electrons** and the two positively charged nuclei. Electron sharing often allows atoms to approach an outer-shell configuration of eight electrons—the **octet rule**—though the rule has important exceptions.",
+          "**Lewis structures** show all valence electrons, including bonding and non-bonding (lone) pairs. A line represents a shared pair; dots or crosses can show lone pairs. For ions, enclose the structure in brackets and show its charge. The initial syllabus covers structures with up to four electron pairs around each atom."
+        ],
+        "steps": [
+          "Add up valence electrons; add electrons for negative charge, subtract for positive charge.",
+          "Choose a plausible central atom and connect atoms with single bonds.",
+          "Complete outer-atom octets, place remaining electrons on the centre, then consider multiple bonds if needed.",
+          "Check the total electron count and ion charge."
+        ],
+        "example": {
+          "q": "Draw the Lewis structure of H₂O.",
+          "steps": [
+            "O contributes 6 valence electrons and two H contribute 2: total 8.",
+            "Two O–H single bonds use 4 electrons.",
+            "The remaining 4 electrons are two lone pairs on O."
+          ],
+          "answer": "H–O–H with two lone pairs on the oxygen atom."
+        },
+        "mistake": "Hydrogen follows a duet (two electrons), not an octet.",
+        "formula": "",
+        "visual": {
+          "kind": "lewis",
+          "title": "Covalent bonds and Lewis formulas",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.2",
+        "title": "Single, double and triple bonds",
+        "hl": false,
+        "summary": "One, two and three shared pairs create single, double and triple bonds.",
+        "objectives": [
+          "Within comparable bonds, increased bond order generally shortens and strengthens the bond.",
+          "Explain differences in bond length and strength using the number of shared pairs."
+        ],
+        "explain": [
+          "One **shared pair** of electrons gives a single bond, two pairs a double bond, and three pairs a triple bond. The number of shared electron pairs is the **bond order** for these simple bonds.",
+          "As bond order increases between the same two elements, bonding generally becomes **shorter and stronger** because greater shared electron density holds the nuclei together more tightly. This helps explain different molecule lengths, bond energies and reactivities."
+        ],
+        "steps": [
+          "Count the shared pairs or lines between the same pair of atoms.",
+          "Classify the bond as single, double or triple.",
+          "Compare bond length and strength for similar atoms: triple generally shortest/strongest; single generally longest/weakest."
+        ],
+        "example": {
+          "q": "Compare N–N, N=N and N≡N.",
+          "steps": [
+            "They have one, two and three shared electron pairs respectively.",
+            "The higher bond order generally gives a shorter bond.",
+            "N≡N is generally shorter and stronger than N=N, which is shorter and stronger than N–N."
+          ],
+          "answer": "Bond strength generally rises and bond length falls with bond order."
+        },
+        "mistake": "This comparison works best between bonds involving the same pair of elements; do not compare different elements using bond order alone.",
+        "formula": "",
+        "visual": {
+          "kind": "bondorder",
+          "title": "Single, double and triple bonds",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.3",
+        "title": "Coordinate bonding",
+        "hl": false,
+        "summary": "A donor atom supplies both electrons in the shared bonding pair.",
+        "objectives": [
+          "Recognize lone-pair donation as the origin of a coordinate bond.",
+          "At HL, include examples with transition element complexes."
+        ],
+        "explain": [
+          "A **coordination (dative covalent) bond** forms when **both electrons** in a shared pair initially come from one atom. Once formed, it is a covalent bond; the description concerns the origin of the electron pair.",
+          "One atom needs an available lone pair, while the other has space to accept that pair. HL chemistry includes coordination bonding in **transition element complexes**, where ligands donate electron pairs to a central metal ion."
+        ],
+        "steps": [
+          "Identify an atom or ion with a lone pair (electron-pair donor).",
+          "Identify an electron-deficient atom or ion that can accept the pair.",
+          "Draw a single arrow from the donor to the acceptor when showing bond formation."
+        ],
+        "example": {
+          "q": "Explain how NH₄⁺ can form from NH₃ and H⁺.",
+          "steps": [
+            "The nitrogen in NH₃ has one lone pair.",
+            "H⁺ can accept this pair.",
+            "Nitrogen donates both electrons to make the fourth N–H bond."
+          ],
+          "answer": "NH₃ + H⁺ → NH₄⁺ via lone-pair donation."
+        },
+        "mistake": "The coordination bond is not a different strength or permanent “special type” after formation; it is distinguished by electron-pair origin.",
+        "formula": "",
+        "visual": {
+          "kind": "coordinate",
+          "title": "Coordinate bonding",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.4",
+        "title": "VSEPR: shape and electron domains",
+        "hl": false,
+        "summary": "Electron domains repel and spread out around a central atom.",
+        "objectives": [
+          "Count each single, double or triple bond as one electron domain.",
+          "Count each lone pair as one domain.",
+          "Distinguish electron-domain geometry from molecular shape.",
+          "For two domains: linear; three: trigonal planar; four: tetrahedral electron-domain arrangement.",
+          "Lone pairs and multiple bonds can modify bond angles."
+        ],
+        "explain": [
+          "**VSEPR** predicts geometry from repulsions between regions of electron density around a central atom. Count each single, double or triple bond as **one electron domain**, and count each lone pair as one domain.",
+          "Domains arrange to minimize repulsion. With two, three or four domains, ideal electron-domain geometries are **linear (180°)**, **trigonal planar (120°)** and **tetrahedral (109.5°)**. Lone pairs repel more strongly than bonding pairs and often compress the observed bond angles; molecular geometry describes atom positions only."
+        ],
+        "steps": [
+          "Draw a Lewis structure and identify the central atom.",
+          "Count bonding domains and lone pairs around it.",
+          "Determine electron-domain geometry, then omit lone-pair positions when naming molecular geometry.",
+          "Adjust expected bond angles qualitatively for lone pairs and multiple bonds."
+        ],
+        "example": {
+          "q": "Predict the electron-domain and molecular geometries of NH₃.",
+          "steps": [
+            "The N atom has three N–H bonds and one lone pair: four domains.",
+            "Four domains give tetrahedral electron-domain geometry.",
+            "Ignoring the lone pair when naming atom arrangement gives trigonal pyramidal molecular geometry."
+          ],
+          "answer": "Tetrahedral electron arrangement; trigonal pyramidal molecule, angle about 107°."
+        },
+        "mistake": "A double bond is ONE domain for VSEPR even though it contains two shared electron pairs.",
+        "formula": "",
+        "visual": {
+          "kind": "vsepr",
+          "title": "VSEPR: shape and electron domains",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.5",
+        "title": "Electronegativity and bond polarity",
+        "hl": false,
+        "summary": "Difference in electronegativity creates partial charges.",
+        "objectives": [
+          "Higher electronegativity attracts bonding electrons more strongly.",
+          "Deduce a bond dipole from relative electronegativity.",
+          "Represent bond dipoles using δ− and δ+ or a vector."
+        ],
+        "explain": [
+          "**Electronegativity** describes the ability of a bonded atom to attract the shared electrons. If two bonded atoms differ in electronegativity, the electron pair is pulled unevenly, producing a **polar covalent bond**.",
+          "The more electronegative end has partial negative charge (δ−), while the other end has partial positive charge (δ+). A bond dipole can be drawn as an arrow toward the partially negative end. Electronegativity values are provided in the IB data booklet."
+        ],
+        "steps": [
+          "Look up both atoms’ electronegativity values.",
+          "Identify the atom with the higher value as the electron-rich end (δ−).",
+          "Draw δ+ and δ− or a vector pointing toward the more electronegative atom."
+        ],
+        "example": {
+          "q": "Which end of an H–Cl bond is δ−?",
+          "steps": [
+            "Chlorine is more electronegative than hydrogen.",
+            "The bonding electron density is attracted more strongly toward Cl.",
+            "Label H δ+ and Cl δ−."
+          ],
+          "answer": "Cl is δ−; H is δ+."
+        },
+        "mistake": "Partial charges in a polar covalent bond are not the same as full ionic charges.",
+        "formula": "",
+        "visual": {
+          "kind": "bondpolarity",
+          "title": "Electronegativity and bond polarity",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.6",
+        "title": "Molecular polarity",
+        "hl": false,
+        "summary": "Polarity depends on both bond dipoles and the three-dimensional geometry.",
+        "objectives": [
+          "Symmetrically arranged equal bond dipoles may cancel.",
+          "Asymmetrical bond arrangements can give a non-zero molecular dipole.",
+          "You must explain examples with cancellation and without cancellation."
+        ],
+        "explain": [
+          "A molecule’s overall polarity is the **vector sum of its bond dipoles**. Even a molecule containing polar bonds can be non-polar if its geometry is symmetrical and the bond dipoles cancel.",
+          "For example, CO₂ has two polar C=O bonds but is linear, so their dipoles cancel. H₂O has polar O–H bonds and a bent molecular shape, so the dipoles do not cancel and the molecule has a net dipole."
+        ],
+        "steps": [
+          "Identify each polar bond and the direction of its dipole.",
+          "Determine the three-dimensional molecular shape using VSEPR.",
+          "Combine dipole arrows as vectors; if they cancel, the overall molecule has no permanent dipole."
+        ],
+        "example": {
+          "q": "Compare molecular polarity of CO₂ and H₂O.",
+          "steps": [
+            "CO₂: O=C=O is linear with opposing equal dipoles.",
+            "Its dipoles cancel, so CO₂ is non-polar overall.",
+            "H₂O is bent; its O–H dipoles reinforce instead of cancelling."
+          ],
+          "answer": "CO₂ is non-polar overall; H₂O is polar."
+        },
+        "mistake": "Polar bonds do not automatically mean a polar molecule. Always inspect molecular geometry.",
+        "formula": "",
+        "visual": {
+          "kind": "moleculepolarity",
+          "title": "Molecular polarity",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.7",
+        "title": "Covalent networks",
+        "hl": false,
+        "summary": "Carbon and silicon exhibit extended covalent networks.",
+        "objectives": [
+          "Compare diamond, graphite, graphene, fullerenes, silicon and silicon dioxide.",
+          "Relate different arrangements of bonding to conductivity, hardness and other properties.",
+          "Explain how allotropes of the same element can have different chemical and physical properties."
+        ],
+        "explain": [
+          "**Giant covalent networks** contain atoms joined by covalent bonds across an extended structure. Silicon and silicon dioxide form network solids. The carbon allotropes **diamond, graphite, graphene and fullerenes** have different bonding patterns and therefore different properties.",
+          "Diamond forms a strong three-dimensional network with four bonds per carbon, making it very hard and normally electrically insulating; graphite consists of stacked hexagonal layers with mobile delocalized electrons within sheets, so it conducts and its layers can slide. Graphene is a single sheet with good in-plane electrical conductivity. **Fullerenes** are discrete carbon cages with weaker forces between molecules than giant covalent networks.",
+          "**Silicon** also forms a three-dimensional covalent network and behaves as a semiconductor. **Silicon dioxide (SiO₂)** has a giant network of Si and O atoms, with each silicon surrounded by four oxygen atoms and oxygen atoms linking silicon centres; strong covalent bonding helps explain its high melting temperature. These different connectivities—not simply the element names—control material properties."
+        ],
+        "steps": [
+          "Identify whether the structure is giant 3D, layered, single-sheet or discrete molecular.",
+          "Explain strength or melting behaviour using the bonds that must be overcome.",
+          "For electrical conductivity, identify whether delocalized electrons or other mobile charge carriers are present."
+        ],
+        "example": {
+          "q": "Why does graphite conduct electricity but diamond normally does not?",
+          "steps": [
+            "Each carbon in graphite bonds to three others within a sheet.",
+            "It has delocalized electrons that can move across layers.",
+            "Diamond has four covalent bonds per carbon and lacks comparable mobile electrons."
+          ],
+          "answer": "Graphite has mobile delocalized electrons; diamond does not."
+        },
+        "mistake": "Do not say graphite conducts because “layers slide”; sliding explains softness, not electrical conductivity.",
+        "formula": "",
+        "visual": {
+          "kind": "allotropes",
+          "title": "Covalent networks",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.8",
+        "title": "Intermolecular forces",
+        "hl": false,
+        "summary": "The strength and type of intermolecular attractions depend on size and polarity.",
+        "objectives": [
+          "London dispersion forces operate between all molecules.",
+          "Permanent dipole–dipole forces operate between polar molecules.",
+          "Dipole-induced dipole forces act when a permanent dipole polarizes another particle.",
+          "Hydrogen bonds involve H bonded to an electronegative atom interacting with an electronegative atom nearby.",
+          "“Van der Waals” includes London dispersion, dipole–dipole and dipole-induced dipole in this syllabus."
+        ],
+        "explain": [
+          "**Intermolecular forces** are attractions between molecules, distinct from covalent bonds within molecules. **London dispersion** forces arise from fluctuating electron distributions and are present in all molecules. **Dipole–dipole** attractions occur between permanent dipoles; a **dipole-induced dipole** occurs when one molecule polarizes another.",
+          "**Hydrogen bonding** is a stronger, directionally important interaction involving H bonded to an electronegative atom and an attractive interaction with a nearby electronegative atom. In typical IB examples, look for H bonded to N, O or F with suitable neighbouring electron density. The term **van der Waals forces** includes dispersion, dipole-induced dipole and dipole–dipole interactions in this syllabus."
+        ],
+        "steps": [
+          "Determine whether a molecule has electrons: all molecular substances show London dispersion.",
+          "Check for a permanent dipole: polar molecules can display dipole–dipole interactions.",
+          "Check for H–N, H–O or H–F and a suitable neighbouring electronegative atom: hydrogen bonding may occur.",
+          "If a polar molecule encounters a non-polar one, consider dipole-induced dipole interactions."
+        ],
+        "example": {
+          "q": "Compare the main intermolecular forces in CH₄, HCl and H₂O.",
+          "steps": [
+            "CH₄ is non-polar, so its intermolecular interactions are dominated by London dispersion.",
+            "HCl is polar, so it exhibits dispersion and permanent dipole–dipole interactions.",
+            "H₂O exhibits dispersion, permanent dipole interactions and hydrogen bonding."
+          ],
+          "answer": "CH₄: dispersion; HCl: dispersion + dipole–dipole; H₂O: dispersion + hydrogen bonding."
+        },
+        "mistake": "The presence of hydrogen does not guarantee hydrogen bonding: CH₄ and HCl are not normally described as hydrogen-bonding substances.",
+        "formula": "",
+        "visual": {
+          "kind": "imfs",
+          "title": "Intermolecular forces",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.9",
+        "title": "Properties of covalent substances",
+        "hl": false,
+        "summary": "For comparable molar masses: dispersion < dipole–dipole < hydrogen bonding (general trend).",
+        "objectives": [
+          "Use intermolecular force strength to compare volatility.",
+          "Discuss electrical conductivity from mobile charged particles or delocalized electrons.",
+          "Predict solubility by considering attractive interactions with the solvent.",
+          "Avoid comparing intermolecular force strengths without controlling molecular size."
+        ],
+        "explain": [
+          "For molecules of **comparable molar mass**, the IB guide gives the general order **London dispersion < dipole–dipole < hydrogen bonding**. The stronger the intermolecular forces, the more energy generally needed to separate molecules during boiling.",
+          "This helps explain **volatility** (a high-volatility substance evaporates easily and generally has a lower boiling temperature), solubility and electrical conductivity. Covalent molecular substances often do not conduct because they lack mobile ions and delocalized charge carriers. Solubility depends on how well new solute–solvent interactions compensate for the attractions broken."
+        ],
+        "steps": [
+          "Check that the molecules compared have similar molar masses; large size can strengthen dispersion forces considerably.",
+          "Identify the strongest intermolecular interaction each can form.",
+          "Relate stronger forces to a higher boiling temperature / lower volatility, and discuss compatibility with solvent interactions for solubility."
+        ],
+        "example": {
+          "q": "Why does ethanol boil at a higher temperature than a similar-mass molecule exhibiting only dispersion forces?",
+          "steps": [
+            "Ethanol has an O–H bond and can hydrogen bond between molecules.",
+            "A similar-sized non-polar molecule is dominated by weaker dispersion forces.",
+            "Separating ethanol molecules requires more energy, so boiling occurs at a higher temperature."
+          ],
+          "answer": "Additional hydrogen bonding leads to stronger intermolecular attractions."
+        },
+        "mistake": "At boiling, intermolecular attractions are overcome; the covalent bonds inside molecules usually remain intact.",
+        "formula": "",
+        "visual": {
+          "kind": "boiling",
+          "title": "Properties of covalent substances",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.10",
+        "title": "Chromatography and Rf",
+        "hl": false,
+        "summary": "Mixtures separate because components interact differently with mobile and stationary phases.",
+        "objectives": [
+          "Components more strongly attracted to the stationary phase generally move less.",
+          "Calculate retardation factor from distances travelled by spot and solvent front.",
+          "Interpret relative Rf values in a given chromatographic system.",
+          "Locating agents and detailed operation of GC/HPLC are not assessed."
+        ],
+        "explain": [
+          "**Chromatography** separates substances according to their different attractions to a **stationary phase** and a moving **mobile phase**. A component that interacts strongly with the stationary phase usually moves less far, while a component that prefers the mobile phase travels further.",
+          "The **retardation factor Rf** compares the distance moved by a spot with the distance moved by the solvent front, both from the start line: **Rf = distance of spot ÷ distance of solvent front**. Under ordinary conditions values lie between 0 and 1. Comparisons only make sense under comparable experimental conditions."
+        ],
+        "steps": [
+          "Draw a baseline and mark where the mixture was placed.",
+          "Measure vertically from the baseline to the centre of the separated spot.",
+          "Measure from the same baseline to the solvent front.",
+          "Divide spot distance by solvent-front distance; interpret lower Rf as relatively greater stationary-phase attraction."
+        ],
+        "example": {
+          "q": "A pigment spot moves 3.0 cm; solvent front moves 7.5 cm. Calculate Rf.",
+          "steps": [
+            "Rf = distance travelled by spot ÷ distance travelled by solvent front.",
+            "Rf = 3.0 / 7.5.",
+            "Rf = 0.40 (no units)."
+          ],
+          "answer": "Rf = 0.40."
+        },
+        "mistake": "Measure both distances from the original baseline, not from the bottom of the paper.",
+        "formula": "Rf = (distance moved by spot) / (distance moved by solvent front)",
+        "visual": {
+          "kind": "chromatography",
+          "title": "Chromatography and Rf",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.11",
+        "title": "Resonance and delocalization",
+        "hl": true,
+        "summary": "More than one Lewis structure can place a double bond in different positions.",
+        "objectives": [
+          "Draw valid resonance contributors by shifting electron pairs, not atom positions.",
+          "Understand that the real bonding is delocalized over the relevant atoms."
+        ],
+        "explain": [
+          "Some molecules or ions cannot be adequately represented by one Lewis drawing with a double bond in a single fixed location. Multiple valid drawings that keep the same atom positions but change electron placement are called **resonance structures**.",
+          "The real structure is a **resonance hybrid**: certain electrons are **delocalized** rather than jumping back and forth between two fixed arrangements. Resonance helps explain why several bonds can have the same intermediate length and why some species are relatively stabilized."
+        ],
+        "steps": [
+          "Draw a valid Lewis structure and identify a region where a double bond or lone pair can be redistributed.",
+          "Move only electrons, not nuclei, to obtain another valid contributor.",
+          "Use a resonance double arrow and describe the real structure as delocalized."
+        ],
+        "example": {
+          "q": "Why can two equivalent N–O bonds in NO₂⁻ be represented by different Lewis drawings?",
+          "steps": [
+            "One Lewis drawing places N=O on the first oxygen.",
+            "Another places it on the second oxygen, while atom positions stay the same.",
+            "In the actual ion, bonding electron density is delocalized over both N–O positions."
+          ],
+          "answer": "Two resonance contributors describe one delocalized ion."
+        },
+        "mistake": "Resonance structures do not represent separate rapidly interconverting molecules.",
+        "formula": "",
+        "visual": {
+          "kind": "resonance",
+          "title": "Resonance and delocalization",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.12",
+        "title": "Evidence for benzene resonance",
+        "hl": true,
+        "summary": "Benzene (C₆H₆) has a delocalized ring of π electrons.",
+        "objectives": [
+          "Use physical bond-length evidence to discuss its structure.",
+          "Use chemical evidence of benzene’s relative stability to support delocalization."
+        ],
+        "explain": [
+          "**Benzene (C₆H₆)** is a flat six-carbon ring in which each carbon has a remaining p orbital. Those p orbitals overlap around the ring, creating a **delocalized π electron system** above and below the ring plane.",
+          "If benzene had permanently alternating single and double bonds, the C–C bond lengths should differ. **Observed equal C–C bond lengths**, intermediate between normal single and double bonds, support resonance. Benzene also tends to undergo reactions that preserve the ring’s delocalization, rather than behaving exactly like an ordinary alkene."
+        ],
+        "steps": [
+          "Draw benzene as six linked carbon atoms with one H per carbon.",
+          "Represent its resonance contributors as alternating double bonds in two positions.",
+          "Use equal bond-length evidence to justify the delocalized hexagon / circle model."
+        ],
+        "example": {
+          "q": "Give one physical and one chemical observation supporting delocalization in benzene.",
+          "steps": [
+            "Physical: the six C–C bonds have equal lengths.",
+            "Chemical: benzene is less prone to simple addition reactions than an isolated alkene under similar conditions.",
+            "Both observations are consistent with an unusually stable delocalized π system."
+          ],
+          "answer": "Equal ring bond lengths and characteristic relative resistance to addition."
+        },
+        "mistake": "The alternating-bond hexagon is a resonance contributor; real benzene does not contain three permanently localized ordinary double bonds.",
+        "formula": "",
+        "visual": {
+          "kind": "benzene",
+          "title": "Evidence for benzene resonance",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.13",
+        "title": "Expanded octets and five/six domains",
+        "hl": true,
+        "summary": "Some atoms form structures with more than eight electrons around a central atom.",
+        "objectives": [
+          "Draw Lewis structures with five or six electron domains on the central atom.",
+          "Predict trigonal bipyramidal and octahedral electron-domain arrangements.",
+          "Determine molecular shapes by accounting for lone pairs."
+        ],
+        "explain": [
+          "The simple octet rule does not describe every valid Lewis representation. Some central atoms in the syllabus can be depicted with **expanded octets**, containing more than eight bonding electrons around them.",
+          "At HL you must represent species with **five** and **six** electron domains and apply VSEPR. Five domains generally give a **trigonal bipyramidal** electron arrangement; six give an **octahedral** arrangement. Lone pairs change molecular geometry while the electron-domain geometry remains set by the total number of domains."
+        ],
+        "steps": [
+          "Count total electron domains, including lone pairs and each multiple bond as one.",
+          "Draw five-domain geometry as trigonal bipyramidal or six-domain as octahedral.",
+          "Exclude lone-pair positions when naming the molecular geometry."
+        ],
+        "example": {
+          "q": "Predict the molecular geometry of PCl₅ and SF₆.",
+          "steps": [
+            "PCl₅ has five bonding domains and no lone pairs on phosphorus.",
+            "Its electron and molecular geometry are trigonal bipyramidal.",
+            "SF₆ has six bonding domains and no lone pairs on sulfur; it is octahedral."
+          ],
+          "answer": "PCl₅: trigonal bipyramidal; SF₆: octahedral."
+        },
+        "mistake": "Do not use “tetrahedral” for a five- or six-domain centre.",
+        "formula": "",
+        "visual": {
+          "kind": "expanded",
+          "title": "Expanded octets and five/six domains",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.14",
+        "title": "Formal charge",
+        "hl": true,
+        "summary": "Formal charge compares an atom’s valence electrons with its allocated electrons in a Lewis structure.",
+        "objectives": [
+          "Calculate formal charge on each atom of a proposed structure.",
+          "Prefer plausible structures using the distribution and magnitude of formal charges.",
+          "Formal charge is not the same as oxidation number."
+        ],
+        "explain": [
+          "**Formal charge** is a bookkeeping method that assigns bonding electrons equally between bonded atoms, regardless of electronegativity. It helps compare competing valid Lewis structures. For an atom: **FC = valence electrons − non-bonding electrons − ½(bonding electrons)**.",
+          "The sum of the formal charges must equal the species’ overall charge. Structures with smaller formal-charge magnitudes and an appropriate placement of negative charge are often preferred, although this is a guide rather than an absolute law."
+        ],
+        "steps": [
+          "Find the neutral atom’s valence electron count.",
+          "Count its lone-pair electrons and total bonding electrons.",
+          "Subtract non-bonding electrons and half the bonding electrons.",
+          "Check that formal charges sum to the overall species charge."
+        ],
+        "example": {
+          "q": "Calculate the formal charge on N in NH₄⁺.",
+          "steps": [
+            "Nitrogen has five valence electrons.",
+            "In NH₄⁺ nitrogen has no lone pairs and four single bonds (8 bonding electrons).",
+            "FC = 5 − 0 − ½(8) = +1."
+          ],
+          "answer": "Formal charge on N = +1."
+        },
+        "mistake": "Formal charge differs from oxidation state: formal charge splits bonding electrons equally.",
+        "formula": "FC = valence e⁻ − nonbonding e⁻ − ½(bonding e⁻)",
+        "visual": {
+          "kind": "formalcharge",
+          "title": "Formal charge",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.15",
+        "title": "Sigma and pi bonds",
+        "hl": true,
+        "summary": "A sigma bond forms along the bond axis; a pi bond forms from sideways p-orbital overlap.",
+        "objectives": [
+          "A single bond contains one σ bond.",
+          "A double bond contains one σ and one π bond.",
+          "A triple bond contains one σ and two π bonds.",
+          "Count σ and π bonds in organic and inorganic examples."
+        ],
+        "explain": [
+          "A **sigma (σ) bond** forms by head-on orbital overlap with electron density concentrated along the internuclear axis. A **pi (π) bond** forms when parallel p orbitals overlap laterally, with electron density on either side of that axis.",
+          "A single bond consists of one σ bond; a double bond consists of **one σ plus one π**, and a triple bond consists of **one σ plus two π** bonds. You must count both types in organic and inorganic molecules and ions."
+        ],
+        "steps": [
+          "Count every connected pair of atoms as one sigma bond.",
+          "For each double bond add one pi bond.",
+          "For each triple bond add two pi bonds."
+        ],
+        "example": {
+          "q": "How many σ and π bonds are present in ethene, C₂H₄?",
+          "steps": [
+            "Four C–H single bonds give four σ bonds.",
+            "The C=C double bond contributes one σ and one π.",
+            "Total σ = 5, π = 1."
+          ],
+          "answer": "Five σ bonds and one π bond."
+        },
+        "mistake": "A double bond is not two σ bonds. The second component is π.",
+        "formula": "",
+        "visual": {
+          "kind": "sigmapi",
+          "title": "Sigma and pi bonds",
+          "labels": []
+        },
+        "legacy": true
+      },
+      {
+        "id": "S2.2.16",
+        "title": "Hybridization",
+        "hl": true,
+        "summary": "Mixing atomic orbitals produces hybrid orbitals for bonding.",
+        "objectives": [
+          "Know sp, sp² and sp³ hybridization.",
+          "sp has two electron domains (linear); sp² three (trigonal planar); sp³ four (tetrahedral electron-domain geometry).",
+          "Deduce hybridization from Lewis structures and domain count; predict geometry from hybridization."
+        ],
+        "explain": [
+          "**Hybridization** is a model in which atomic orbitals combine mathematically to form new equivalent hybrid orbitals suited to a particular bonding geometry. For the IB syllabus, you need only **sp, sp² and sp³**.",
+          "The number of electron domains around an atom provides a practical route to hybridization: **2 domains → sp → linear**, **3 → sp² → trigonal planar**, **4 → sp³ → tetrahedral electron-domain geometry**. Unhybridized p orbitals can form π bonds in double and triple bonds."
+        ],
+        "steps": [
+          "Draw the Lewis structure and count electron domains around the atom.",
+          "Use two domains for sp, three for sp², four for sp³.",
+          "Relate the hybridization to geometry and available unhybridized p orbitals."
+        ],
+        "example": {
+          "q": "Compare carbon hybridization in methane, ethene and ethyne.",
+          "steps": [
+            "CH₄ carbon has four domains → sp³ (tetrahedral).",
+            "C₂H₄ each carbon has three domains → sp² (trigonal planar).",
+            "C₂H₂ each carbon has two domains → sp (linear)."
+          ],
+          "answer": "CH₄: sp³; C₂H₄: sp²; C₂H₂: sp."
+        },
+        "mistake": "Count an entire double or triple bond as one electron domain when finding hybridization.",
+        "formula": "",
+        "visual": {
+          "kind": "hybrid",
+          "title": "Hybridization",
+          "labels": []
+        },
+        "legacy": true
+      }
+    ]
+  }
+]

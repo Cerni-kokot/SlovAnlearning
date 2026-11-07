@@ -1,0 +1,24 @@
+// Pure rendering/data tests, no browser automation. Run: node tests/course.test.cjs
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
+const dir=path.resolve(__dirname,'../dist');
+const storage=new Map(),context=vm.createContext({console,localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},document:{querySelector:()=>({textContent:'',classList:{add(){},remove(){}}})},location:{hash:''},Date,URL,crypto:require('node:crypto').webcrypto,setTimeout:()=>{},clearTimeout(){}});
+let source=['course.js','diagrams.js','visuals.js','detail-visuals.js','reactivity-visuals.js'].filter(f=>fs.existsSync(path.join(dir,f))).map(f=>fs.readFileSync(path.join(dir,f),'utf8')).join('\n');
+source+='\n'+fs.readFileSync(path.join(dir,'app.js'),'utf8').replace(/init\(\);\s*$/,'');
+vm.runInContext(source,context);
+const run=s=>vm.runInContext(s,context);
+assert.equal(run('COURSE.length'),22);assert.equal(run('LESSONS.length'),165);
+assert.equal(run('LESSONS.filter(s=>s.hl).length'),61);
+assert.equal(run('QUESTIONS.length'),130);
+const missing=run(`LESSONS.filter(s=>!s.explain?.length||!s.steps?.length||!s.example?.steps?.length||!s.source?.guidePage).map(s=>s.id)`);assert.equal(missing.length,0);
+const bad=run(`LESSONS.map(s=>{state.id=s.id;const h=lesson();return [s.id,h.includes('<svg'),h.includes('undefined'),h.includes('NaN'),h.includes('Watch &amp; understand')]}).filter(x=>!x[1]||x[2]||x[3])`);assert.equal(bad.length,0,JSON.stringify(bad));
+run(`progress.level='SL'`);assert.equal(run('lessons().length'),104);assert.equal(run('topics().length'),21);assert.equal(run('questions().some(q=>q.level===\'HL\')'),false);assert.equal(run('papers().includes(\'HL Chemistry specimen Paper 1A\')'),false);assert.equal(run('papers().includes(\'Official IB Chemistry Questionbank\')'),true);
+run(`progress.level='HL';state.filters.topic='R1.4'`);assert.equal(run('pool().length'),3);
+assert.equal(run(`QUESTIONS.filter(q=>q.kind==='mcq').every(q=>q.options.length===4&&q.correct>=0&&q.correct<4)`),true);
+assert.equal(run(`COURSE.every(t=>QUESTIONS.some(q=>q.topic===t.id))`),true);
+assert.equal(run(`LESSONS.every(s=>VIDEOS.some(v=>v.outcomes?.includes(s.id))||VIDEOS.some(v=>v.topic===s.id.split('.').slice(0,2).join('.')&&v.kind==='collection'))`),true);
+run(`progress.activeTest={id:'unit-test',level:'HL',ids:[QUESTIONS[0].id,QUESTIONS.find(q=>q.kind==='written').id],startedAt:Date.now(),deadline:Date.now()+1000,target:70,answers:{[QUESTIONS[0].id]:QUESTIONS[0].correct}};finishTest();`);
+assert.equal(run('progress.activeTest'),null);assert.equal(run('progress.tests[0].scores[QUESTIONS[0].id]'),1);
+run(`state.id='unit-test'`);assert.equal(run(`result().includes('percentage is not final')`),true);
+assert.equal(run(`validatedProgress({done:{'fake':true,'S1.1.1':true},stars:{evil:true},results:{Q001:{score:99}}}).done['fake']`),undefined);
+assert.equal(run(`Object.keys(validatedProgress({results:{Q001:{score:99}}}).results).length`),0);
+console.log('Passed: 165 lessons render; exact source/SL/HL coverage; 130 bank questions; every topic has practice/video coverage; official split; mixed-test scoring; malformed backup bounds.');

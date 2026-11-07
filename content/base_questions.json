@@ -1,0 +1,1311 @@
+[
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which description identifies a compound?",
+    "options": [
+      "A single type of atom",
+      "Different elements bonded in a fixed ratio",
+      "Two substances physically mixed in any ratio",
+      "A substance separated by simple filtration"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Compounds consist of chemically bonded elements in a fixed ratio."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which change of state is deposition?",
+    "options": [
+      "Solid → liquid",
+      "Liquid → gas",
+      "Gas → solid",
+      "Solid → gas"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Deposition describes gas changing directly to solid."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "A liquid mixture has two components with different boiling points. Which method is most appropriate?",
+    "options": [
+      "Filtration",
+      "Distillation",
+      "Magnetic separation",
+      "Decantation of insoluble solid"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Distillation separates miscible liquids according to their boiling behaviours."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which state symbol represents a substance dissolved in water?",
+    "options": [
+      "(s)",
+      "(l)",
+      "(g)",
+      "(aq)"
+    ],
+    "correct": 3,
+    "scheme": [
+      "(aq) means aqueous: dissolved in water."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Distinguish an element, a compound and a mixture.",
+    "scheme": [
+      "Element cannot be chemically broken down into simpler substances [1].",
+      "Compound contains different elements chemically bonded in a fixed ratio [1].",
+      "Mixture contains substances not chemically bonded in no fixed ratio [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "State how a solid dissolved in a liquid could be recovered and justify the method.",
+    "scheme": [
+      "Identify evaporation or recrystallization as a relevant method [1].",
+      "Explain that solvent is removed or crystals form from the solution [1].",
+      "Recognize that the solute is recovered by a physical separation rather than chemical change [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1B",
+    "marks": 3,
+    "text": "A heating curve rises, becomes flat, then rises again. Explain the temperature plateau using the kinetic molecular model.",
+    "scheme": [
+      "The sample is undergoing a change of state [1].",
+      "Energy is used to overcome/interact with attractions rather than increasing average kinetic energy [1].",
+      "Therefore the temperature remains constant during the change [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 2,
+    "text": "Convert 25.0 °C to kelvin. Explain what kelvin temperature measures.",
+    "scheme": [
+      "298.15 K [1].",
+      "Kelvin temperature measures average particle kinetic energy [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.2",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "A neutral atom contains 13 protons and 14 neutrons. Its mass number is",
+    "options": [
+      "13",
+      "14",
+      "27",
+      "1"
+    ],
+    "correct": 2,
+    "scheme": [
+      "A = protons + neutrons = 27."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "An ion has atomic number 17 and charge −1. How many electrons does it have?",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correct": 2,
+    "scheme": [
+      "An extra electron produces a −1 charge: 17 + 1 = 18."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.2",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Isotopes of an element have different numbers of",
+    "options": [
+      "Protons",
+      "Electrons in every possible ion",
+      "Neutrons",
+      "Nuclei"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Isotopes have the same number of protons and different neutron counts."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "In a mass spectrum of a singly charged element, peaks at m/z 10 and 11 have abundances 20% and 80%. What is Aᵣ?",
+    "options": [
+      "10.2",
+      "10.5",
+      "10.8",
+      "11.2"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Weighted mean = 10(0.20)+11(0.80)=10.8."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.2",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "A species has A = 39, Z = 19 and charge +1. Determine its protons, neutrons and electrons.",
+    "scheme": [
+      "19 protons [1].",
+      "20 neutrons [1].",
+      "18 electrons [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1B",
+    "marks": 3,
+    "text": "An element has isotopes of masses 63 and 65, with abundances 69% and 31%. Calculate its relative atomic mass.",
+    "scheme": [
+      "Use weighted mean with correct mass and percentage terms [1].",
+      "Aᵣ = 63(0.69) + 65(0.31) [1].",
+      "Aᵣ = 63.62 [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Explain how a mass spectrum can be used to determine relative atomic mass.",
+    "scheme": [
+      "Identify isotopic mass from peak position [1].",
+      "Identify relative abundance from peak intensity [1].",
+      "Calculate weighted mean of isotopic masses [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 2,
+    "text": "Explain why isotopes can differ in physical properties despite being atoms of the same element.",
+    "scheme": [
+      "They have different neutron numbers and masses [1].",
+      "Mass differences can affect physical behaviour [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.3",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What is the maximum number of electrons in the n = 3 main energy level?",
+    "options": [
+      "6",
+      "8",
+      "18",
+      "32"
+    ],
+    "correct": 2,
+    "scheme": [
+      "2n² = 2×3² = 18."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.3",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which statement correctly describes an orbital?",
+    "options": [
+      "A fixed electron path",
+      "A region with high probability of finding an electron",
+      "An electron itself",
+      "The entire nucleus"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Orbitals represent probable electron locations."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.3",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which rule explains why electrons occupy degenerate orbitals singly before pairing?",
+    "options": [
+      "Aufbau",
+      "Hund",
+      "Pauli",
+      "Octet"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Hund’s rule favours singly occupied orbitals first."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.3",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which light has the greatest photon energy?",
+    "options": [
+      "Longest wavelength",
+      "Lowest frequency",
+      "Shortest wavelength",
+      "Lowest speed in vacuum"
+    ],
+    "correct": 2,
+    "scheme": [
+      "E = hc/λ, so smaller wavelength corresponds to greater energy."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.3",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What is the general first-ionization-energy trend down a group?",
+    "options": [
+      "Increases due to greater nuclear charge only",
+      "Decreases due to increased shielding and radius",
+      "Always stays constant",
+      "Increases because electrons get closer to the nucleus"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Greater atomic radius and shielding generally make electron removal easier."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.3",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Large jump between the third and fourth successive ionization energies suggests how many valence electrons?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 2,
+    "scheme": [
+      "The first three electrons are removed from the outer level before a core electron."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.3",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Describe three principles used to construct electron configurations.",
+    "scheme": [
+      "Aufbau: lower energy orbitals fill before higher [1].",
+      "Hund: equivalent orbitals singly occupied before pairing [1].",
+      "Pauli: maximum two opposite-spin electrons per orbital [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.3",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 2,
+    "text": "Explain how a hydrogen line spectrum supports the idea of quantized energy.",
+    "scheme": [
+      "The spectrum has discrete wavelengths/lines rather than a continuous spectrum [1].",
+      "These correspond to transitions between fixed electron energy levels [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.3",
+    "level": "HL",
+    "difficulty": "Hard",
+    "paper": "Paper 1B",
+    "marks": 3,
+    "text": "A spectral convergence limit is observed at frequency 3.29 × 10¹⁵ Hz. Calculate energy of a photon using h = 6.63 × 10⁻³⁴ J s.",
+    "scheme": [
+      "Correct substitution E = hf [1].",
+      "6.63 × 10⁻³⁴ × 3.29 × 10¹⁵ [1].",
+      "2.18 × 10⁻¹⁸ J per photon [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.3",
+    "level": "HL",
+    "difficulty": "Hard",
+    "paper": "Paper 2",
+    "marks": 4,
+    "text": "Explain the overall pattern and two discontinuities in first ionization energies across a period.",
+    "scheme": [
+      "Effective nuclear attraction generally increases across a period [1].",
+      "Hence first ionization energy generally increases [1].",
+      "An electron entering a higher-energy p sublevel can produce a decrease [1].",
+      "Pairing in an orbital produces additional repulsion and can produce another decrease [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.3",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 2,
+    "text": "Write the condensed electron configuration of chlorine (Z = 17) and state the number of occupied p orbitals in its outer shell.",
+    "scheme": [
+      "[Ne] 3s² 3p⁵ [1].",
+      "Three outer 3p orbitals occupied [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.3",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Give the ground-state configurations of Cr (Z = 24) and Cu (Z = 29) and explain why these are exceptions to a simple filling pattern.",
+    "scheme": [
+      "Cr: [Ar] 3d⁵ 4s¹ [1].",
+      "Cu: [Ar] 3d¹⁰ 4s¹ [1].",
+      "Relative stability associated with half-filled and filled 3d subshells [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What is the amount of 18.0 g of water (M = 18.0 g mol⁻¹)?",
+    "options": [
+      "0.50 mol",
+      "1.00 mol",
+      "2.00 mol",
+      "18.0 mol"
+    ],
+    "correct": 1,
+    "scheme": [
+      "n = 18.0 / 18.0 = 1.00 mol."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What is the molecular formula of a compound with empirical formula CH₂ and molar mass 56.0 g mol⁻¹? (C = 12, H = 1)",
+    "options": [
+      "CH₂",
+      "C₂H₄",
+      "C₄H₈",
+      "C₆H₁₂"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Empirical formula mass 14; multiplier 56/14 = 4."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What volume of a 0.200 mol dm⁻³ solution contains 0.0500 mol of solute?",
+    "options": [
+      "0.0100 dm³",
+      "0.100 dm³",
+      "0.250 dm³",
+      "4.00 dm³"
+    ],
+    "correct": 2,
+    "scheme": [
+      "V = n/C = 0.0500/0.200 = 0.250 dm³."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "At identical temperature and pressure, 20 cm³ gas A and 60 cm³ gas B have mole ratio",
+    "options": [
+      "1:1",
+      "1:2",
+      "1:3",
+      "3:1"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Avogadro’s law makes mole ratio equal gas volume ratio."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Calculate the molar mass of CaCO₃ using Ca = 40.08, C = 12.01, O = 16.00.",
+    "scheme": [
+      "Include one Ca, one C and three O atoms [1].",
+      "40.08 + 12.01 + 3(16.00) [1].",
+      "100.09 g mol⁻¹ [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 4,
+    "text": "A compound consists of 40.0% C, 6.7% H and 53.3% O by mass. Determine its empirical formula. Use C = 12.0, H = 1.0, O = 16.0.",
+    "scheme": [
+      "Assume a 100 g sample [1].",
+      "Calculate moles: C ≈ 3.33; H = 6.7; O ≈ 3.33 [1].",
+      "Divide by the smallest amounts to obtain ≈1:2:1 [1].",
+      "CH₂O [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1B",
+    "marks": 3,
+    "text": "Calculate the molar concentration of a solution containing 0.120 mol of dissolved solute in 400 cm³ of solution.",
+    "scheme": [
+      "Convert 400 cm³ to 0.400 dm³ [1].",
+      "Apply C = n/V = 0.120/0.400 [1].",
+      "0.300 mol dm⁻³ [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "A gas reaction is 2CO(g) + O₂(g) → 2CO₂(g). What volume of oxygen reacts with 80 cm³ CO at the same T and P?",
+    "scheme": [
+      "Mole ratio CO:O₂ = 2:1 [1].",
+      "Gas volume ratio equals mole ratio under equal T and P [1].",
+      "40 cm³ O₂ [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.4",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 2,
+    "text": "State the difference between relative formula mass Mᵣ and molar mass M.",
+    "scheme": [
+      "Mᵣ is relative and has no units [1].",
+      "M is mass per mole with units g mol⁻¹ [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which is an assumption of an ideal gas?",
+    "options": [
+      "Attractions dominate at all distances",
+      "Particles occupy substantial volumes",
+      "Particle collisions are elastic",
+      "Particles do not move"
+    ],
+    "correct": 2,
+    "scheme": [
+      "The ideal gas model assumes elastic collisions."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "When do real gases generally deviate most from ideal behaviour?",
+    "options": [
+      "High T, low P",
+      "Low T, high P",
+      "High T, high P",
+      "Low T, low P"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Low T increases importance of attractions, high P increases finite-volume effects."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "At fixed T and fixed amount, pressure doubles. How does ideal gas volume change?",
+    "options": [
+      "Doubles",
+      "Halves",
+      "Quadruples",
+      "Stays constant"
+    ],
+    "correct": 1,
+    "scheme": [
+      "PV is constant for a fixed n and T."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which SI pressure unit should be used with R in J mol⁻¹ K⁻¹ in PV = nRT?",
+    "options": [
+      "atm",
+      "bar",
+      "Pa",
+      "mmHg"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Use pascal and cubic metres with the SI gas constant."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Explain why an ideal gas model becomes less accurate at low temperatures and high pressures.",
+    "scheme": [
+      "Intermolecular attractions become more significant at low temperatures [1].",
+      "Molecular volume is no longer negligible at high pressure [1].",
+      "Both violate assumptions of the ideal-gas model [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1B",
+    "marks": 4,
+    "text": "Calculate the pressure of 0.200 mol of ideal gas at 300 K occupying 0.00500 m³. Use R = 8.31 J mol⁻¹ K⁻¹.",
+    "scheme": [
+      "PV = nRT [1].",
+      "Rearrange P = nRT/V [1].",
+      "Substitute 0.200 × 8.31 × 300 / 0.00500 [1].",
+      "9.97 × 10⁴ Pa [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "A fixed amount of ideal gas has volume 2.00 dm³ at 300 K. At the same pressure, determine volume at 450 K.",
+    "scheme": [
+      "V/T constant at fixed pressure and n [1].",
+      "V₂ = 2.00 × 450/300 [1].",
+      "3.00 dm³ [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S1.5",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 2,
+    "text": "State two assumptions of an ideal gas model.",
+    "scheme": [
+      "Negligible particle volume [1].",
+      "No intermolecular forces / elastic collisions [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What forms when a metal atom loses an electron?",
+    "options": [
+      "An anion",
+      "A cation",
+      "An isotope",
+      "A molecule"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Electron loss produces a positively charged ion."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What is the formula of magnesium phosphate? (Mg²⁺; PO₄³⁻)",
+    "options": [
+      "MgPO₄",
+      "Mg₂(PO₄)₃",
+      "Mg₃(PO₄)₂",
+      "Mg₃PO₄"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Three Mg²⁺ and two PO₄³⁻ ions give total zero charge."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which formula represents nitrate?",
+    "options": [
+      "NO₂⁻",
+      "NO₃⁻",
+      "NH₄⁺",
+      "CO₃²⁻"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Nitrate is NO₃⁻."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Why can molten sodium chloride conduct electricity?",
+    "options": [
+      "Mobile electrons in the solid lattice",
+      "Mobile ions in the liquid",
+      "Its molecules are non-polar",
+      "The nuclei can move through the solid"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Mobile ions carry charge in the molten state."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Explain ionic bonding and why ionic solids have relatively high melting points.",
+    "scheme": [
+      "Ionic bonding is electrostatic attraction between opposite ions [1].",
+      "Ionic compounds have a giant three-dimensional lattice [1].",
+      "Significant energy is needed to overcome strong attractions [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 4,
+    "text": "Explain electrical conductivity of an ionic compound as solid, molten and aqueous solution.",
+    "scheme": [
+      "Solid contains ions fixed in a lattice [1].",
+      "So the solid does not conduct [1].",
+      "Molten and aqueous forms contain mobile ions [1].",
+      "Mobile ions transport electrical charge [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Predict how increasing ionic charge and decreasing ionic radius affect lattice enthalpy magnitude.",
+    "scheme": [
+      "Greater ion charge leads to stronger electrostatic attraction [1].",
+      "Smaller ion radius allows ions to approach more closely [1].",
+      "Both generally increase lattice enthalpy magnitude / ionic bonding strength [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.1",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1B",
+    "marks": 2,
+    "text": "Deduce the empirical formula of aluminium sulfate using Al³⁺ and SO₄²⁻.",
+    "scheme": [
+      "Charges balance with two Al³⁺ and three SO₄²⁻ [1].",
+      "Al₂(SO₄)₃ [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "A triple covalent bond contains how many shared electron pairs?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Six"
+    ],
+    "correct": 2,
+    "scheme": [
+      "A triple bond consists of three shared electron pairs."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which molecular shape is predicted for a central atom with four bonding domains and no lone pairs?",
+    "options": [
+      "Bent",
+      "Trigonal planar",
+      "Tetrahedral",
+      "Linear"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Four domains adopt a tetrahedral electron arrangement and molecular shape."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which statement correctly describes molecular polarity?",
+    "options": [
+      "Any polar bond makes the molecule polar",
+      "Shape is irrelevant",
+      "Bond dipoles can cancel depending on geometry",
+      "Only molecular mass matters"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Net dipole depends on the sum of bond dipoles and their directions."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which arrangement has three electron domains around a central atom?",
+    "options": [
+      "Linear",
+      "Trigonal planar",
+      "Tetrahedral",
+      "Octahedral"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Three electron domains have trigonal planar electron-domain geometry."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which interaction is generally strongest for comparable molar masses?",
+    "options": [
+      "London dispersion",
+      "Dipole-induced dipole",
+      "Dipole–dipole",
+      "Hydrogen bonding"
+    ],
+    "correct": 3,
+    "scheme": [
+      "The syllabus gives hydrogen bonding as strongest among these under comparable molar masses."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "A chromatography spot travels 3.0 cm and the solvent front travels 7.5 cm. What is Rf?",
+    "options": [
+      "0.25",
+      "0.40",
+      "2.50",
+      "4.50"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Rf = 3.0 / 7.5 = 0.40."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which carbon allotrope has delocalized electrons within planar layers?",
+    "options": [
+      "Diamond",
+      "Graphite",
+      "Silicon dioxide",
+      "Silicon"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Graphite has delocalized electrons within its carbon layers."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Easy",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "How many π bonds are in a carbon–carbon triple bond?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2,
+    "scheme": [
+      "A triple bond contains one σ and two π bonds."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "What is the electron-domain geometry of five domains around a central atom?",
+    "options": [
+      "Trigonal planar",
+      "Trigonal bipyramidal",
+      "Octahedral",
+      "Tetrahedral"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Five electron domains correspond to trigonal bipyramidal geometry."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which hybridization corresponds to two electron domains?",
+    "options": [
+      "sp",
+      "sp²",
+      "sp³",
+      "dsp³"
+    ],
+    "correct": 0,
+    "scheme": [
+      "Two domains correspond to sp hybridization."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "A neutral atom has five valence electrons, one non-bonding pair and three single bonds. What is its formal charge?",
+    "options": [
+      "−1",
+      "0",
+      "+1",
+      "+2"
+    ],
+    "correct": 1,
+    "scheme": [
+      "FC = 5 − 2 − 3 = 0."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 1A",
+    "marks": 1,
+    "text": "Which observation supports electron delocalization in benzene?",
+    "options": [
+      "Alternating distinct long and short C–C bonds",
+      "Equal C–C bond lengths around the ring",
+      "Six isolated single bonds",
+      "Absence of any π electrons"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Equal ring C–C lengths are consistent with delocalized bonding."
+    ],
+    "kind": "mcq"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Easy",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Define a covalent bond and explain the octet rule.",
+    "scheme": [
+      "Electrostatic attraction between shared electron pair and positive nuclei [1].",
+      "Octet rule concerns achieving eight electrons in the valence shell [1].",
+      "Recognize the rule has exceptions such as incomplete octets [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "State the electron-domain geometry and molecular geometry of NH₃, and explain the difference.",
+    "scheme": [
+      "Four domains give tetrahedral electron-domain geometry [1].",
+      "Three bonds and one lone pair give trigonal pyramidal molecular geometry [1].",
+      "Molecular geometry describes atom positions, not lone-pair positions [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Explain why CO₂ has polar bonds but no overall permanent dipole moment.",
+    "scheme": [
+      "C=O bonds are polar because the atoms differ in electronegativity [1].",
+      "CO₂ is linear and symmetrical [1].",
+      "Equal bond dipoles cancel [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Compare the bonding and conductivity of diamond and graphite.",
+    "scheme": [
+      "Diamond is a three-dimensional network of covalently bonded carbon atoms [1].",
+      "Graphite has extended sheets/layers with delocalized electrons [1].",
+      "Graphite conducts along layers; diamond normally does not due to absent mobile charge carriers [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 4,
+    "text": "Explain the relative boiling temperatures of two similarly sized molecules, one capable of hydrogen bonding and one with only dispersion forces.",
+    "scheme": [
+      "Identify hydrogen bonding as an intermolecular interaction [1].",
+      "Identify London dispersion in both molecules [1].",
+      "Hydrogen bonding is generally stronger under comparable molar masses [1].",
+      "More energy is required to separate molecules, leading to higher boiling temperature [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 1B",
+    "marks": 3,
+    "text": "In a chromatography experiment a spot moves 2.4 cm and the solvent front moves 6.0 cm. Calculate Rf and interpret a low Rf.",
+    "scheme": [
+      "Rf = distance spot / distance solvent front [1].",
+      "Rf = 0.40 [1].",
+      "Lower Rf reflects relatively stronger stationary-phase attraction (under the given conditions) [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Distinguish London dispersion, dipole–dipole and hydrogen bonding interactions.",
+    "scheme": [
+      "London dispersion results from temporary/induced dipoles and occurs in all molecules [1].",
+      "Dipole–dipole interactions act between permanent dipoles [1].",
+      "Hydrogen bonding is an attractive interaction involving H covalently attached to a strongly electronegative atom and a neighbouring electronegative atom [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "SL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Explain why a molecule with a central atom bonded to two atoms may be bent instead of linear.",
+    "scheme": [
+      "Count electron domains around the central atom [1].",
+      "Non-bonding electron pairs repel bonding pairs [1].",
+      "Lone pairs affect the positions of bonds and reduce their bond angle relative to the ideal arrangement [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Explain resonance in benzene using bonding and structural evidence.",
+    "scheme": [
+      "More than one localized double-bond arrangement can be drawn [1].",
+      "Actual π electrons are delocalized around the ring [1].",
+      "Equal C–C bond lengths support delocalization [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Determine the formal charge on oxygen in a Lewis structure with two lone pairs and a double bond.",
+    "scheme": [
+      "O has six valence electrons [1].",
+      "Four non-bonding electrons and four bonding electrons (half allocated) [1].",
+      "FC = 6 − 4 − 2 = 0 [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 4,
+    "text": "Explain sigma and pi bonds in ethene, C₂H₄, and give the total number of each.",
+    "scheme": [
+      "A sigma bond involves head-on overlap [1].",
+      "A pi bond involves lateral p-orbital overlap [1].",
+      "Ethene contains five σ bonds (four C–H and one C–C) [1].",
+      "Ethene contains one π bond [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Hard",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Compare the hybridization and molecular geometry around each carbon in ethene and ethyne.",
+    "scheme": [
+      "Both carbon atoms in ethene are sp², trigonal planar [1].",
+      "Both carbon atoms in ethyne are sp, linear [1].",
+      "Relate differences to three versus two electron domains [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Hard",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "Determine the electron-domain geometry for a central atom with six domains, including two lone pairs, and explain why its molecular geometry differs.",
+    "scheme": [
+      "Six domains yield octahedral electron-domain geometry [1].",
+      "Molecular geometry depends on the positions of bonded atoms only [1].",
+      "Two lone pairs occupy domains but are excluded from the molecular-shape description [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Hard",
+    "paper": "Paper 1B",
+    "marks": 3,
+    "text": "An ion has two valid Lewis contributors with a double bond in alternative positions. Explain the implication for its bonding.",
+    "scheme": [
+      "Identify resonance contributors [1].",
+      "Identify delocalized electrons rather than a fixed single localized double bond [1].",
+      "Explain that atom positions stay unchanged while electron arrangement differs [1]."
+    ],
+    "kind": "written"
+  },
+  {
+    "topic": "S2.2",
+    "level": "HL",
+    "difficulty": "Medium",
+    "paper": "Paper 2",
+    "marks": 3,
+    "text": "A nitrogen atom has five valence electrons, zero lone pairs and four single bonds in a Lewis structure. Determine its formal charge.",
+    "scheme": [
+      "FC = valence − nonbonding − ½ bonding electrons [1].",
+      "5 − 0 − 4 [1].",
+      "FC = +1 [1]."
+    ],
+    "kind": "written"
+  }
+]

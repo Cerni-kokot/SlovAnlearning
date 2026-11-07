@@ -1,0 +1,2642 @@
+[
+  {
+    "id": "R2.1",
+    "name": "How much? The amount of chemical change",
+    "group": "Reactivity 2 · How much, how fast and how far?",
+    "sections": [
+      {
+        "id": "R2.1.1",
+        "title": "Balancing chemical equations",
+        "hl": false,
+        "summary": "Balanced equations conserve atoms and show reacting mole ratios.",
+        "explain": [
+          "A balanced chemical equation is a bookkeeping statement: atoms are rearranged, but none are created or destroyed. The large coefficients in front of formulas count relative numbers of particles or moles. Subscripts inside a formula instead describe the chemical identity and must not be changed to balance an equation.",
+          "Include state symbols when the states are known: (s), (l), (g) and (aq). A solution labelled aqueous contains dissolved particles; it does not mean the solute itself is a pure liquid."
+        ],
+        "steps": [
+          "Write correct formulas for every stated reactant and product.",
+          "Count atoms of each element on each side; change only coefficients.",
+          "Reduce to the smallest whole-number coefficients and add appropriate state symbols."
+        ],
+        "example": {
+          "q": "Balance the combustion equation C₂H₆(g) + O₂(g) → CO₂(g) + H₂O(l).",
+          "steps": [
+            "Balance C: C₂H₆ + O₂ → 2CO₂ + H₂O.",
+            "Balance H: C₂H₆ + O₂ → 2CO₂ + 3H₂O.",
+            "Seven O atoms are needed, so multiply all coefficients by two to avoid 3.5 O₂."
+          ],
+          "answer": "2C₂H₆(g) + 7O₂(g) → 4CO₂(g) + 6H₂O(l)."
+        },
+        "mistake": "Never turn H₂O into H₂O₂ to balance oxygen: that changes the product.",
+        "visual": {
+          "kind": "equation",
+          "title": "Balancing chemical equations",
+          "labels": [
+            "2 C₂H₆",
+            "7 O₂",
+            "4 CO₂",
+            "6 H₂O",
+            "Atoms conserved"
+          ]
+        }
+      },
+      {
+        "id": "R2.1.2",
+        "title": "Reacting masses, gas volumes and concentrations",
+        "hl": false,
+        "summary": "Use a balanced equation to connect measurable quantities through moles.",
+        "explain": [
+          "Stoichiometry uses the coefficients of a balanced equation as a mole-to-mole conversion. The calculation usually follows a bridge: measured reactant quantity → reactant moles → product moles → required product quantity.",
+          "Convert a mass using n = m/M, a solution using n = CV with compatible volume units, and gases using an appropriate molar volume or PV = nRT. At the same temperature and pressure, gas volume ratios equal their mole ratios."
+        ],
+        "steps": [
+          "Balance the equation and convert the known quantity into moles.",
+          "Multiply by the required coefficient divided by the known coefficient.",
+          "Convert the resulting moles into mass, concentration or gas volume as requested."
+        ],
+        "example": {
+          "q": "What mass of CO₂ forms from complete combustion of 0.500 mol CH₄? Use M(CO₂) = 44.01 g mol⁻¹.",
+          "steps": [
+            "CH₄ + 2O₂ → CO₂ + 2H₂O.",
+            "The CH₄:CO₂ mole ratio is 1:1, so n(CO₂) = 0.500 mol.",
+            "m = nM = 0.500 × 44.01 = 22.005 g."
+          ],
+          "answer": "22.0 g CO₂ to three significant figures."
+        },
+        "mistake": "Coefficients give mole ratios, not generally mass ratios.",
+        "visual": {
+          "kind": "flow",
+          "title": "Reacting masses, gas volumes and concentrations",
+          "labels": [
+            "Measured quantity",
+            "Moles of known",
+            "Equation ratio",
+            "Moles required",
+            "Required quantity"
+          ]
+        }
+      },
+      {
+        "id": "R2.1.3",
+        "title": "Limiting reactants and theoretical yield",
+        "hl": false,
+        "summary": "The reactant that runs out first limits how much product can form.",
+        "explain": [
+          "If reactants are not supplied in the exact balanced ratio, one is consumed first. This is the limiting reactant; another may remain in excess. The theoretical yield is the greatest quantity of product allowed by the supplied amounts and the balanced equation.",
+          "A practical method is to divide each reactant amount in moles by its stoichiometric coefficient. The smallest result identifies the reactant that permits the fewest complete reaction units. Experimental yield is what is actually isolated, which may be lower because of incomplete reaction or losses."
+        ],
+        "steps": [
+          "Find the moles of each reactant.",
+          "Divide each mole amount by its equation coefficient and identify the smallest value.",
+          "Use only the limiting reactant to calculate the theoretical amount of product."
+        ],
+        "example": {
+          "q": "For N₂ + 3H₂ → 2NH₃, identify the limiting reagent when 2.0 mol N₂ and 3.0 mol H₂ are supplied.",
+          "steps": [
+            "N₂: 2.0/1 = 2.0 reaction units.",
+            "H₂: 3.0/3 = 1.0 reaction unit, the smaller value.",
+            "H₂ limits the reaction; 3.0 × 2/3 = 2.0 mol NH₃ forms theoretically."
+          ],
+          "answer": "H₂ is limiting; theoretical yield is 2.0 mol NH₃."
+        },
+        "mistake": "The smaller mass is not necessarily the limiting reactant. Compare stoichiometrically adjusted mole amounts.",
+        "visual": {
+          "kind": "ratio",
+          "title": "Limiting reactants and theoretical yield",
+          "labels": [
+            "N₂: 2.0 ÷ 1",
+            "H₂: 3.0 ÷ 3",
+            "Smallest ratio limits",
+            "2.0 mol NH₃"
+          ]
+        }
+      },
+      {
+        "id": "R2.1.4",
+        "title": "Percentage yield",
+        "hl": false,
+        "summary": "Percentage yield compares the amount isolated with the maximum predicted amount.",
+        "explain": [
+          "The percentage yield is experimental yield divided by theoretical yield, multiplied by 100%. The two yields must describe the same product in the same units. A real preparation may lose product during transfer, filtration or purification, or may not react completely.",
+          "A yield above 100% does not mean extra atoms were created. It suggests an impure or wet product, a measurement error, or an incorrect theoretical-yield calculation. Correctly identify the limiting reactant before calculating the theoretical yield."
+        ],
+        "steps": [
+          "Calculate theoretical yield from the limiting reactant.",
+          "Ensure actual and theoretical quantities use identical units.",
+          "Calculate experimental/theoretical × 100 and interpret the result."
+        ],
+        "example": {
+          "q": "A preparation should produce 8.00 g of pure product but isolates 6.20 g. Calculate percentage yield.",
+          "steps": [
+            "Theoretical yield = 8.00 g.",
+            "Experimental yield = 6.20 g.",
+            "Yield = 6.20/8.00 × 100 = 77.5%."
+          ],
+          "answer": "77.5%."
+        },
+        "mistake": "Do not divide theoretical by experimental yield; that reverses the definition.",
+        "visual": {
+          "kind": "ratio",
+          "title": "Percentage yield",
+          "labels": [
+            "Experimental: 6.20 g",
+            "Theoretical: 8.00 g",
+            "× 100",
+            "77.5% yield"
+          ]
+        }
+      },
+      {
+        "id": "R2.1.5",
+        "title": "Atom economy and green chemistry",
+        "hl": false,
+        "summary": "Atom economy measures how much reactant mass can end up in the desired product.",
+        "explain": [
+          "Atom economy is a property of the balanced reaction, not a measurement of laboratory recovery. Calculate the molar mass contribution of the desired product, including its coefficient, divided by the sum of all reactant molar-mass contributions, multiplied by 100%.",
+          "A high atom economy means less of the starting material becomes unwanted products. It is only one measure of a useful process: yield, energy demand, hazardous reagents, solvent use and recycling also matter. A reaction can have excellent atom economy but poor experimental yield."
+        ],
+        "steps": [
+          "Balance the equation and identify the desired product.",
+          "Multiply each molar mass by its coefficient.",
+          "Divide the desired-product mass contribution by total reactant contribution and multiply by 100."
+        ],
+        "example": {
+          "q": "Estimate atom economy for CaCO₃ → CaO + CO₂ when CaO is desired. Use masses 100.09 and 56.08 g mol⁻¹.",
+          "steps": [
+            "The equation is balanced with all coefficients equal to one.",
+            "Desired product contribution = 56.08 g per mole of reaction.",
+            "Atom economy = 56.08/100.09 × 100 ≈ 56.0%."
+          ],
+          "answer": "Approximately 56.0%."
+        },
+        "mistake": "Do not substitute experimental product mass into atom economy; that belongs to percentage yield.",
+        "visual": {
+          "kind": "flow",
+          "title": "Atom economy and green chemistry",
+          "labels": [
+            "Reactant mass",
+            "Desired product",
+            "Unwanted CO₂",
+            "56.0% atom economy"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R2.2",
+    "name": "How fast? The rate of chemical change",
+    "group": "Reactivity 2 · How much, how fast and how far?",
+    "sections": [
+      {
+        "id": "R2.2.1",
+        "title": "Measuring reaction rates",
+        "hl": false,
+        "summary": "Rate is the change in a measured quantity per unit time; concentration is the defining quantity.",
+        "explain": [
+          "The rate of appearance of a product can be written as Δ[product]/Δt. For a disappearing reactant, −Δ[reactant]/Δt is positive. Average rate refers to a time interval; instantaneous rate at a particular time is the gradient of a tangent to the curve.",
+          "Concentration changes are often followed indirectly. A gas syringe gives gas volume, a balance can monitor gas mass loss, and colour or light transmission can track a changing solution. These raw rates may be reported in cm³ s⁻¹ or g s⁻¹ before conversion to concentration units."
+        ],
+        "steps": [
+          "Identify the measured variable and its units.",
+          "For an average rate, divide the change by elapsed time.",
+          "For instantaneous rate, draw a tangent at the chosen time and calculate its gradient using widely separated points on that tangent."
+        ],
+        "example": {
+          "q": "A product concentration rises from 0.020 to 0.065 mol dm⁻³ in 15.0 s. Find the average formation rate.",
+          "steps": [
+            "Change in concentration = 0.065 − 0.020 = 0.045 mol dm⁻³.",
+            "Time interval = 15.0 s.",
+            "Rate = 0.045/15.0 = 0.0030 mol dm⁻³ s⁻¹."
+          ],
+          "answer": "3.0 × 10⁻³ mol dm⁻³ s⁻¹."
+        },
+        "mistake": "A chord between two points gives an average rate, not the instantaneous rate at one of them.",
+        "visual": {
+          "kind": "graph",
+          "title": "Measuring reaction rates",
+          "labels": [
+            "Concentration",
+            "Time",
+            "Average: chord",
+            "Instantaneous: tangent"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.2",
+        "title": "Collision theory",
+        "hl": false,
+        "summary": "A reaction requires collisions with sufficient energy and suitable orientation.",
+        "explain": [
+          "Particles must encounter each other to react, but not every encounter succeeds. A collision needs enough energy to overcome the activation barrier and a geometry that allows the necessary bonds to be broken and formed.",
+          "Kelvin temperature is related to average kinetic energy. Heating increases the average particle speed, but its most important rate effect is often the greater fraction of particles with enough energy for successful collision. A statement about more collisions alone is incomplete."
+        ],
+        "steps": [
+          "State that reacting particles must collide.",
+          "Explain the energy requirement relative to activation energy.",
+          "Explain that collision orientation must also permit the chemical rearrangement."
+        ],
+        "example": {
+          "q": "Why can two molecules collide without forming products?",
+          "steps": [
+            "Their collision may have less energy than the activation barrier.",
+            "Alternatively, they may have sufficient energy but approach in an unsuitable orientation.",
+            "Either failure means no successful reaction event."
+          ],
+          "answer": "Sufficient energy and suitable orientation are both required."
+        },
+        "mistake": "Never say that every collision leads to reaction.",
+        "visual": {
+          "kind": "flow",
+          "title": "Collision theory",
+          "labels": [
+            "Collision",
+            "Energy ≥ Eₐ?",
+            "Correct orientation?",
+            "Successful reaction"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.3",
+        "title": "Factors controlling rate",
+        "hl": false,
+        "summary": "Conditions change collision frequency or the proportion of successful collisions.",
+        "explain": [
+          "Increasing solution concentration or gas pressure puts more particles into a given volume, increasing collision frequency. Increasing the exposed surface area of a solid gives reacting particles access to more collision sites.",
+          "A temperature increase raises the fraction of particles above the activation energy. A catalyst offers a different pathway with a lower activation barrier. When investigating any one factor, hold the others constant so a rate change can be attributed to the variable being tested."
+        ],
+        "steps": [
+          "Identify which condition has changed.",
+          "For concentration, pressure or surface area, explain the change in encounter frequency or available sites.",
+          "For temperature or catalyst, explicitly discuss the fraction of collisions that overcome the energy barrier."
+        ],
+        "example": {
+          "q": "Why does powdered CaCO₃ react faster with the same acid than the same mass of large chips?",
+          "steps": [
+            "Both samples have the same total chemical amount.",
+            "Powder has a greater exposed surface area.",
+            "More acid particles can collide with carbonate surfaces each second."
+          ],
+          "answer": "Greater exposed area increases the rate of effective encounters."
+        },
+        "mistake": "More surface area changes reaction rate, not the final stoichiometric amount from the same limiting quantity.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Factors controlling rate",
+          "labels": [
+            "Higher concentration",
+            "Higher pressure",
+            "Greater surface area",
+            "Higher temperature",
+            "Catalyst"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.4",
+        "title": "Activation energy and Maxwell–Boltzmann curves",
+        "hl": false,
+        "summary": "Only particles in the high-energy tail can cross the activation barrier.",
+        "explain": [
+          "The activation energy Eₐ is the minimum collision energy associated with a successful reaction pathway. A Maxwell–Boltzmann distribution shows the spread of particle energies at a given temperature, not a single energy shared by every particle.",
+          "At a higher temperature, the distribution becomes broader and its peak is lower and shifted toward higher energy. The total area stays the same for an unchanged number of particles. The area to the right of Eₐ increases, explaining the higher successful-collision probability."
+        ],
+        "steps": [
+          "Label the horizontal axis kinetic energy and vertical axis number or fraction of particles.",
+          "Draw the higher-temperature curve with a lower, broader peak while preserving area.",
+          "Draw Eₐ on the energy axis and compare the areas beyond it."
+        ],
+        "example": {
+          "q": "Why can a small temperature increase greatly increase reaction rate?",
+          "steps": [
+            "The energy distribution broadens toward higher energies.",
+            "The fraction of particles above the unchanged activation barrier rises substantially.",
+            "More collisions therefore have sufficient energy to react."
+          ],
+          "answer": "A larger high-energy fraction increases the frequency of successful collisions."
+        },
+        "mistake": "Heating does not lower Eₐ for the same pathway; it changes the energy distribution.",
+        "visual": {
+          "kind": "distribution",
+          "title": "Activation energy and Maxwell–Boltzmann curves",
+          "labels": [
+            "Low T curve",
+            "High T curve",
+            "Activation energy Eₐ",
+            "Reacting high-energy tail"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.5",
+        "title": "Catalysts and energy profiles",
+        "hl": false,
+        "summary": "Catalysts lower the activation barrier without changing reactant and product energy levels.",
+        "explain": [
+          "A catalyst changes the pathway by which a reaction proceeds and provides a lower activation energy. It is regenerated in the overall process. Biological catalysts are called enzymes. The guide does not require detailed homogeneous and heterogeneous catalyst mechanisms here.",
+          "On an energy profile, the reactant and product levels stay fixed while the barrier is lower. The catalyst does not change ΔH, the equilibrium constant or the equilibrium composition. It accelerates both forward and reverse processes so equilibrium is reached sooner."
+        ],
+        "steps": [
+          "Draw identical reactant and product levels for catalysed and uncatalysed routes.",
+          "Make the catalysed barrier lower.",
+          "Explain that more particles can cross the lower threshold at the same temperature."
+        ],
+        "example": {
+          "q": "How does a catalyst change an exothermic energy profile?",
+          "steps": [
+            "Products remain lower in energy than reactants.",
+            "The alternative route has a lower peak relative to reactants.",
+            "The vertical difference between reactant and product energies, ΔH, is unchanged."
+          ],
+          "answer": "Lower Eₐ; unchanged ΔH and equilibrium position."
+        },
+        "mistake": "A catalyst does not make a thermodynamically unfavourable reaction favourable.",
+        "visual": {
+          "kind": "energy",
+          "title": "Catalysts and energy profiles",
+          "labels": [
+            "Reactants",
+            "Uncatalysed barrier",
+            "Lower catalysed barrier",
+            "Products",
+            "Same ΔH"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.6",
+        "title": "Multistep mechanisms and the rate-determining step",
+        "hl": true,
+        "summary": "A possible mechanism must match both stoichiometric and kinetic evidence.",
+        "explain": [
+          "A reaction mechanism divides an overall transformation into elementary steps. An intermediate is formed in one step and consumed in a later one, so it cancels when steps are added. A catalyst is consumed and later regenerated instead.",
+          "The slow bottleneck is the rate-determining step. It need not be the first step. A proposed mechanism must sum to the observed overall equation and be consistent with the experimentally measured rate law; fitting one alone is not sufficient evidence."
+        ],
+        "steps": [
+          "Add elementary steps and cancel species appearing on both sides.",
+          "Identify intermediates, regenerated catalysts and the stated slow step.",
+          "Compare the predicted kinetic dependence with observed experimental data."
+        ],
+        "example": {
+          "q": "In a mechanism A + B → I (fast), then I + C → P (slow), identify the intermediate and overall equation.",
+          "steps": [
+            "I is produced in step one and consumed in step two.",
+            "Add both steps and cancel I.",
+            "The second step is the stated slow bottleneck."
+          ],
+          "answer": "I is the intermediate; overall A + B + C → P."
+        },
+        "mistake": "Do not assume the first step must determine rate or infer the full rate law from the overall equation.",
+        "visual": {
+          "kind": "flow",
+          "title": "Multistep mechanisms and the rate-determining step",
+          "labels": [
+            "Fast step",
+            "Intermediate I",
+            "Slow step",
+            "Product P"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.7",
+        "title": "Energy profiles for multistep reactions",
+        "hl": true,
+        "summary": "Each elementary step contributes a barrier; intermediates occupy minima between peaks.",
+        "explain": [
+          "A multistep energy diagram contains more than one peak. The maxima represent transition states, fleeting high-energy arrangements along each step. The minima between them represent intermediates that can have a finite lifetime.",
+          "The activation barrier of a step is measured upward from that step’s starting minimum, not always from the original reactant line. When kinetic data identify a slow step, its barrier must be represented consistently; the highest point on the page is not by itself enough without considering its starting level."
+        ],
+        "steps": [
+          "Count steps from the number of peaks.",
+          "Locate intermediate minima between peaks.",
+          "Measure each barrier from the preceding minimum and identify the rate-determining barrier using the kinetic information."
+        ],
+        "example": {
+          "q": "A two-step profile has an intermediate at −20 kJ mol⁻¹ and its following transition state at +60 kJ mol⁻¹. Find the second-step Eₐ.",
+          "steps": [
+            "The second step starts at the intermediate minimum.",
+            "Eₐ,₂ = energy of transition state − energy of intermediate.",
+            "60 − (−20) = 80 kJ mol⁻¹."
+          ],
+          "answer": "80 kJ mol⁻¹."
+        },
+        "mistake": "An intermediate is a minimum, whereas a transition state is a maximum.",
+        "visual": {
+          "kind": "energy",
+          "title": "Energy profiles for multistep reactions",
+          "labels": [
+            "Reactants",
+            "Transition state 1",
+            "Intermediate minimum",
+            "Transition state 2",
+            "Products"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.8",
+        "title": "Molecularity of elementary steps",
+        "hl": true,
+        "summary": "Molecularity counts reacting particles in a single elementary event.",
+        "explain": [
+          "An elementary step is unimolecular if one reacting particle changes, bimolecular if two collide, and termolecular if three participate simultaneously. Molecularity describes a proposed step, not an entire multistep reaction.",
+          "The experimental order of an overall reaction is a different concept. It may resemble molecularity for an appropriate elementary step, but it must not be obtained by simply counting coefficients in the overall equation."
+        ],
+        "steps": [
+          "Confirm that the equation describes one elementary step.",
+          "Count the reacting particles, including coefficients.",
+          "Assign unimolecular, bimolecular or termolecular."
+        ],
+        "example": {
+          "q": "Classify elementary steps I → P and A + 2B → Q.",
+          "steps": [
+            "I → P involves one reacting particle.",
+            "A + 2B → Q involves three reacting particles.",
+            "These are unimolecular and termolecular respectively."
+          ],
+          "answer": "Unimolecular; termolecular."
+        },
+        "mistake": "Molecularity is not the sum of coefficients of an arbitrary overall reaction.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Molecularity of elementary steps",
+          "labels": [
+            "1 particle: unimolecular",
+            "2: bimolecular",
+            "3: termolecular"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.9",
+        "title": "Determining rate equations experimentally",
+        "hl": true,
+        "summary": "Use controlled concentration changes to infer the dependence of rate on reactants.",
+        "explain": [
+          "A rate equation such as rate = k[A]ᵐ[B]ⁿ is an experimentally established relationship. The exponents express how strongly the rate responds to each concentration. They cannot generally be read from a balanced overall equation.",
+          "To determine an exponent, compare experiments where only that concentration changes. For example, doubling [A] while keeping [B] constant and observing a fourfold increase in rate implies m = 2. Repeat for every variable."
+        ],
+        "steps": [
+          "Find two runs differing in only one reactant concentration.",
+          "Calculate concentration and rate factors and identify the exponent.",
+          "Repeat for other reactants, then write the complete rate law."
+        ],
+        "example": {
+          "q": "Doubling [A] at constant [B] doubles rate; doubling [B] at constant [A] quadruples rate. Deduce the rate equation.",
+          "steps": [
+            "Rate factor 2 when [A] factor 2 gives first order in A.",
+            "Rate factor 4 when [B] factor 2 gives second order in B.",
+            "Combine the independent dependences."
+          ],
+          "answer": "rate = k[A][B]²."
+        },
+        "mistake": "An unchanged rate after changing one reactant indicates zero order in that reactant under those conditions.",
+        "visual": {
+          "kind": "table",
+          "title": "Determining rate equations experimentally",
+          "labels": [
+            "Change [A] only",
+            "Compare rate factors",
+            "Find m",
+            "Repeat for B",
+            "rate = k[A]ᵐ[B]ⁿ"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.10",
+        "title": "Reaction orders and graphical evidence",
+        "hl": true,
+        "summary": "Orders are rate-law exponents; overall order is their sum.",
+        "explain": [
+          "For zero order in A, rate does not depend on [A]; for first order, rate is proportional to [A]; for second order, rate is proportional to [A]². The overall order is the sum of all exponents in the rate equation. Only integer orders are assessed in this guide.",
+          "Rate-versus-concentration plots are respectively horizontal, linear through the origin, and upward-curving for orders zero, one and two. Concentration-time curves also differ: a zero-order reactant falls linearly, while first-order decay shows a constant half-life and a curved decline. A simple second-order reactant decay also curves, with progressively longer half-lives as concentration falls."
+        ],
+        "steps": [
+          "Read the experimental rate equation rather than the overall stoichiometry.",
+          "Identify each exponent and add them for overall order.",
+          "Match the rate–concentration graph to constant, proportional or square dependence."
+        ],
+        "example": {
+          "q": "For rate = k[A]²[B], state each order and the effect of tripling [A] at fixed [B].",
+          "steps": [
+            "Order in A is 2; order in B is 1.",
+            "Overall order is 2 + 1 = 3.",
+            "Tripling [A] multiplies rate by 3² = 9."
+          ],
+          "answer": "Second order in A, first in B, third overall; rate becomes nine times larger."
+        },
+        "mistake": "A second-order dependence means rate changes by the square of the concentration factor, not by twice that factor.",
+        "visual": {
+          "kind": "graph",
+          "title": "Reaction orders and graphical evidence",
+          "labels": [
+            "Zero: horizontal",
+            "First: straight line",
+            "Second: curved",
+            "Overall = sum of orders"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.11",
+        "title": "Rate constants and their units",
+        "hl": true,
+        "summary": "The units of k ensure the rate equation has the correct overall units.",
+        "explain": [
+          "The rate constant k connects concentrations with the observed rate at a particular temperature. Rearranging the measured rate equation allows k to be calculated. Changing temperature generally changes k, while changing concentration at fixed temperature does not change the same reaction’s k.",
+          "If rate is mol dm⁻³ s⁻¹, first-order k has units s⁻¹, second-order k has dm³ mol⁻¹ s⁻¹ and zero-order k has mol dm⁻³ s⁻¹. Derive units by dividing rate units by the concentration terms, rather than memorizing without checking."
+        ],
+        "steps": [
+          "Rearrange k = rate / concentration factors.",
+          "Substitute concentration and rate values with units.",
+          "Cancel dimensions to find the units consistent with overall reaction order."
+        ],
+        "example": {
+          "q": "For rate = k[A][B], rate is 0.012 mol dm⁻³ s⁻¹ when [A] = 0.20 and [B] = 0.30 mol dm⁻³. Calculate k.",
+          "steps": [
+            "k = 0.012/(0.20 × 0.30).",
+            "k = 0.20 numerically.",
+            "Units = (mol dm⁻³ s⁻¹)/(mol² dm⁻⁶) = dm³ mol⁻¹ s⁻¹."
+          ],
+          "answer": "k = 0.20 dm³ mol⁻¹ s⁻¹."
+        },
+        "mistake": "The units of k are not always s⁻¹; they depend on overall order.",
+        "visual": {
+          "kind": "equation",
+          "title": "Rate constants and their units",
+          "labels": [
+            "rate = k[A][B]",
+            "k = rate / [A][B]",
+            "Second order",
+            "dm³ mol⁻¹ s⁻¹"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.12",
+        "title": "The Arrhenius relationship",
+        "hl": true,
+        "summary": "The temperature dependence of k allows activation energy to be calculated.",
+        "explain": [
+          "The Arrhenius equation is k = A e^(−Eₐ/RT). At higher T the negative exponent is less negative, so k generally increases. Use kelvin temperature and Eₐ in units compatible with R, normally J mol⁻¹.",
+          "Taking natural logarithms gives ln k = ln A − (Eₐ/R)(1/T). A plot of ln k against 1/T is linear with gradient −Eₐ/R and vertical intercept ln A. This separates activation energy from the pre-exponential factor."
+        ],
+        "steps": [
+          "Use the linear form and label axes ln k and 1/T.",
+          "Find the gradient of the best-fit line.",
+          "Calculate Eₐ = −gradient × R and convert J mol⁻¹ to kJ mol⁻¹ if required."
+        ],
+        "example": {
+          "q": "An Arrhenius graph of ln k against 1/T has gradient −6000 K. Find Eₐ using R = 8.31 J mol⁻¹ K⁻¹.",
+          "steps": [
+            "Gradient = −Eₐ/R.",
+            "Eₐ = −(−6000) × 8.31 = 49,860 J mol⁻¹.",
+            "Convert by dividing by 1000."
+          ],
+          "answer": "Eₐ = 49.9 kJ mol⁻¹."
+        },
+        "mistake": "The horizontal axis is 1/T, not T, and ln means natural logarithm.",
+        "visual": {
+          "kind": "graph",
+          "title": "The Arrhenius relationship",
+          "labels": [
+            "ln k",
+            "1/T",
+            "Slope = −Eₐ/R",
+            "Intercept = ln A"
+          ]
+        }
+      },
+      {
+        "id": "R2.2.13",
+        "title": "The Arrhenius factor",
+        "hl": true,
+        "summary": "The pre-exponential factor reflects collision frequency and suitable orientation.",
+        "explain": [
+          "The Arrhenius factor A includes how frequently potentially reactive encounters occur and how likely their orientations are to be productive. It is not itself the fraction of collisions with sufficient energy; that temperature-sensitive fraction is represented by the exponential term.",
+          "From an Arrhenius straight line, A is found by exponentiating the intercept: A = e^(intercept). Its units are the same as the units of k because the exponential term is dimensionless."
+        ],
+        "steps": [
+          "Find the y-intercept of an ln k versus 1/T plot.",
+          "Set ln A equal to that intercept.",
+          "Use the exponential function and give A the units of k."
+        ],
+        "example": {
+          "q": "A first-order reaction has an Arrhenius intercept of 20.0. Determine A.",
+          "steps": [
+            "The intercept equals ln A.",
+            "A = e²⁰ ≈ 4.85 × 10⁸.",
+            "A has the same units as first-order k, namely s⁻¹."
+          ],
+          "answer": "A ≈ 4.85 × 10⁸ s⁻¹."
+        },
+        "mistake": "Do not use 10^intercept when the plotted logarithm is ln.",
+        "visual": {
+          "kind": "equation",
+          "title": "The Arrhenius factor",
+          "labels": [
+            "Intercept = ln A",
+            "A = e^(intercept)",
+            "Frequency",
+            "Suitable orientation"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R2.3",
+    "name": "How far? The extent of chemical change",
+    "group": "Reactivity 2 · How much, how fast and how far?",
+    "sections": [
+      {
+        "id": "R2.3.1",
+        "title": "Dynamic equilibrium",
+        "hl": false,
+        "summary": "A closed system reaches equilibrium when forward and reverse rates are equal.",
+        "explain": [
+          "A reversible reaction proceeds in both directions. Starting with reactants, the forward process usually dominates initially; as products accumulate, the reverse process becomes more important. At dynamic equilibrium the rates become equal.",
+          "Equilibrium is dynamic because molecular events continue, even though macroscopic concentrations remain constant. A closed system prevents continuous loss or gain of material, allowing this balance to be maintained. The concentrations of products and reactants are not necessarily equal."
+        ],
+        "steps": [
+          "Check that both forward and reverse reactions are possible.",
+          "State that the system is closed and rates are equal.",
+          "Distinguish constant concentrations from equal concentrations."
+        ],
+        "example": {
+          "q": "A sealed mixture has constant reactant and product concentrations. Does this mean reaction has stopped?",
+          "steps": [
+            "A constant composition can indicate dynamic equilibrium.",
+            "Forward and reverse reactions continue at the same rate.",
+            "Equal rates cause no net concentration change."
+          ],
+          "answer": "No: molecular reactions continue with equal opposing rates."
+        },
+        "mistake": "Equilibrium means equal rates, not equal amounts.",
+        "visual": {
+          "kind": "equilibrium",
+          "title": "Dynamic equilibrium",
+          "labels": [
+            "Closed system",
+            "Forward reaction →",
+            "← Reverse reaction",
+            "Equal rates",
+            "Constant concentrations"
+          ]
+        }
+      },
+      {
+        "id": "R2.3.2",
+        "title": "Writing equilibrium-constant expressions",
+        "hl": false,
+        "summary": "The equilibrium law relates equilibrium concentrations to the balanced equation.",
+        "explain": [
+          "For a homogeneous reaction aA + bB ⇌ cC + dD, the concentration expression is K = [C]ᶜ[D]ᵈ / ([A]ᵃ[B]ᵇ). The powers come from stoichiometric coefficients. Square brackets denote equilibrium molar concentrations.",
+          "The expression corresponds to the equation exactly as written. Reversing or scaling the equation changes the expression and the numerical value of its constant. In this topic the guide assesses homogeneous equilibrium expressions, with all participating species in the same phase."
+        ],
+        "steps": [
+          "Balance the homogeneous equilibrium equation.",
+          "Put product concentrations in the numerator and reactants in the denominator.",
+          "Raise each concentration to its coefficient."
+        ],
+        "example": {
+          "q": "Write K for N₂(g) + 3H₂(g) ⇌ 2NH₃(g).",
+          "steps": [
+            "Products go above the division line.",
+            "The coefficient 2 becomes the power on [NH₃].",
+            "Reactant coefficients become powers 1 and 3."
+          ],
+          "answer": "K = [NH₃]² / ([N₂][H₂]³)."
+        },
+        "mistake": "Do not multiply concentration by its coefficient; use the coefficient as an exponent.",
+        "visual": {
+          "kind": "equation",
+          "title": "Writing equilibrium-constant expressions",
+          "labels": [
+            "Products numerator",
+            "Reactants denominator",
+            "Coefficients become powers",
+            "Equilibrium concentrations"
+          ]
+        }
+      },
+      {
+        "id": "R2.3.3",
+        "title": "What the size of K tells you",
+        "hl": false,
+        "summary": "K indicates the equilibrium tendency toward products or reactants at a stated temperature.",
+        "explain": [
+          "If K is much greater than one, the product concentration terms dominate the expression; if K is much less than one, reactant terms dominate. K near one means neither side overwhelmingly dominates in this concentration-product sense.",
+          "The value is temperature dependent. For the reverse reaction at the same temperature, K_reverse = 1/K_forward. A large K describes extent, not speed: a thermodynamically product-favoured reaction can still be kinetically slow."
+        ],
+        "steps": [
+          "Read K relative to one.",
+          "Describe the favoured side without claiming the reaction is fast.",
+          "For the reverse equation, take the reciprocal at the same temperature."
+        ],
+        "example": {
+          "q": "A reaction has K = 2.0 × 10⁴ at a specified temperature. Find K for the reverse reaction.",
+          "steps": [
+            "The forward direction strongly favours product terms at equilibrium.",
+            "Reverse constant = 1/(2.0 × 10⁴).",
+            "Evaluate the reciprocal."
+          ],
+          "answer": "K_reverse = 5.0 × 10⁻⁵."
+        },
+        "mistake": "A large equilibrium constant does not imply a high reaction rate.",
+        "visual": {
+          "kind": "comparison",
+          "title": "What the size of K tells you",
+          "labels": [
+            "K ≪ 1: reactant-favoured",
+            "K ≈ 1: neither dominates",
+            "K ≫ 1: product-favoured",
+            "Reverse K = 1/K"
+          ]
+        }
+      },
+      {
+        "id": "R2.3.4",
+        "title": "Le Châtelier’s principle",
+        "hl": false,
+        "summary": "An equilibrium system responds to a disturbance by opposing its effect.",
+        "explain": [
+          "Adding a reactant usually shifts a reversible reaction toward products; removing a product has a similar effect. Compressing a gaseous equilibrium favours the side with fewer gas moles, if the counts differ. These changes alter equilibrium composition but do not change K at fixed temperature.",
+          "Temperature is different: heating favours the endothermic direction and changes K. A catalyst affects how quickly equilibrium is reached but not the equilibrium composition, because both directions are accelerated. Apply the principle to physical equilibria too, such as a gas dissolving in water."
+        ],
+        "steps": [
+          "Identify the disturbed variable: concentration, pressure or temperature.",
+          "For pressure, count gaseous coefficients; for temperature, identify the endothermic direction.",
+          "State the composition change separately from whether K changes."
+        ],
+        "example": {
+          "q": "For exothermic N₂ + 3H₂ ⇌ 2NH₃, predict the effects of compression and heating.",
+          "steps": [
+            "Compression favours the right: 2 gas moles rather than 4.",
+            "Heating favours the endothermic reverse reaction, decreasing the equilibrium ammonia amount.",
+            "Compression leaves K unchanged at fixed T; heating changes K and lowers it for this forward exothermic equation."
+          ],
+          "answer": "Compression favours NH₃; heating favours reactants and decreases forward K."
+        },
+        "mistake": "Only a temperature change changes the equilibrium constant for a fixed equation.",
+        "visual": {
+          "kind": "equilibrium",
+          "title": "Le Châtelier’s principle",
+          "labels": [
+            "Add reactant → products",
+            "Compress → fewer gas moles",
+            "Heat → endothermic direction",
+            "Catalyst: no shift"
+          ]
+        }
+      },
+      {
+        "id": "R2.3.5",
+        "title": "Reaction quotient and direction",
+        "hl": true,
+        "summary": "Compare the current reaction quotient Q with K to predict net change.",
+        "explain": [
+          "The reaction quotient Q uses the same concentration expression as K, but the concentrations may be measured at any instant, not only equilibrium. Comparing Q with the equilibrium value shows which side must increase.",
+          "If Q < K, the ratio of product terms is too small, so net forward reaction increases Q. If Q > K, net reverse reaction lowers Q. If Q = K, the system is at equilibrium at that temperature."
+        ],
+        "steps": [
+          "Write the correct equilibrium expression.",
+          "Insert current concentrations to calculate Q.",
+          "Compare with K and predict forward, reverse or no net reaction."
+        ],
+        "example": {
+          "q": "For A ⇌ B, K = 4.0. At an instant [A] = 0.50 and [B] = 0.25 mol dm⁻³. Predict direction.",
+          "steps": [
+            "Q = [B]/[A] = 0.25/0.50 = 0.50.",
+            "Q = 0.50 is below K = 4.0.",
+            "Net A → B increases the product-to-reactant ratio."
+          ],
+          "answer": "The net reaction proceeds forward toward B."
+        },
+        "mistake": "Do not use initial concentrations as if they are necessarily equilibrium values.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Reaction quotient and direction",
+          "labels": [
+            "Q < K: forward",
+            "Q = K: equilibrium",
+            "Q > K: reverse"
+          ]
+        }
+      },
+      {
+        "id": "R2.3.6",
+        "title": "Calculating equilibrium composition",
+        "hl": true,
+        "summary": "Use a concentration-change table with stoichiometric changes to solve equilibrium problems.",
+        "explain": [
+          "An initial-change-equilibrium table tracks how the concentrations change as a reversible reaction approaches equilibrium. Each change is proportional to the balanced coefficient. Substitute the equilibrium row into the K expression.",
+          "The guide does not expect quadratic equations here. For a very small K, a small dissociation may justify approximating the remaining reactant concentration by its initial value. Always check that the calculated change really is small relative to that initial concentration."
+        ],
+        "steps": [
+          "Write initial concentrations and represent the reaction change by x.",
+          "Use coefficients to write every equilibrium concentration.",
+          "Substitute into K, use an allowed small-change approximation if appropriate, and check the result."
+        ],
+        "example": {
+          "q": "For A ⇌ B + C, initially [A] = 0.100 mol dm⁻³ and no products; K = 1.0 × 10⁻⁶. Estimate equilibrium [B].",
+          "steps": [
+            "At equilibrium [B] = [C] = x and [A] = 0.100 − x.",
+            "Assume x is small: K ≈ x²/0.100.",
+            "x = √(1.0 × 10⁻⁶ × 0.100) = 3.16 × 10⁻⁴ mol dm⁻³, only about 0.32% of initial A."
+          ],
+          "answer": "[B] ≈ 3.16 × 10⁻⁴ mol dm⁻³."
+        },
+        "mistake": "Use stoichiometry for every change; not every reaction produces equal concentrations of all products.",
+        "visual": {
+          "kind": "table",
+          "title": "Calculating equilibrium composition",
+          "labels": [
+            "Initial",
+            "Change by coefficient × x",
+            "Equilibrium",
+            "Substitute into K",
+            "Check approximation"
+          ]
+        }
+      },
+      {
+        "id": "R2.3.7",
+        "title": "Gibbs energy and equilibrium constants",
+        "hl": true,
+        "summary": "The relation ΔG° = −RT ln K connects thermodynamics with equilibrium.",
+        "explain": [
+          "The standard Gibbs energy change and equilibrium constant describe the same thermodynamic preference in different forms. A negative ΔG° corresponds to K > 1, while positive ΔG° corresponds to K < 1. If ΔG° = 0, K = 1.",
+          "In ΔG° = −RT ln K, use kelvin, natural logarithms and consistent joule units. Distinguish standard ΔG° from actual ΔG: at equilibrium actual ΔG is zero, but the standard value need not be zero unless K is one."
+        ],
+        "steps": [
+          "Convert T to kelvin and ΔG° to J mol⁻¹ if needed.",
+          "Use ΔG° = −RT ln K or rearrange to ln K = −ΔG°/(RT).",
+          "Check that the sign of ΔG° agrees with whether K is above or below one."
+        ],
+        "example": {
+          "q": "Calculate ΔG° at 298 K when K = 100. Use R = 8.31 J mol⁻¹ K⁻¹.",
+          "steps": [
+            "ln 100 = 4.605.",
+            "ΔG° = −8.31 × 298 × 4.605 = −11,400 J mol⁻¹ approximately.",
+            "Divide by 1000."
+          ],
+          "answer": "ΔG° ≈ −11.4 kJ mol⁻¹."
+        },
+        "mistake": "At equilibrium, ΔG = 0 does not mean ΔG° = 0 for every reaction.",
+        "visual": {
+          "kind": "equation",
+          "title": "Gibbs energy and equilibrium constants",
+          "labels": [
+            "ΔG° = −RT ln K",
+            "K > 1 → ΔG° < 0",
+            "K < 1 → ΔG° > 0",
+            "K = 1 → ΔG° = 0"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R3.1",
+    "name": "Proton transfer reactions",
+    "group": "Reactivity 3 · Mechanisms of chemical change",
+    "sections": [
+      {
+        "id": "R3.1.1",
+        "title": "Brønsted–Lowry acids and bases",
+        "hl": false,
+        "summary": "An acid donates a proton; a base accepts a proton.",
+        "explain": [
+          "The Brønsted–Lowry model defines an acid or base by what it does in a particular reaction. An acid loses H⁺, while a base gains it. In water, H⁺ can also be represented as H₃O⁺ because a proton is associated with water molecules.",
+          "A base is a proton acceptor; an alkali is a base that dissolves in water and produces an alkaline solution. Therefore all alkalis are bases, but an insoluble basic solid need not be an alkali."
+        ],
+        "steps": [
+          "Compare each reactant with the product containing the same atoms.",
+          "The species that loses one H⁺ acts as acid.",
+          "The species that gains H⁺ acts as base."
+        ],
+        "example": {
+          "q": "Identify acid and base in NH₃ + H₂O ⇌ NH₄⁺ + OH⁻.",
+          "steps": [
+            "NH₃ gains H⁺ to form NH₄⁺.",
+            "H₂O loses H⁺ to form OH⁻.",
+            "Therefore ammonia accepts and water donates the proton."
+          ],
+          "answer": "NH₃ is the base; H₂O is the acid."
+        },
+        "mistake": "Do not identify acids only from whether their formula begins with H.",
+        "visual": {
+          "kind": "proton",
+          "title": "Brønsted–Lowry acids and bases",
+          "labels": [
+            "Acid donates H⁺",
+            "Base accepts H⁺",
+            "NH₃ → NH₄⁺",
+            "H₂O → OH⁻"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.2",
+        "title": "Conjugate acid–base pairs",
+        "hl": false,
+        "summary": "A conjugate pair differs by exactly one proton.",
+        "explain": [
+          "When an acid donates a proton, the remaining species is its conjugate base. When a base accepts a proton, it becomes its conjugate acid. Their formulas differ by one H atom and a charge of one unit.",
+          "In a complete proton-transfer reaction there are two conjugate acid–base pairs. Match species by the same underlying atoms, rather than pairing two reactants merely because they react together."
+        ],
+        "steps": [
+          "Remove H⁺ to find an acid’s conjugate base.",
+          "Add H⁺ to find a base’s conjugate acid.",
+          "Check that both atom count and charge change correctly."
+        ],
+        "example": {
+          "q": "Find the conjugate acid and conjugate base of HCO₃⁻.",
+          "steps": [
+            "Adding H⁺ produces H₂CO₃ with zero charge.",
+            "Removing H⁺ produces CO₃²⁻.",
+            "Both differ from HCO₃⁻ by one proton."
+          ],
+          "answer": "Conjugate acid H₂CO₃; conjugate base CO₃²⁻."
+        },
+        "mistake": "Removing H⁺ makes charge one unit more negative.",
+        "visual": {
+          "kind": "proton",
+          "title": "Conjugate acid–base pairs",
+          "labels": [
+            "HA ⇌ H⁺ + A⁻",
+            "Acid / conjugate base",
+            "B + H⁺ ⇌ BH⁺",
+            "Base / conjugate acid"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.3",
+        "title": "Species that can donate or accept protons",
+        "hl": false,
+        "summary": "An amphiprotic species can act as an acid or a base depending on its reaction partner.",
+        "explain": [
+          "Water and hydrogencarbonate can both donate and accept a proton. Their role cannot be fixed from the formula alone: it depends on the other reacting species.",
+          "To demonstrate amphiprotic behaviour, write one reaction where the species loses H⁺ and another where it gains H⁺. Charge and atom balance must remain correct in both equations."
+        ],
+        "steps": [
+          "Find an available proton that could be donated.",
+          "Find a site capable of accepting a proton.",
+          "Write and balance one equation for each role."
+        ],
+        "example": {
+          "q": "Show the two proton-transfer roles of water.",
+          "steps": [
+            "With HCl, water accepts H⁺: HCl + H₂O → H₃O⁺ + Cl⁻.",
+            "With NH₃, water donates H⁺: NH₃ + H₂O ⇌ NH₄⁺ + OH⁻.",
+            "Water therefore acts as base or acid depending on the partner."
+          ],
+          "answer": "Water is amphiprotic."
+        },
+        "mistake": "Amphiprotic means proton donation and acceptance, not simply having both positive and negative ions.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Species that can donate or accept protons",
+          "labels": [
+            "H₂O accepts H⁺ → H₃O⁺",
+            "H₂O donates H⁺ → OH⁻",
+            "Role depends on partner"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.4",
+        "title": "The pH scale",
+        "hl": false,
+        "summary": "pH = −log₁₀[H⁺] converts hydrogen-ion concentration into a logarithmic scale.",
+        "explain": [
+          "Every change of one pH unit represents a factor of ten in hydrogen-ion concentration. Lower pH means higher [H⁺]. Rearranging gives [H⁺] = 10^(−pH). Use the numerical concentration in mol dm⁻³ in these course calculations.",
+          "Universal indicator gives an approximate pH from its colour, while a calibrated pH probe provides a more precise numerical measurement. The scale is logarithmic, so equal concentration changes do not generally produce equal pH changes."
+        ],
+        "steps": [
+          "Identify whether [H⁺] or pH is the given quantity.",
+          "Use −log₁₀[H⁺] for pH or 10^(−pH) for concentration.",
+          "Check that increasing [H⁺] decreases the calculated pH."
+        ],
+        "example": {
+          "q": "Calculate pH when [H⁺] = 2.0 × 10⁻³ mol dm⁻³.",
+          "steps": [
+            "pH = −log₁₀(2.0 × 10⁻³).",
+            "log₁₀(2.0 × 10⁻³) ≈ −2.699.",
+            "Change the sign."
+          ],
+          "answer": "pH ≈ 2.70."
+        },
+        "mistake": "A solution at pH 2 has ten times, not twice, the [H⁺] of one at pH 3.",
+        "visual": {
+          "kind": "equation",
+          "title": "The pH scale",
+          "labels": [
+            "[H⁺] increases ×10",
+            "pH decreases by 1",
+            "pH = −log₁₀[H⁺]",
+            "[H⁺] = 10^(−pH)"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.5",
+        "title": "The ionic product of water",
+        "hl": false,
+        "summary": "Kw = [H⁺][OH⁻] links hydrogen and hydroxide concentrations at a given temperature.",
+        "explain": [
+          "Water undergoes a small amount of self-ionization. At a fixed temperature the product [H⁺][OH⁻] is constant, so increasing one ion’s concentration decreases the other’s. At 298 K, K_w = 1.0 × 10⁻¹⁴ for these concentration calculations.",
+          "A neutral solution has equal [H⁺] and [OH⁻]. An acidic solution has more H⁺ than OH⁻, while a basic solution has more OH⁻. Neutral does not always mean pH 7, because K_w changes with temperature; the pH 7 result applies at 298 K."
+        ],
+        "steps": [
+          "Use the correct K_w for the specified temperature.",
+          "Rearrange to find the missing ion concentration.",
+          "Compare [H⁺] with [OH⁻] to classify the solution."
+        ],
+        "example": {
+          "q": "At 298 K, find [OH⁻] when [H⁺] = 1.0 × 10⁻⁵ mol dm⁻³.",
+          "steps": [
+            "[OH⁻] = K_w/[H⁺].",
+            "[OH⁻] = 1.0 × 10⁻¹⁴ / 1.0 × 10⁻⁵.",
+            "[OH⁻] = 1.0 × 10⁻⁹ mol dm⁻³; H⁺ is greater than OH⁻."
+          ],
+          "answer": "1.0 × 10⁻⁹ mol dm⁻³; the solution is acidic."
+        },
+        "mistake": "Do not assume the neutral pH remains exactly 7 at every temperature.",
+        "visual": {
+          "kind": "equilibrium",
+          "title": "The ionic product of water",
+          "labels": [
+            "H₂O ⇌ H⁺ + OH⁻",
+            "Kw fixed at given T",
+            "Neutral: equal ions",
+            "298 K: Kw = 10⁻¹⁴"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.6",
+        "title": "Strong versus weak acids and bases",
+        "hl": false,
+        "summary": "Strength describes extent of ionization; concentration describes how much is dissolved.",
+        "explain": [
+          "A strong acid or base ionizes essentially completely in the relevant aqueous reaction; a weak one establishes an equilibrium with substantial unionized material. Strong and weak are therefore different from concentrated and dilute.",
+          "At equal analytical concentration, a strong monoprotic acid generally gives higher [H⁺], lower pH and higher electrical conductivity than a weak acid. The equilibrium direction favours the weaker conjugate acid–base system. The guide lists HCl, HBr, HI, HNO₃ and H₂SO₄ as strong acids, and group 1 hydroxides as strong bases in solution."
+        ],
+        "steps": [
+          "Identify whether the question concerns extent of ionization or amount per volume.",
+          "Use complete ionization for a strong monoprotic acid under appropriate dilute conditions.",
+          "For a weak acid, show a reversible equilibrium rather than assuming [H⁺] equals initial concentration."
+        ],
+        "example": {
+          "q": "Explain why 0.10 mol dm⁻³ ethanoic acid has a higher pH than 0.10 mol dm⁻³ HCl.",
+          "steps": [
+            "HCl is a strong acid and ionizes essentially fully.",
+            "Ethanoic acid is weak and only partly ionizes.",
+            "Its [H⁺] is lower at the same analytical concentration."
+          ],
+          "answer": "Partial ionization gives the weak acid a higher pH."
+        },
+        "mistake": "A concentrated weak acid is not thereby a strong acid.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Strong versus weak acids and bases",
+          "labels": [
+            "Strong: extensive ionization",
+            "Weak: partial ionization",
+            "Concentrated: much per volume",
+            "Dilute: little per volume"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.7",
+        "title": "Neutralization and salt formation",
+        "hl": false,
+        "summary": "Acids react with bases to form salts, with products depending on the type of base.",
+        "explain": [
+          "For an acid reacting with a hydroxide, the core neutralization is H⁺ + OH⁻ → H₂O. Metal oxides also consume acid to form a salt and water. Carbonates and hydrogencarbonates additionally release carbon dioxide.",
+          "Ammonia and amines are bases because their nitrogen lone pair accepts a proton, producing ammonium or substituted ammonium salts. To identify a salt’s parent acid and base, trace its anion to the acid and its cation to the base."
+        ],
+        "steps": [
+          "Identify the acid anion and the base-derived cation.",
+          "Write the correct salt formula by charge balance.",
+          "Add water and, for carbonate/hydrogencarbonate, CO₂, then balance."
+        ],
+        "example": {
+          "q": "Write the reaction between hydrochloric acid and sodium carbonate.",
+          "steps": [
+            "Salt from Na⁺ and Cl⁻ is NaCl.",
+            "Carbonate with acid gives CO₂ and H₂O.",
+            "Balance requires two HCl for one Na₂CO₃."
+          ],
+          "answer": "Na₂CO₃ + 2HCl → 2NaCl + H₂O + CO₂."
+        },
+        "mistake": "An acid–carbonate reaction produces CO₂, not H₂.",
+        "visual": {
+          "kind": "equation",
+          "title": "Neutralization and salt formation",
+          "labels": [
+            "Acid + hydroxide → salt + water",
+            "Acid + carbonate → salt + water + CO₂",
+            "Ammonia + H⁺ → NH₄⁺"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.8",
+        "title": "Strong acid–strong base titration curves",
+        "hl": false,
+        "summary": "The equivalence point occurs when acid and base have reacted in the stoichiometric ratio.",
+        "explain": [
+          "A titration curve plots pH against added titrant volume. Starting with a strong acid and adding strong base gives low initial pH, gradual rise, a steep jump near equivalence and a high-pH region after excess base accumulates.",
+          "For a monoprotic strong acid–strong base titration at 298 K, the equivalence point is approximately pH 7. It is the stoichiometric point, not necessarily the midpoint of the added volume scale. Use n = CV and the balanced ratio to determine unknown concentrations."
+        ],
+        "steps": [
+          "Identify which solution is initially present and which is added.",
+          "Locate the steep inflection region and equivalence volume.",
+          "Apply the mole ratio at equivalence; explain the post-equivalence region using excess titrant."
+        ],
+        "example": {
+          "q": "25.0 cm³ of HCl is neutralized by 20.0 cm³ of 0.100 mol dm⁻³ NaOH. Find [HCl].",
+          "steps": [
+            "n(NaOH) = 0.100 × 0.0200 = 0.00200 mol.",
+            "HCl:NaOH = 1:1, so n(HCl) = 0.00200 mol.",
+            "[HCl] = 0.00200/0.0250 = 0.0800 mol dm⁻³."
+          ],
+          "answer": "0.0800 mol dm⁻³."
+        },
+        "mistake": "Equal volumes are not required at equivalence unless the reacting concentrations and ratio make them equal.",
+        "visual": {
+          "kind": "titration",
+          "title": "Strong acid–strong base titration curves",
+          "labels": [
+            "Low initial pH",
+            "Steep pH rise",
+            "Equivalence: stoichiometric",
+            "Excess base region"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.9",
+        "title": "pOH and acid–base conversions",
+        "hl": true,
+        "summary": "pOH = −log₁₀[OH⁻]; at 298 K pH + pOH = 14.00.",
+        "explain": [
+          "The pOH scale is the hydroxide analogue of pH. A high hydroxide concentration gives a small pOH. Taking logarithms of K_w = [H⁺][OH⁻] gives pH + pOH = pK_w.",
+          "At 298 K, pK_w = 14.00, but use the temperature-appropriate value in other conditions. A strong base may produce more than one hydroxide per formula unit, so count stoichiometry before converting to pOH."
+        ],
+        "steps": [
+          "Find [OH⁻] or pOH from the given information.",
+          "Use pOH = −log₁₀[OH⁻] or [OH⁻] = 10^(−pOH).",
+          "Interconvert pH and pOH with pK_w at the stated temperature."
+        ],
+        "example": {
+          "q": "Find the pH of 0.0200 mol dm⁻³ NaOH at 298 K.",
+          "steps": [
+            "NaOH dissociates to give [OH⁻] = 0.0200 mol dm⁻³.",
+            "pOH = −log₁₀(0.0200) = 1.699.",
+            "pH = 14.00 − 1.699 = 12.301."
+          ],
+          "answer": "pH ≈ 12.30."
+        },
+        "mistake": "Do not call −log[OH⁻] the pH; it is pOH.",
+        "visual": {
+          "kind": "equation",
+          "title": "pOH and acid–base conversions",
+          "labels": [
+            "pOH = −log[OH⁻]",
+            "pH + pOH = pKw",
+            "At 298 K: 14.00"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.10",
+        "title": "Ka, Kb, pKa and pKb",
+        "hl": true,
+        "summary": "Equilibrium constants quantify the strengths of weak acids and bases.",
+        "explain": [
+          "For HA ⇌ H⁺ + A⁻, K_a = [H⁺][A⁻]/[HA]. A larger K_a means more extensive acid ionization, hence a stronger acid. Similarly, a larger K_b means a stronger weak base.",
+          "pK_a = −log₁₀K_a and pK_b = −log₁₀K_b reverse the numerical trend: lower pK_a means stronger acid; lower pK_b means stronger base. These quantities describe the equilibrium tendency, not how much acid or base was initially added."
+        ],
+        "steps": [
+          "Identify whether the data are K or pK values.",
+          "For K compare larger as stronger; for pK compare smaller as stronger.",
+          "Write the appropriate ionization equilibrium before calculating concentrations."
+        ],
+        "example": {
+          "q": "Acids A and B have pKa values 3.0 and 5.0. Which is stronger and by what factor do Ka values differ?",
+          "steps": [
+            "K_a(A) = 10⁻³ and K_a(B) = 10⁻⁵.",
+            "10⁻³/10⁻⁵ = 100.",
+            "The lower pK_a corresponds to the larger K_a."
+          ],
+          "answer": "A is stronger; its Ka is 100 times larger."
+        },
+        "mistake": "A higher pKa means a weaker acid, not a stronger one.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Ka, Kb, pKa and pKb",
+          "labels": [
+            "Larger Ka → stronger acid",
+            "Smaller pKa → stronger acid",
+            "Ka = 10^(−pKa)"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.11",
+        "title": "Conjugate constants and weak-acid calculations",
+        "hl": true,
+        "summary": "For a conjugate pair, KaKb = Kw; small ionization can simplify pH calculations.",
+        "explain": [
+          "Multiplying the acid-ionization constant of HA by the base constant of A⁻ cancels the conjugate concentrations, leaving K_w. A stronger acid therefore has a weaker conjugate base. At 298 K, pK_a + pK_b = 14.00 for that conjugate pair.",
+          "For a weak monoprotic acid with concentration c and small ionization, [H⁺] ≈ √(K_a c). The guide does not expect quadratic solutions, but you must recognize the approximation and check that calculated ionization is small relative to c. The corresponding weak-base result uses [OH⁻] ≈ √(K_b c)."
+        ],
+        "steps": [
+          "Use K_aK_b = K_w only for a conjugate acid–base pair.",
+          "For a weak-acid pH, write the equilibrium and let ionized concentration be x.",
+          "If justified, approximate remaining acid as c and solve x²/c = K_a."
+        ],
+        "example": {
+          "q": "Estimate the pH of 0.100 mol dm⁻³ HA with Ka = 1.0 × 10⁻⁵.",
+          "steps": [
+            "[H⁺] ≈ √(K_a c) = √(1.0 × 10⁻⁶) = 1.0 × 10⁻³ mol dm⁻³.",
+            "This is 1% of c, so the small-change approximation is reasonable.",
+            "pH = −log₁₀(10⁻³) = 3.00."
+          ],
+          "answer": "Estimated pH = 3.00."
+        },
+        "mistake": "K_aK_b = K_w does not connect arbitrary unrelated acids and bases.",
+        "visual": {
+          "kind": "equilibrium",
+          "title": "Conjugate constants and weak-acid calculations",
+          "labels": [
+            "HA / A⁻ conjugate pair",
+            "Ka × Kb = Kw",
+            "Small x: [HA] ≈ c",
+            "[H⁺] ≈ √Ka c"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.12",
+        "title": "Salt hydrolysis and pH",
+        "hl": true,
+        "summary": "Some salt ions react with water, so a dissolved salt need not give neutral pH.",
+        "explain": [
+          "An ion derived from a weak base can act as an acid. For example NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺ makes solution acidic. An ion derived from a weak acid can act as a base: RCOO⁻ + H₂O ⇌ RCOOH + OH⁻ makes solution basic.",
+          "Carbonate accepts a proton from water to form hydrogencarbonate and OH⁻. Hydrogencarbonate can both donate and accept protons, so its net pH effect depends on the competing equilibria. Do not assume every salt is neutral; assess its ions and their parent acid/base strengths."
+        ],
+        "steps": [
+          "Separate the dissolved salt into its ions.",
+          "Identify an ion capable of proton transfer with water.",
+          "Write the hydrolysis equilibrium and determine whether H₃O⁺ or OH⁻ is produced."
+        ],
+        "example": {
+          "q": "Predict whether aqueous sodium ethanoate is acidic, neutral or basic.",
+          "steps": [
+            "Na⁺ has negligible acid–base effect in this course context.",
+            "CH₃COO⁻ is the conjugate base of weak ethanoic acid.",
+            "CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻ generates hydroxide."
+          ],
+          "answer": "Basic."
+        },
+        "mistake": "A salt made from acid and base is not automatically pH 7 after dissolution.",
+        "visual": {
+          "kind": "proton",
+          "title": "Salt hydrolysis and pH",
+          "labels": [
+            "NH₄⁺ → H₃O⁺ production",
+            "RCOO⁻ → OH⁻ production",
+            "CO₃²⁻ accepts H⁺",
+            "HCO₃⁻ amphiprotic"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.13",
+        "title": "Weak/strong titration-curve combinations",
+        "hl": true,
+        "summary": "Acid and base strengths determine initial pH, buffer regions and equivalence-point pH.",
+        "explain": [
+          "In a weak-acid–strong-base titration, a buffer region appears before equivalence and pH = pK_a at half-equivalence. The equivalence solution contains the weak acid’s conjugate base, so pH is above 7 at 298 K. A weak-base–strong-acid titration instead has an acidic equivalence solution and pOH = pK_b at half-equivalence.",
+          "Strong-acid–strong-base titrations have the steepest clear equivalence region. Weak-acid–weak-base titrations lack such a sharp jump; equivalence pH depends on their relative constants. Add small titrant increments near a rapid pH change when collecting experimental data."
+        ],
+        "steps": [
+          "Identify both acid and base as strong or weak.",
+          "Use the salt at equivalence to predict acidic, neutral or basic pH.",
+          "Locate buffer and half-equivalence regions where applicable."
+        ],
+        "example": {
+          "q": "In a weak-acid–strong-base titration, half-equivalence pH is 4.80. What is pKa and is equivalence above or below pH 7 at 298 K?",
+          "steps": [
+            "At half-equivalence, [HA] and [A⁻] are equal.",
+            "Therefore pH = pK_a = 4.80.",
+            "At equivalence, conjugate base hydrolysis makes the solution basic."
+          ],
+          "answer": "pKa = 4.80; equivalence pH is above 7."
+        },
+        "mistake": "Half-equivalence and equivalence are different points.",
+        "visual": {
+          "kind": "titration",
+          "title": "Weak/strong titration-curve combinations",
+          "labels": [
+            "Initial weak-acid pH",
+            "Buffer region",
+            "Half-equivalence: pH = pKa",
+            "Equivalence: basic"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.14",
+        "title": "Acid–base indicators",
+        "hl": true,
+        "summary": "Indicator colours depend on the ratio of two differently coloured conjugate forms.",
+        "explain": [
+          "An indicator can be represented as HInd ⇌ H⁺ + Ind⁻. The undissociated and deprotonated forms have different colours. Adding acid shifts the equilibrium toward HInd; adding base removes H⁺ and favours Ind⁻.",
+          "When the two forms have similar concentrations, a visible colour transition occurs near pH = pK_a of the indicator. Universal indicator is a mixture of several indicators, allowing approximate pH estimation across a wider range."
+        ],
+        "steps": [
+          "Write HInd ⇌ H⁺ + Ind⁻.",
+          "Apply the equilibrium response to adding H⁺ or removing H⁺.",
+          "Associate the observed colour with the dominant indicator form."
+        ],
+        "example": {
+          "q": "An indicator is red as HInd and yellow as Ind⁻. Predict its colour after adding excess acid.",
+          "steps": [
+            "Excess acid increases [H⁺].",
+            "The equilibrium shifts left toward HInd.",
+            "The red form becomes dominant."
+          ],
+          "answer": "Red."
+        },
+        "mistake": "The indicator changes colour over a range, not at one perfectly exact pH.",
+        "visual": {
+          "kind": "equilibrium",
+          "title": "Acid–base indicators",
+          "labels": [
+            "HInd: colour 1",
+            "H⁺",
+            "Ind⁻: colour 2",
+            "Transition near pKa"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.15",
+        "title": "Choosing a titration indicator",
+        "hl": true,
+        "summary": "The indicator transition range should fall inside the steep pH change near equivalence.",
+        "explain": [
+          "The equivalence point is fixed by stoichiometry: the correct reacting mole ratio has been added. The end point is the observed signal, such as an indicator colour change. A useful indicator makes these occur as close together as practical.",
+          "Choose an indicator from its stated transition range and the titration curve, rather than choosing one by habit. A weak-acid–strong-base titration requires a transition within its steep basic region; a weak-base–strong-acid titration needs one in the steep acidic region."
+        ],
+        "steps": [
+          "Determine whether equivalence is acidic, neutral or basic.",
+          "Identify the steep pH interval around equivalence.",
+          "Select an indicator whose transition range lies within that interval."
+        ],
+        "example": {
+          "q": "A weak-acid–strong-base curve has a sharp jump from pH 7.5 to 10.0. Compare indicators changing at 3.1–4.4 and 8.2–10.0.",
+          "steps": [
+            "The acidic-range indicator changes long before equivalence.",
+            "The 8.2–10.0 indicator changes inside the steep jump.",
+            "Its end-point volume should therefore be close to the equivalence volume."
+          ],
+          "answer": "Choose the indicator with range 8.2–10.0."
+        },
+        "mistake": "An end point is an observation; it is not the definition of equivalence.",
+        "visual": {
+          "kind": "titration",
+          "title": "Choosing a titration indicator",
+          "labels": [
+            "Stoichiometric equivalence",
+            "Observed end point",
+            "Steep pH jump",
+            "Matching indicator range"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.16",
+        "title": "How buffers work",
+        "hl": true,
+        "summary": "A buffer contains appreciable amounts of a weak acid/base and its conjugate partner.",
+        "explain": [
+          "An acidic buffer typically contains HA and A⁻. Added H⁺ is consumed by A⁻ to form HA; added OH⁻ is consumed by HA to form A⁻ and water. Both components are needed so the solution can respond to either addition.",
+          "A basic buffer can contain a weak base such as NH₃ and its conjugate acid NH₄⁺. Buffers resist small pH changes; they do not prevent every change and can be overwhelmed once a component is largely consumed. A strong acid alone lacks a substantial conjugate-base reservoir and is not a buffer."
+        ],
+        "steps": [
+          "Identify the weak acid/base and its conjugate partner.",
+          "Write how one component consumes added H⁺.",
+          "Write how the other consumes added OH⁻ and note finite capacity."
+        ],
+        "example": {
+          "q": "Explain how an ethanoic acid/ethanoate buffer responds to a little NaOH.",
+          "steps": [
+            "OH⁻ reacts with the weak acid component.",
+            "CH₃COOH + OH⁻ → CH₃COO⁻ + H₂O.",
+            "The ratio of acid to conjugate base changes only a little if both were abundant."
+          ],
+          "answer": "Most added OH⁻ is consumed, limiting the pH rise."
+        },
+        "mistake": "A buffer does not keep pH perfectly constant and has finite capacity.",
+        "visual": {
+          "kind": "proton",
+          "title": "How buffers work",
+          "labels": [
+            "HA consumes OH⁻",
+            "A⁻ consumes H⁺",
+            "Both components needed",
+            "Limited pH change"
+          ]
+        }
+      },
+      {
+        "id": "R3.1.17",
+        "title": "Calculating buffer pH and dilution effects",
+        "hl": true,
+        "summary": "Buffer pH depends on its conjugate ratio as well as its equilibrium constant.",
+        "explain": [
+          "Rearranging K_a = [H⁺][A⁻]/[HA] gives [H⁺] = K_a[HA]/[A⁻]. Thus equal acid and conjugate-base concentrations give pH = pK_a. Increasing the base-to-acid ratio raises pH; adding acid lowers it.",
+          "Before an equilibrium calculation after adding strong acid or base, account for the stoichiometric neutralization of the buffer components. Simple dilution approximately preserves their ratio and hence pH, but lowers buffer capacity because less of each component remains per unit volume."
+        ],
+        "steps": [
+          "Determine moles of HA and A⁻ after any added strong acid/base has reacted.",
+          "Use their concentration ratio in [H⁺] = K_a[HA]/[A⁻].",
+          "Calculate pH; for dilution distinguish almost unchanged ratio from reduced capacity."
+        ],
+        "example": {
+          "q": "A buffer has [HA] = 0.20 and [A⁻] = 0.10 mol dm⁻³ with Ka = 1.0 × 10⁻⁵. Estimate pH.",
+          "steps": [
+            "[H⁺] = K_a[HA]/[A⁻].",
+            "[H⁺] = 1.0 × 10⁻⁵ × 0.20/0.10 = 2.0 × 10⁻⁵.",
+            "pH = −log₁₀(2.0 × 10⁻⁵) ≈ 4.70."
+          ],
+          "answer": "pH ≈ 4.70."
+        },
+        "mistake": "Use the post-neutralization buffer composition, not the original amounts, after adding strong acid or base.",
+        "visual": {
+          "kind": "ratio",
+          "title": "Calculating buffer pH and dilution effects",
+          "labels": [
+            "Ka",
+            "[HA] / [A⁻]",
+            "Calculate [H⁺]",
+            "Dilution: similar pH, less capacity"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R3.2",
+    "name": "Electron transfer reactions",
+    "group": "Reactivity 3 · Mechanisms of chemical change",
+    "sections": [
+      {
+        "id": "R3.2.1",
+        "title": "Oxidation states and redox agents",
+        "hl": false,
+        "summary": "Oxidation increases oxidation state; reduction decreases it.",
+        "explain": [
+          "Oxidation can be tracked as electron loss, an increase in oxidation number, oxygen gain or hydrogen loss. Reduction is the reverse: electron gain, a decrease in oxidation number, oxygen loss or hydrogen gain. The electron definition unifies reactions where no oxygen is involved. For assignments, an uncombined element has oxidation state 0 and a monatomic ion has its ion charge; hydrogen is usually +1 and oxygen usually −2, with exceptions handled from the formula and supplied context.",
+          "An oxidizing agent causes another species to be oxidized and is itself reduced. A reducing agent supplies electrons and is itself oxidized. Oxidation numbers are bookkeeping assignments; their sum equals the overall charge of a formula unit or ion."
+        ],
+        "steps": [
+          "Assign known oxidation numbers and use the total charge to find unknown values.",
+          "Identify which element increases or decreases its oxidation number.",
+          "Name the oxidizing agent as the reactant reduced and the reducing agent as the reactant oxidized."
+        ],
+        "example": {
+          "q": "In Zn + Cu²⁺ → Zn²⁺ + Cu, identify the oxidation, reduction and agents.",
+          "steps": [
+            "Zn changes from 0 to +2, so it loses two electrons and is oxidized.",
+            "Cu changes from +2 to 0, so Cu²⁺ gains electrons and is reduced.",
+            "The oxidized reactant is the reducing agent; the reduced reactant is the oxidizing agent."
+          ],
+          "answer": "Zn is reducing agent; Cu²⁺ is oxidizing agent."
+        },
+        "mistake": "The oxidizing agent is reduced; the words describe its effect on the other reactant.",
+        "visual": {
+          "kind": "electron",
+          "title": "Oxidation states and redox agents",
+          "labels": [
+            "Zn loses 2e⁻",
+            "Cu²⁺ gains 2e⁻",
+            "Oxidation number rises",
+            "Oxidation number falls"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.2",
+        "title": "Balancing redox half-equations",
+        "hl": false,
+        "summary": "Separate electron loss and gain, then combine so transferred electrons cancel.",
+        "explain": [
+          "A half-equation explicitly shows electrons and one of the two redox processes. In acidic aqueous solution, balance atoms other than O and H first, oxygen with H₂O, hydrogen with H⁺, then charge with electrons.",
+          "Multiply half-equations to give equal electron numbers before adding. The combined equation must conserve both atoms and charge. In neutral solutions use species appropriate to the stated medium; do not insert unsupported reactants merely to make a numerical balance work."
+        ],
+        "steps": [
+          "Balance the changing element, then O with water and H with H⁺ in acid.",
+          "Balance charge using electrons on the correct side.",
+          "Equalize electrons between half-equations, add, and cancel common species."
+        ],
+        "example": {
+          "q": "Balance MnO₄⁻ → Mn²⁺ in acidic solution.",
+          "steps": [
+            "Balance oxygen by adding 4H₂O on the right.",
+            "Balance hydrogen by adding 8H⁺ on the left.",
+            "Left charge is +7 and right is +2, so add 5e⁻ to the left."
+          ],
+          "answer": "MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O."
+        },
+        "mistake": "Electrons are added to the side that makes charge balance, not the side with more atoms.",
+        "visual": {
+          "kind": "equation",
+          "title": "Balancing redox half-equations",
+          "labels": [
+            "Balance O with H₂O",
+            "Balance H with H⁺",
+            "Balance charge with e⁻",
+            "Cancel electrons in full equation"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.3",
+        "title": "Reactivity and displacement",
+        "hl": false,
+        "summary": "Periodic position and displacement observations reveal relative oxidation or reduction tendencies.",
+        "explain": [
+          "An easily oxidized metal can transfer electrons to ions of a less easily oxidized metal, displacing the metal from solution. Down group 1, outer electrons are more shielded and more distant, so metal oxidation becomes easier.",
+          "Halogens show the opposite trend in reduction tendency: halogens higher in group 17 more readily gain electrons and can oxidize halide ions below them. In examination questions, metal-displacement evidence or supplied data should be used; a complete metal reactivity sequence need not be memorized for this outcome."
+        ],
+        "steps": [
+          "Identify which element would lose electrons and which ion would gain them.",
+          "Use supplied displacement evidence or relevant group trend.",
+          "Write balanced electron-transfer and overall equations if reaction is predicted."
+        ],
+        "example": {
+          "q": "Explain Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂.",
+          "steps": [
+            "Chlorine lies above bromine in group 17 and is more readily reduced.",
+            "Cl₂ gains two electrons; two Br⁻ ions lose two electrons.",
+            "Chlorine therefore displaces bromine from bromide solution."
+          ],
+          "answer": "Cl₂ is the oxidizing agent; Br⁻ is the reducing agent."
+        },
+        "mistake": "A halogen atom gaining an electron is reduced, even though its reactivity is being described.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Reactivity and displacement",
+          "labels": [
+            "More reactive metal → oxidation",
+            "Metal ion → reduction",
+            "Higher halogen displaces lower halide"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.4",
+        "title": "Reactive metals with dilute acids",
+        "hl": false,
+        "summary": "Some metals reduce hydrogen ions to hydrogen gas while forming metal ions.",
+        "explain": [
+          "When a reactive metal meets an appropriate dilute acid such as hydrochloric or sulfuric acid, the metal can lose electrons and H⁺ can gain them. The products are a salt and hydrogen gas.",
+          "The metal’s common ion charge controls the equation ratio. This is a redox reaction, not simply neutralization by a metal hydroxide. The formation of gas can help monitor the reaction rate."
+        ],
+        "steps": [
+          "Write metal → metal ion + electrons.",
+          "Use 2H⁺ + 2e⁻ → H₂ for the reduction.",
+          "Combine and include the acid’s spectator anion to write a molecular equation if asked."
+        ],
+        "example": {
+          "q": "Write the reaction of magnesium with dilute hydrochloric acid.",
+          "steps": [
+            "Mg → Mg²⁺ + 2e⁻.",
+            "2H⁺ + 2e⁻ → H₂.",
+            "Two chloride ions accompany Mg²⁺ in the salt."
+          ],
+          "answer": "Mg(s) + 2HCl(aq) → MgCl₂(aq) + H₂(g)."
+        },
+        "mistake": "Acid–metal reactions produce hydrogen; acid–carbonate reactions produce carbon dioxide.",
+        "visual": {
+          "kind": "electron",
+          "title": "Reactive metals with dilute acids",
+          "labels": [
+            "Mg → Mg²⁺ + 2e⁻",
+            "2H⁺ + 2e⁻ → H₂",
+            "Salt + hydrogen"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.5",
+        "title": "Anodes, cathodes and polarity",
+        "hl": false,
+        "summary": "Oxidation is always at the anode; reduction is always at the cathode.",
+        "explain": [
+          "The electrode names are defined by the reactions, not by a universal sign. The anode is where electrons are released by oxidation; the cathode is where electrons are consumed by reduction.",
+          "In a spontaneous voltaic cell the anode is negative and cathode positive. In an electrolytic cell, the external supply forces non-spontaneous change, so the anode is connected to positive and cathode to negative. Keep the definitions fixed while changing the signs according to cell type."
+        ],
+        "steps": [
+          "Identify which electrode reaction loses electrons: this is anode.",
+          "Identify electron gain: this is cathode.",
+          "Assign polarity only after identifying whether the cell is voltaic or electrolytic."
+        ],
+        "example": {
+          "q": "State the signs of the anode and cathode in an electrolytic cell.",
+          "steps": [
+            "The external supply removes electrons from the anode.",
+            "It supplies electrons to the cathode.",
+            "Thus oxidation is at positive and reduction at negative."
+          ],
+          "answer": "Electrolytic anode +; cathode −."
+        },
+        "mistake": "“Anode is always negative” is false; oxidation is the permanent definition.",
+        "visual": {
+          "kind": "cell",
+          "title": "Anodes, cathodes and polarity",
+          "labels": [
+            "Anode: oxidation always",
+            "Cathode: reduction always",
+            "Voltaic: anode −",
+            "Electrolytic: anode +"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.6",
+        "title": "Primary voltaic cells",
+        "hl": false,
+        "summary": "A spontaneous redox reaction can drive electron flow through an external circuit.",
+        "explain": [
+          "A voltaic cell separates oxidation and reduction into connected half-cells. Electrons flow in the external wire from the anode to the cathode. Separating the half-reactions allows useful electrical work rather than direct local electron transfer.",
+          "A salt bridge completes the ionic circuit and prevents charge build-up. In a common metal/metal-ion cell, anions move toward the anode compartment where positive metal ions are produced, and cations move toward the cathode compartment where positive ions are consumed."
+        ],
+        "steps": [
+          "Write and label the oxidation and reduction half-equations.",
+          "Draw the electron path from anode through wire to cathode.",
+          "Explain salt-bridge ion movement using charge balance, not electron transport through the bridge."
+        ],
+        "example": {
+          "q": "Describe the Zn/Cu cell electron flow and salt-bridge ion movement.",
+          "steps": [
+            "Zn oxidizes at the anode: Zn → Zn²⁺ + 2e⁻.",
+            "Electrons travel through the wire to Cu²⁺ reduction at the copper cathode.",
+            "Anions migrate toward Zn; cations migrate toward Cu to balance charge."
+          ],
+          "answer": "Electrons: Zn anode → Cu cathode; ions carry charge through the bridge."
+        },
+        "mistake": "Electrons do not travel through the salt bridge.",
+        "visual": {
+          "kind": "cell",
+          "title": "Primary voltaic cells",
+          "labels": [
+            "Zn anode −",
+            "Wire electron flow →",
+            "Cu cathode +",
+            "Anions → anode",
+            "Cations → cathode"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.7",
+        "title": "Secondary cells and storage choices",
+        "hl": false,
+        "summary": "Rechargeable cells use electrode reactions that can be driven in reverse.",
+        "explain": [
+          "A primary cell is used until its reactants are depleted and is not designed for practical recharging. A secondary cell can be recharged by an external electrical supply that drives the discharge reactions in reverse.",
+          "Compare systems by their purpose: secondary cells are reusable but need energy to recharge and degrade with cycles; primary cells can be convenient but create replacement waste; fuel cells operate while fuel and oxidant are continuously supplied and depend on fuel production and storage. Environmental impact includes the full energy and material supply chain."
+        ],
+        "steps": [
+          "Identify the given discharge half-reactions.",
+          "Reverse both half-equations to represent charging.",
+          "Compare practical advantages and drawbacks without claiming any technology has no environmental cost."
+        ],
+        "example": {
+          "q": "A discharge half-reaction is M²⁺ + 2e⁻ → M. Write the corresponding charging reaction.",
+          "steps": [
+            "Charging reverses the chemical change at that electrode.",
+            "Move products and reactants to opposite sides.",
+            "Check that atoms and charge remain balanced."
+          ],
+          "answer": "M → M²⁺ + 2e⁻."
+        },
+        "mistake": "A rechargeable battery is an energy store, not an unlimited energy source.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Secondary cells and storage choices",
+          "labels": [
+            "Primary: replace",
+            "Secondary: recharge",
+            "Fuel cell: continuous supply",
+            "Charging reverses reactions"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.8",
+        "title": "Electrolysis of molten salts",
+        "hl": false,
+        "summary": "Electrical energy can force an otherwise non-spontaneous chemical transformation.",
+        "explain": [
+          "An electrolytic cell contains an electrolyte and electrodes connected to a DC supply. Electrons move in wires; ions move through the electrolyte. Cations travel toward the negative cathode, where they can gain electrons, while anions travel toward the positive anode, where they can lose electrons.",
+          "A molten binary salt is simpler than an aqueous solution because water is absent as a competing reagent. Predict products from the ions present and balance their electrode equations. Molten ionic materials conduct because ions are mobile, unlike the rigid solid."
+        ],
+        "steps": [
+          "List the ions in the molten salt.",
+          "At the cathode, reduce the cation.",
+          "At the anode, oxidize the anion and combine electrode equations if asked."
+        ],
+        "example": {
+          "q": "Predict products from electrolysis of molten PbBr₂.",
+          "steps": [
+            "The melt contains Pb²⁺ and Br⁻.",
+            "Cathode: Pb²⁺ + 2e⁻ → Pb.",
+            "Anode: 2Br⁻ → Br₂ + 2e⁻."
+          ],
+          "answer": "Lead at cathode and bromine at anode."
+        },
+        "mistake": "Use aqueous competition rules only when water is actually present.",
+        "visual": {
+          "kind": "cell",
+          "title": "Electrolysis of molten salts",
+          "labels": [
+            "DC power",
+            "Cathode: cation reduction",
+            "Anode: anion oxidation",
+            "Mobile ions in melt"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.9",
+        "title": "Oxidation of alcohols",
+        "hl": false,
+        "summary": "Primary alcohols can form aldehydes then carboxylic acids; secondary alcohols form ketones.",
+        "explain": [
+          "A primary alcohol can undergo two oxidation stages: RCH₂OH → RCHO → RCOOH. A secondary alcohol R₂CHOH forms a ketone R₂C=O. Tertiary alcohols are not oxidized under comparable ordinary conditions because the carbon bearing OH has no attached hydrogen available for the same transformation.",
+          "Distillation can remove an aldehyde as it forms, limiting further oxidation. Reflux returns volatile material to the reaction mixture, allowing continued heating and more complete oxidation to a carboxylic acid. The guide does not require memorizing named oxidizing agents or detailed oxidation mechanisms here."
+        ],
+        "steps": [
+          "Classify the alcohol by the carbon bearing OH.",
+          "Choose aldehyde/acid for primary or ketone for secondary.",
+          "For a primary alcohol, match distillation to aldehyde isolation and reflux to further oxidation."
+        ],
+        "example": {
+          "q": "Give the oxidation sequence for ethanol and the conditions that favour ethanoic acid.",
+          "steps": [
+            "Ethanol CH₃CH₂OH first forms ethanal CH₃CHO.",
+            "Ethanal can oxidize further to ethanoic acid CH₃COOH.",
+            "Heating under reflux retains material for continued oxidation."
+          ],
+          "answer": "CH₃CH₂OH → CH₃CHO → CH₃COOH; reflux favours the acid."
+        },
+        "mistake": "“All alcohols oxidize to ketones” is incorrect.",
+        "visual": {
+          "kind": "flow",
+          "title": "Oxidation of alcohols",
+          "labels": [
+            "Primary alcohol",
+            "Aldehyde",
+            "Carboxylic acid",
+            "Secondary alcohol → ketone"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.10",
+        "title": "Reduction of carbonyl compounds",
+        "hl": false,
+        "summary": "Organic reduction can add hydrogen equivalents and lower carbon oxidation state.",
+        "explain": [
+          "Carboxylic acids can be reduced to primary alcohols through an aldehyde stage; ketones reduce to secondary alcohols. These changes can be represented with [H] as a shorthand for reducing equivalents while keeping the organic formulas clear.",
+          "Hydride ions supply hydrogen with an electron pair in organic reduction. You need to understand their role, but the guide does not assess specific named reducing agents or the detailed reduction mechanism for this outcome."
+        ],
+        "steps": [
+          "Identify carboxylic acid, aldehyde or ketone functionality.",
+          "Replace the carbonyl functionality with the appropriate alcohol product.",
+          "Balance using hydrogen equivalents and water where required."
+        ],
+        "example": {
+          "q": "Predict the reduction product of propanone, CH₃COCH₃.",
+          "steps": [
+            "Propanone contains a ketone carbonyl.",
+            "Reduction adds hydrogen equivalents across the carbonyl group.",
+            "The carbonyl carbon gains H and its oxygen becomes OH."
+          ],
+          "answer": "CH₃CH(OH)CH₃, propan-2-ol."
+        },
+        "mistake": "Reduction of a ketone produces a secondary alcohol, not a primary alcohol.",
+        "visual": {
+          "kind": "flow",
+          "title": "Reduction of carbonyl compounds",
+          "labels": [
+            "Carboxylic acid",
+            "Aldehyde intermediate",
+            "Primary alcohol",
+            "Ketone → secondary alcohol"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.11",
+        "title": "Hydrogenation of unsaturated compounds",
+        "hl": false,
+        "summary": "Adding hydrogen reduces multiple bonds and decreases unsaturation.",
+        "explain": [
+          "Alkenes and alkynes contain carbon–carbon multiple bonds. Adding H₂ converts a π-bond component into new C–H σ bonds, reducing the degree of unsaturation. Full hydrogenation of an alkene gives an alkane; an alkyne can add two H₂ molecules overall.",
+          "This is reduction because the carbon atoms gain hydrogen. Product prediction requires preserving the carbon skeleton and adding the correct number of hydrogen atoms, not breaking the C–C framework."
+        ],
+        "steps": [
+          "Identify the number and position of multiple bonds.",
+          "Add one H₂ per C=C to make a C–C single bond.",
+          "For complete C≡C saturation, add two H₂ molecules."
+        ],
+        "example": {
+          "q": "Write complete hydrogenation of ethyne.",
+          "steps": [
+            "Ethyne is HC≡CH.",
+            "The triple bond has two π components to hydrogenate.",
+            "Adding two H₂ produces CH₃CH₃."
+          ],
+          "answer": "C₂H₂ + 2H₂ → C₂H₆."
+        },
+        "mistake": "One mole of H₂ is not enough to convert one mole of an alkyne completely to an alkane.",
+        "visual": {
+          "kind": "equation",
+          "title": "Hydrogenation of unsaturated compounds",
+          "labels": [
+            "C≡C + 2H₂",
+            "C–C saturated",
+            "Fewer π bonds",
+            "More C–H bonds"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.12",
+        "title": "Standard electrode potentials",
+        "hl": true,
+        "summary": "Reduction potentials compare half-cells with the standard hydrogen electrode.",
+        "explain": [
+          "The standard hydrogen half-cell is assigned E° = 0 V by convention. Other standard electrode potentials are measured relative to it under standard conditions. The data booklet lists reduction potentials.",
+          "A more positive standard reduction potential indicates a greater thermodynamic tendency for that reduction compared with a less positive value. Reversing a half-equation reverses its potential sign, but multiplying the equation does not multiply E° because potential is an intensive quantity."
+        ],
+        "steps": [
+          "Read listed equations in their reduction direction.",
+          "Compare potentials: more positive reduction is favoured.",
+          "Use the hydrogen electrode reference and the stated standard conditions in explanations."
+        ],
+        "example": {
+          "q": "Compare Cu²⁺/Cu at +0.34 V and Zn²⁺/Zn at −0.76 V. Which reduction is more favourable under standard conditions?",
+          "steps": [
+            "Both values are listed as reduction potentials.",
+            "+0.34 V is more positive than −0.76 V.",
+            "Cu²⁺ therefore has the stronger tendency to accept electrons."
+          ],
+          "answer": "Cu²⁺ → Cu is the more favourable reduction."
+        },
+        "mistake": "Do not multiply an electrode potential when multiplying a half-equation to balance electrons.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Standard electrode potentials",
+          "labels": [
+            "Hydrogen reference: 0 V",
+            "More positive E°",
+            "Greater reduction tendency",
+            "E° not multiplied"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.13",
+        "title": "Calculating standard cell potential",
+        "hl": true,
+        "summary": "A positive E°cell predicts a thermodynamically spontaneous forward reaction under standard conditions.",
+        "explain": [
+          "Using tabulated reduction potentials, E°cell = E°cathode − E°anode. The cathode is the reduction chosen for the proposed forward reaction, while the anode half-equation runs in reverse as oxidation.",
+          "A positive result corresponds to the spontaneous standard direction. A negative value means the proposed forward reaction is non-spontaneous under standard conditions and the reverse is favoured. This does not predict how fast a reaction occurs."
+        ],
+        "steps": [
+          "Choose the reduction and oxidation half-equations for the stated direction.",
+          "Use both tabulated values as reduction potentials in E°cathode − E°anode.",
+          "Interpret the sign and check electron balance in the overall reaction."
+        ],
+        "example": {
+          "q": "Calculate E°cell for Zn/Cu from E°(Cu²⁺/Cu) = +0.34 V and E°(Zn²⁺/Zn) = −0.76 V.",
+          "steps": [
+            "Cu²⁺ is reduced at the cathode.",
+            "Zn is oxidized at the anode, but use its listed reduction potential in the subtraction.",
+            "E°cell = 0.34 − (−0.76)."
+          ],
+          "answer": "E°cell = +1.10 V; standard forward reaction is spontaneous."
+        },
+        "mistake": "Subtract the anode’s listed reduction potential; do not accidentally reverse its sign twice.",
+        "visual": {
+          "kind": "cell",
+          "title": "Calculating standard cell potential",
+          "labels": [
+            "Cathode: +0.34 V",
+            "Anode reduction value: −0.76 V",
+            "Subtract",
+            "Cell: +1.10 V"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.14",
+        "title": "Cell potential and Gibbs energy",
+        "hl": true,
+        "summary": "ΔG° = −nFE°cell relates electrical potential to thermodynamic driving force.",
+        "explain": [
+          "The number n is the moles of electrons transferred per mole of the balanced overall reaction. Faraday’s constant F gives charge per mole of electrons. Multiplying nF by cell potential gives energy, with the negative sign linking a positive cell potential to a negative standard Gibbs change.",
+          "Use E in volts and F in C mol⁻¹ to obtain J mol⁻¹. Changing the scaling of an overall reaction changes n and ΔG°, but not E°. This is why cell potential and reaction energy must not be treated as interchangeable numerical quantities."
+        ],
+        "steps": [
+          "Balance the half-reactions and determine n.",
+          "Substitute n, F and E°cell into −nFE°cell.",
+          "Convert joules to kilojoules and check that a positive E gives negative ΔG°."
+        ],
+        "example": {
+          "q": "Find ΔG° for a cell with E° = 1.10 V transferring two electrons. Use F = 96,500 C mol⁻¹.",
+          "steps": [
+            "n = 2.",
+            "ΔG° = −2 × 96,500 × 1.10 = −212,300 J mol⁻¹.",
+            "Divide by 1000."
+          ],
+          "answer": "ΔG° ≈ −212 kJ mol⁻¹."
+        },
+        "mistake": "n is the balanced electron-transfer count, not the sum of every coefficient in the equation.",
+        "visual": {
+          "kind": "equation",
+          "title": "Cell potential and Gibbs energy",
+          "labels": [
+            "ΔG° = −nFE°",
+            "n: electron count",
+            "Positive E°",
+            "Negative ΔG°"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.15",
+        "title": "Electrolysis of aqueous solutions",
+        "hl": true,
+        "summary": "Water competes with dissolved ions for oxidation and reduction at electrodes.",
+        "explain": [
+          "Unlike a melt, an aqueous electrolyte contains water, which can also participate at each electrode. Product prediction therefore compares possible reductions at the cathode and possible oxidations at the anode, guided by supplied standard potentials and the specified conditions.",
+          "Concentration and electrode material can matter in the syllabus examples, notably aqueous sodium chloride and copper(II) sulfate. For aqueous NaCl, hydrogen is formed at the cathode; concentrated chloride can produce chlorine at an inert anode, while in sufficiently dilute chloride solution oxygen production from water becomes more important. In copper sulfate with inert electrodes, copper can plate at the cathode while water is oxidized at the anode; with a copper anode, the electrode itself can oxidize and dissolve."
+        ],
+        "steps": [
+          "List both dissolved-ion and water electrode possibilities.",
+          "Use the relevant E° data and specified conditions to identify competing processes.",
+          "Check whether the anode is inert or can itself oxidize."
+        ],
+        "example": {
+          "q": "Compare the anode process in CuSO₄(aq) using an inert anode versus a copper anode.",
+          "steps": [
+            "With an inert anode, the electrode does not provide copper for oxidation.",
+            "Water can oxidize: 2H₂O → O₂ + 4H⁺ + 4e⁻.",
+            "With copper anode, Cu → Cu²⁺ + 2e⁻ replenishes dissolved copper ions."
+          ],
+          "answer": "Inert anode: oxygen formation; copper anode: copper dissolves."
+        },
+        "mistake": "Do not predict aqueous electrolysis exactly as if water were absent.",
+        "visual": {
+          "kind": "cell",
+          "title": "Electrolysis of aqueous solutions",
+          "labels": [
+            "Water competes",
+            "Cathode reduction choices",
+            "Anode oxidation choices",
+            "Electrode material matters"
+          ]
+        }
+      },
+      {
+        "id": "R3.2.16",
+        "title": "Electroplating",
+        "hl": true,
+        "summary": "An object is coated by reducing metal ions onto its surface at the cathode.",
+        "explain": [
+          "Electroplating uses an electrolytic cell to deposit a thin metallic layer. The object to be coated is connected as the cathode so metal cations can gain electrons on its surface. The electrolyte contains ions of the coating metal.",
+          "An anode made from the coating metal can dissolve to replace ions consumed at the cathode. The electrode equations therefore connect the loss of anode material with the gain of metal on the object. The current supply drives the overall transfer."
+        ],
+        "steps": [
+          "Make the object the negative cathode.",
+          "Choose an electrolyte containing the desired metal ions.",
+          "Write cathodic metal deposition and, if appropriate, anodic metal dissolution."
+        ],
+        "example": {
+          "q": "Write copper electrode equations for copper-plating an object using a copper anode.",
+          "steps": [
+            "At the object, Cu²⁺ gains two electrons.",
+            "At the copper anode, Cu loses two electrons.",
+            "The dissolved ions transfer copper material between electrodes."
+          ],
+          "answer": "Cathode: Cu²⁺ + 2e⁻ → Cu; anode: Cu → Cu²⁺ + 2e⁻."
+        },
+        "mistake": "The plated object is the cathode, not the anode.",
+        "visual": {
+          "kind": "cell",
+          "title": "Electroplating",
+          "labels": [
+            "Coating metal anode",
+            "Metal-ion electrolyte",
+            "Object = cathode",
+            "Mⁿ⁺ + ne⁻ → M"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R3.3",
+    "name": "Electron sharing reactions",
+    "group": "Reactivity 3 · Mechanisms of chemical change",
+    "sections": [
+      {
+        "id": "R3.3.1",
+        "title": "Radicals and unpaired electrons",
+        "hl": false,
+        "summary": "A radical contains an unpaired electron and is often highly reactive.",
+        "explain": [
+          "A radical is identified by an unpaired electron, shown as a dot beside its symbol or formula. Radical does not mean charged: a radical may be electrically neutral or may also have charge. The important feature is its electron pairing.",
+          "For example Cl• and CH₃• each have an unpaired electron available for reaction. Because pairing that electron can create a new covalent bond, radicals often react rapidly with suitable molecules or other radicals."
+        ],
+        "steps": [
+          "Count or inspect the outer electrons.",
+          "Identify an unpaired electron rather than merely a formal charge.",
+          "Show one dot for that unpaired electron in the species notation."
+        ],
+        "example": {
+          "q": "Explain why Cl• is a radical but Cl⁻ is not ordinarily described as one.",
+          "steps": [
+            "Cl• has seven valence electrons including one unpaired electron.",
+            "Cl⁻ has a complete paired octet.",
+            "The dot, not a negative charge, identifies radical character."
+          ],
+          "answer": "Cl• has an unpaired electron; Cl⁻ has paired valence electrons."
+        },
+        "mistake": "A dot represents an unpaired electron; a charge symbol is a different property.",
+        "visual": {
+          "kind": "electron",
+          "title": "Radicals and unpaired electrons",
+          "labels": [
+            "Unpaired electron •",
+            "Radical ≠ necessarily ion",
+            "Cl•",
+            "CH₃•"
+          ]
+        }
+      },
+      {
+        "id": "R3.3.2",
+        "title": "Homolytic fission and initiation",
+        "hl": false,
+        "summary": "Homolysis splits a bond so each fragment keeps one bonding electron.",
+        "explain": [
+          "When a bond breaks homolytically, the shared electron pair is divided equally: one electron goes to each atom. UV light or sufficient heat can initiate this process for halogen molecules, generating reactive radicals.",
+          "The electron movement is represented by single-barbed fish-hook arrows, each showing one electron. This is the initiation stage of a radical chain reaction because it creates radicals from non-radical starting molecules."
+        ],
+        "steps": [
+          "Identify the bond broken by UV light or heat.",
+          "Assign one bonding electron to each fragment.",
+          "Show two radical products and use fish-hook rather than full electron-pair arrows."
+        ],
+        "example": {
+          "q": "Write the initiation equation for methane chlorination.",
+          "steps": [
+            "The chlorine molecule contains a Cl–Cl bond.",
+            "UV promotes homolytic bond fission.",
+            "Each Cl atom retains one bonding electron."
+          ],
+          "answer": "Cl₂ → 2Cl• under UV light."
+        },
+        "mistake": "Homolysis does not produce Cl⁺ and Cl⁻; those would be heterolytic products.",
+        "visual": {
+          "kind": "flow",
+          "title": "Homolytic fission and initiation",
+          "labels": [
+            "Cl–Cl",
+            "UV / heat",
+            "One e⁻ to each atom",
+            "2 Cl• radicals"
+          ]
+        }
+      },
+      {
+        "id": "R3.3.3",
+        "title": "Radical substitution chains",
+        "hl": false,
+        "summary": "Propagation regenerates radicals; termination removes them.",
+        "explain": [
+          "In alkane halogenation, a halogen radical can remove H from an alkane to produce a hydrogen halide and an alkyl radical. The alkyl radical reacts with a halogen molecule to make a halogenoalkane and regenerate a halogen radical. These are propagation steps.",
+          "A chain ends when two radicals combine without producing a new radical. Multiple substitution and different attack sites produce product mixtures. Alkanes are relatively unreactive without initiation because their C–C and C–H bonds are strong and their bonds are essentially non-polar."
+        ],
+        "steps": [
+          "Write initiation to create radicals.",
+          "Write propagation steps that consume one radical and produce another.",
+          "Write termination by combining two radicals into a non-radical product."
+        ],
+        "example": {
+          "q": "Give two propagation steps and one termination step for methane chlorination.",
+          "steps": [
+            "Cl• + CH₄ → HCl + CH₃•.",
+            "CH₃• + Cl₂ → CH₃Cl + Cl•.",
+            "A possible termination is Cl• + CH₃• → CH₃Cl."
+          ],
+          "answer": "Propagation regenerates the chain carrier; termination removes radicals."
+        },
+        "mistake": "A propagation step must regenerate radical character; two radicals joining is termination.",
+        "visual": {
+          "kind": "cycle",
+          "title": "Radical substitution chains",
+          "labels": [
+            "Cl• attacks CH₄",
+            "CH₃• formed",
+            "CH₃• attacks Cl₂",
+            "Cl• regenerated",
+            "Radicals combine to terminate"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R3.4",
+    "name": "Electron-pair sharing reactions",
+    "group": "Reactivity 3 · Mechanisms of chemical change",
+    "sections": [
+      {
+        "id": "R3.4.1",
+        "title": "Recognizing nucleophiles",
+        "hl": false,
+        "summary": "A nucleophile forms a bond by donating an electron pair.",
+        "explain": [
+          "A nucleophile is an electron-pair donor in a bond-forming reaction. It needs available electron density, often a lone pair. It may be negatively charged, such as OH⁻, or neutral, such as NH₃ or H₂O.",
+          "The reaction partner accepting the pair is an electrophile. A full curly arrow begins at the donated electron pair and points to the site where the new bond forms; arrows show movement of electrons, not movement of atoms."
+        ],
+        "steps": [
+          "Look for an available lone pair or other electron-rich region.",
+          "Identify the electron-poor atom it can attack.",
+          "Draw the arrow from the electron pair toward that atom."
+        ],
+        "example": {
+          "q": "Why can both OH⁻ and NH₃ act as nucleophiles?",
+          "steps": [
+            "O in OH⁻ has available lone pairs.",
+            "N in NH₃ also has a lone pair even though the molecule is neutral.",
+            "Each can donate both electrons of a new bond."
+          ],
+          "answer": "Both are electron-pair donors."
+        },
+        "mistake": "Nucleophiles need not be negatively charged.",
+        "visual": {
+          "kind": "electron",
+          "title": "Recognizing nucleophiles",
+          "labels": [
+            "Lone-pair donor",
+            "OH⁻",
+            "NH₃",
+            "Electron pair → electrophile"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.2",
+        "title": "Nucleophilic substitution",
+        "hl": false,
+        "summary": "A nucleophile forms a new bond while a leaving group departs.",
+        "explain": [
+          "In nucleophilic substitution, one group replaces another at an electrophilic atom. A polar C–halogen bond makes carbon partially positive, allowing an electron-rich nucleophile to donate a pair toward it.",
+          "The leaving group takes the old bond’s electron pair as that bond breaks. At SL, explain and represent the pair movement and overall equation; the distinct detailed mechanisms of primary and tertiary halogenoalkanes are HL extensions."
+        ],
+        "steps": [
+          "Locate the electrophilic atom attached to the leaving group.",
+          "Show the nucleophile donating a pair to form a new bond.",
+          "Show the old bond pair going to the leaving group and balance the overall equation."
+        ],
+        "example": {
+          "q": "Predict the substitution product of bromoethane with aqueous hydroxide.",
+          "steps": [
+            "OH⁻ donates an electron pair to the carbon bonded to Br.",
+            "The C–Br bond breaks with its pair going to Br.",
+            "OH replaces Br in the organic molecule."
+          ],
+          "answer": "CH₃CH₂Br + OH⁻ → CH₃CH₂OH + Br⁻."
+        },
+        "mistake": "The leaving group departs with the bonding electrons in this substitution model.",
+        "visual": {
+          "kind": "flow",
+          "title": "Nucleophilic substitution",
+          "labels": [
+            "Nucleophile",
+            "δ+ carbon",
+            "New C–Nu bond",
+            "Leaving group takes pair"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.3",
+        "title": "Heterolytic fission and curly arrows",
+        "hl": false,
+        "summary": "Heterolysis gives both bonding electrons to one fragment, commonly forming ions.",
+        "explain": [
+          "In heterolytic bond fission, one atom receives the entire shared pair. This produces electron-rich and electron-poor fragments, often an anion and a cation. It contrasts with homolysis, which gives one electron to each fragment.",
+          "A full double-barbed curly arrow represents movement of an electron pair. For bond breaking, its tail begins at the bond and its head ends at the atom receiving that pair. Correct arrow placement is part of the chemical explanation."
+        ],
+        "steps": [
+          "Identify which atom receives the bonding pair.",
+          "Draw a full curly arrow from the bond toward that atom.",
+          "Assign resulting formal charges and verify overall charge conservation."
+        ],
+        "example": {
+          "q": "Represent heterolytic breaking of a C–Br bond when Br receives both bonding electrons.",
+          "steps": [
+            "Both C–Br bonding electrons move toward Br.",
+            "The bromine fragment becomes Br⁻.",
+            "The carbon fragment becomes electron-deficient and positively charged if no simultaneous bond forms."
+          ],
+          "answer": "R–Br → R⁺ + Br⁻ in the isolated heterolytic representation."
+        },
+        "mistake": "A full curly arrow moves two electrons; a fish-hook moves one.",
+        "visual": {
+          "kind": "electron",
+          "title": "Heterolytic fission and curly arrows",
+          "labels": [
+            "Bond pair → one atom",
+            "Cation fragment",
+            "Anion fragment",
+            "Full curly arrow"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.4",
+        "title": "Recognizing electrophiles",
+        "hl": false,
+        "summary": "An electrophile accepts an electron pair when forming a bond.",
+        "explain": [
+          "An electrophile is attracted to available electron density because it can accept an electron pair. It may be positively charged, such as H⁺, or neutral but electron-deficient or polarized, such as a molecule with a partially positive carbon.",
+          "Classify electrophiles by their electron-accepting role rather than requiring a plus sign in the formula. A full curly arrow points toward the electron-deficient site where the new bond is formed."
+        ],
+        "steps": [
+          "Identify a positive, partially positive or electron-deficient centre.",
+          "Find the nucleophile that can supply a pair.",
+          "Point the electron-pair arrow toward the electrophilic atom."
+        ],
+        "example": {
+          "q": "Explain why the carbon bonded to Br in bromoethane is electrophilic.",
+          "steps": [
+            "Bromine attracts the C–Br bonding electrons more strongly.",
+            "The carbon has a partial positive charge.",
+            "It can be attacked by an electron-pair donor."
+          ],
+          "answer": "The polarized C–Br bond makes its carbon electron-poor."
+        },
+        "mistake": "An electrophile can be a neutral species containing a partially positive site.",
+        "visual": {
+          "kind": "electron",
+          "title": "Recognizing electrophiles",
+          "labels": [
+            "Electron-pair acceptor",
+            "Positive or δ+ centre",
+            "H⁺ example",
+            "Arrow points to acceptor"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.5",
+        "title": "Electrophilic addition to alkenes",
+        "hl": false,
+        "summary": "The electron-rich double bond reacts with electrophiles to give addition products.",
+        "explain": [
+          "An alkene’s π electron density is accessible above and below the carbon framework, making the double bond susceptible to electrophilic attack. Addition replaces the π component with new σ bonds while the original carbon–carbon connection remains.",
+          "Alkenes add halogens, hydrogen halides and water under suitable conditions. Bromine decolourization is useful evidence for unsaturation: the bromine is consumed in forming an addition product. Detailed mechanisms are HL content rather than required at SL here."
+        ],
+        "steps": [
+          "Locate the C=C bond.",
+          "Replace it with C–C and add the reagent fragments to the two carbons.",
+          "Preserve the carbon skeleton and check the final atom count."
+        ],
+        "example": {
+          "q": "Predict the reaction of ethene with bromine.",
+          "steps": [
+            "Ethene has a C=C double bond.",
+            "One Br attaches to each of the two carbons as the π bond is consumed.",
+            "The product is a vicinal dibromoalkane."
+          ],
+          "answer": "CH₂=CH₂ + Br₂ → CH₂BrCH₂Br, 1,2-dibromoethane."
+        },
+        "mistake": "Addition does not replace an existing hydrogen as substitution does.",
+        "visual": {
+          "kind": "equation",
+          "title": "Electrophilic addition to alkenes",
+          "labels": [
+            "C=C electron rich",
+            "Electrophilic attack",
+            "π bond consumed",
+            "Two new σ bonds"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.6",
+        "title": "Lewis acid–base theory",
+        "hl": true,
+        "summary": "A Lewis acid accepts an electron pair; a Lewis base donates one.",
+        "explain": [
+          "The Lewis model describes acid–base reactions using electron pairs rather than requiring proton transfer. A Lewis base has a pair available for donation; a Lewis acid has a site able to accept that pair.",
+          "Brønsted proton-transfer reactions can often also be interpreted in Lewis terms: the base donates a pair to H⁺. The Lewis definition also covers reactions with no transferred proton, such as NH₃ donating to electron-deficient BF₃."
+        ],
+        "steps": [
+          "Find the species supplying the electron pair.",
+          "Identify the accepting centre.",
+          "Classify donor as Lewis base and acceptor as Lewis acid."
+        ],
+        "example": {
+          "q": "Classify NH₃ and BF₃ in formation of H₃N→BF₃.",
+          "steps": [
+            "Nitrogen in NH₃ has an available lone pair.",
+            "Boron in BF₃ can accept that pair.",
+            "The donor is base and acceptor acid."
+          ],
+          "answer": "NH₃ is Lewis base; BF₃ is Lewis acid."
+        },
+        "mistake": "Lewis acid–base theory is not limited to species donating or accepting protons.",
+        "visual": {
+          "kind": "electron",
+          "title": "Lewis acid–base theory",
+          "labels": [
+            "Lewis base donates",
+            "Lewis acid accepts",
+            "Lone pair → empty accepting site"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.7",
+        "title": "Coordinate bonds in Lewis reactions",
+        "hl": true,
+        "summary": "Lewis acid–base bonding forms a shared pair originally supplied by the base.",
+        "explain": [
+          "When a Lewis base donates a pair to a Lewis acid, a coordination bond forms. It is a covalent bond whose two electrons originally came from one atom. After formation, its shared-pair description is like other covalent bonds.",
+          "A Lewis structure of the reactants should show the donor lone pair, while the product shows the new bond. Nucleophiles function as Lewis bases and electrophiles as Lewis acids because they have the same pair-donation and pair-acceptance roles."
+        ],
+        "steps": [
+          "Draw the donor lone pair in the reactant Lewis structure.",
+          "Draw an arrow from donor to acceptor for bond formation.",
+          "Draw the bonded product, checking electron count and overall charge."
+        ],
+        "example": {
+          "q": "Explain formation of NH₄⁺ from NH₃ and H⁺ using Lewis terms.",
+          "steps": [
+            "NH₃ supplies the nitrogen lone pair.",
+            "H⁺ accepts the pair.",
+            "The new N–H bond forms and the overall product has +1 charge."
+          ],
+          "answer": "NH₃ + H⁺ → NH₄⁺; the new bond has a shared pair from N."
+        },
+        "mistake": "The coordinate-bond arrow points from donor to acceptor, not from positive ion to donor.",
+        "visual": {
+          "kind": "flow",
+          "title": "Coordinate bonds in Lewis reactions",
+          "labels": [
+            "NH₃ lone pair",
+            "H⁺ acceptor",
+            "N→H bond forms",
+            "NH₄⁺"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.8",
+        "title": "Ligands and complex-ion charges",
+        "hl": true,
+        "summary": "Ligands donate electron pairs to a central transition-metal cation.",
+        "explain": [
+          "A ligand is an ion or molecule with a donor electron pair that can coordinate to a metal centre. Neutral ligands such as H₂O or NH₃ contribute zero formal charge to the overall complex, while anionic ligands such as Cl⁻ contribute their ionic charge.",
+          "The total charge on a complex is the metal oxidation state plus the sum of ligand charges. This makes it possible either to determine complex charge from its components or infer the metal oxidation state from a known complex charge."
+        ],
+        "steps": [
+          "List the metal oxidation state and every ligand charge.",
+          "Multiply each ligand charge by its count.",
+          "Add charges and write the complex in brackets with its overall charge."
+        ],
+        "example": {
+          "q": "Find the charge on a complex containing Co³⁺ and six NH₃ ligands.",
+          "steps": [
+            "Metal contributes +3.",
+            "Each ammonia ligand is neutral, so six contribute 0.",
+            "Total charge is +3 + 0."
+          ],
+          "answer": "[Co(NH₃)₆]³⁺."
+        },
+        "mistake": "Neutral ligands do not cancel the positive charge merely because they donate electrons into bonds.",
+        "visual": {
+          "kind": "complex",
+          "title": "Ligands and complex-ion charges",
+          "labels": [
+            "Metal cation",
+            "Ligand lone pairs",
+            "Coordinate bonds",
+            "Total charge = charge sum"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.9",
+        "title": "SN1 and SN2 mechanisms",
+        "hl": true,
+        "summary": "Primary and tertiary halogenoalkanes follow contrasting substitution pathways in the syllabus models.",
+        "explain": [
+          "The SN2 model is a concerted one-step process: a nucleophile attacks from the back of the C–leaving-group bond as that bond breaks. It has one transition state and no carbocation intermediate. Backside attack gives inversion at a suitable chiral centre, and rate = k[halogenoalkane][nucleophile].",
+          "The SN1 model has a slow ionization step producing a carbocation and leaving group, followed by nucleophile attack. It has two steps and an intermediate, with rate = k[halogenoalkane]. Primary halogenoalkanes are treated by SN2, tertiary by SN1, and secondary substrates can follow either in the guide’s scope."
+        ],
+        "steps": [
+          "Classify the carbon bonded to the leaving group as primary, secondary or tertiary.",
+          "For SN2 draw simultaneous attack and bond cleavage; for SN1 draw ionization then attack.",
+          "Relate steps to rate law, intermediate presence and stereochemical consequence."
+        ],
+        "example": {
+          "q": "Contrast hydroxide substitution of a primary bromoalkane with a tertiary bromoalkane.",
+          "steps": [
+            "Primary: one-step backside attack; both reactants participate in the rate-determining event.",
+            "Tertiary: slow C–Br ionization forms a carbocation, followed by OH⁻ attack.",
+            "Rate laws are bimolecular and unimolecular respectively."
+          ],
+          "answer": "Primary SN2: k[RX][OH⁻]; tertiary SN1: k[RX]."
+        },
+        "mistake": "SN1 has a carbocation intermediate; SN2 has a transition state but no intermediate.",
+        "visual": {
+          "kind": "mechanism",
+          "title": "SN1 and SN2 mechanisms",
+          "labels": [
+            "Primary: SN2 one step",
+            "Backside attack / inversion",
+            "Tertiary: SN1 two steps",
+            "Carbocation intermediate"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.10",
+        "title": "Leaving groups and substitution rates",
+        "hl": true,
+        "summary": "A weaker carbon–halogen bond generally makes leaving-group departure easier.",
+        "explain": [
+          "For otherwise comparable halogenoalkanes, substitution commonly becomes faster from chloro- to bromo- to iodo- compounds. The C–I bond is weaker than C–Br, which is weaker than C–Cl, so cleavage is easier.",
+          "Explain the trend using the relevant bond strength and leaving-group ability, not only the polarity of the bond. The guide does not assess detailed solvent effects or mechanism-dependent solvent changes for this outcome."
+        ],
+        "steps": [
+          "Keep the carbon skeleton and other conditions comparable.",
+          "Compare C–halogen bond strength.",
+          "Predict faster substitution when the leaving group can depart more readily."
+        ],
+        "example": {
+          "q": "Rank CH₃CH₂Cl, CH₃CH₂Br and CH₃CH₂I by expected substitution rate under comparable conditions.",
+          "steps": [
+            "C–Cl is strongest among these bonds.",
+            "C–I is weakest and cleaves most readily.",
+            "The bromo compound is intermediate."
+          ],
+          "answer": "CH₃CH₂I > CH₃CH₂Br > CH₃CH₂Cl in rate."
+        },
+        "mistake": "Greater C–Cl bond polarity alone does not mean the chloro compound reacts fastest.",
+        "visual": {
+          "kind": "comparison",
+          "title": "Leaving groups and substitution rates",
+          "labels": [
+            "C–Cl: stronger bond",
+            "C–Br: intermediate",
+            "C–I: weaker bond",
+            "Iodo compound usually faster"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.11",
+        "title": "Mechanisms of electrophilic addition",
+        "hl": true,
+        "summary": "The alkene π pair initiates addition by attacking an electrophilic reagent.",
+        "explain": [
+          "For hydrogen halide addition, the π electron pair attacks H while the H–X bond pair goes to X. A carbocation forms; the halide then donates a pair to the carbocation. Acid-catalysed hydration similarly involves protonation, water attack and loss of a proton to give an alcohol.",
+          "Halogen addition begins as the electron-rich double bond polarizes the halogen molecule; electrophilic attack and halide capture produce a dihalogenoalkane. Show electron pairs moving from electron-rich bonds or lone pairs toward electron-poor centres. For detailed intermediate drawings, follow the treatment specified for the course rather than inventing unsupported charges."
+        ],
+        "steps": [
+          "Start the first curly arrow at the π bond toward the electrophile.",
+          "Show breaking of the relevant reagent bond and formation of the intermediate.",
+          "Complete attack by the electron-pair donor and any required deprotonation."
+        ],
+        "example": {
+          "q": "Describe the pair movements in adding HBr to ethene.",
+          "steps": [
+            "The C=C π pair forms a bond to H; the H–Br pair moves to Br.",
+            "An ethyl carbocation and Br⁻ result in the stepwise representation.",
+            "A Br⁻ lone pair forms the second new bond at the cationic carbon."
+          ],
+          "answer": "Ethene + HBr → bromoethane through electrophilic attack then bromide attack."
+        },
+        "mistake": "Curly arrows start at electrons, never at a bare positive charge.",
+        "visual": {
+          "kind": "mechanism",
+          "title": "Mechanisms of electrophilic addition",
+          "labels": [
+            "π pair → H",
+            "H–Br pair → Br",
+            "Carbocation",
+            "Br⁻ pair → C⁺"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.12",
+        "title": "Unsymmetrical addition and carbocation stability",
+        "hl": true,
+        "summary": "The more stable possible carbocation helps explain the major addition product.",
+        "explain": [
+          "An unsymmetrical alkene can form different carbocations when protonated. More alkyl substitution generally stabilizes a carbocation: tertiary is more stable than secondary, which is more stable than primary in the simple comparison used here.",
+          "The pathway through the more stable carbocation is generally favoured, producing a major product rather than necessarily an exclusive one. Predict both possible connectivities before deciding which dominates for hydrogen halide addition or acid-catalysed hydration."
+        ],
+        "steps": [
+          "Draw the two possible proton-addition orientations.",
+          "Classify the resulting carbocations.",
+          "Choose the more stable intermediate and attach halide or water-derived OH at that carbon."
+        ],
+        "example": {
+          "q": "Predict the major product from propene with HBr.",
+          "steps": [
+            "H addition to the terminal carbon leaves a secondary carbocation on the central carbon.",
+            "The alternative leaves a less stable primary carbocation.",
+            "Br⁻ attacks the more favoured secondary carbocation."
+          ],
+          "answer": "2-bromopropane is the major product."
+        },
+        "mistake": "Say major product, not the only possible product, unless the question establishes exclusivity.",
+        "visual": {
+          "kind": "mechanism",
+          "title": "Unsymmetrical addition and carbocation stability",
+          "labels": [
+            "Unsymmetrical alkene",
+            "Possible carbocations",
+            "Secondary > primary",
+            "Major product via more stable cation"
+          ]
+        }
+      },
+      {
+        "id": "R3.4.13",
+        "title": "Electrophilic substitution of benzene",
+        "hl": true,
+        "summary": "Benzene replaces hydrogen to regain its delocalized ring after electrophilic attack.",
+        "explain": [
+          "Benzene’s π electrons attack a charged electrophile E⁺ to make a C–E bond, temporarily disrupting the ring’s delocalized system and producing a positively charged intermediate. This costs aromatic stabilization.",
+          "A proton is then removed from the carbon bearing E; the C–H electron pair restores the delocalized π system. The overall change substitutes E for H rather than adding permanently across a ring bond. Formation of the electrophile itself is not assessed for this outcome."
+        ],
+        "steps": [
+          "Draw a curly arrow from ring π electron density to E⁺.",
+          "Show the positively charged intermediate with E and H attached to the attacked carbon.",
+          "Show C–H bond electrons restoring the ring as H⁺ is lost."
+        ],
+        "example": {
+          "q": "Explain why benzene commonly undergoes substitution rather than simple addition with an electrophile.",
+          "steps": [
+            "Initial electrophilic attack temporarily breaks the fully delocalized ring arrangement.",
+            "Losing H⁺ allows the C–H bonding pair to restore delocalization.",
+            "Substitution recovers the stabilized π system, whereas simple addition would leave it disrupted."
+          ],
+          "answer": "Substitution restores the delocalized aromatic ring."
+        },
+        "mistake": "Do not leave the final substitution product as a permanently localized carbocation.",
+        "visual": {
+          "kind": "mechanism",
+          "title": "Electrophilic substitution of benzene",
+          "labels": [
+            "Ring attacks E⁺",
+            "Positive intermediate",
+            "H⁺ removed",
+            "Delocalization restored"
+          ]
+        }
+      }
+    ]
+  }
+]

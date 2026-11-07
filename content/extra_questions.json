@@ -1,0 +1,864 @@
+[
+  {
+    "topic": "S2.3",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "Why does solid copper conduct electricity?",
+    "options": [
+      "Copper atoms move throughout the lattice",
+      "Delocalized electrons move through the metal",
+      "Copper ions leave the lattice as a current",
+      "Covalent molecules carry charge"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Metallic bonding contains mobile delocalized electrons that transport charge through the solid."
+    ]
+  },
+  {
+    "topic": "S2.3",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Which comparison best explains the higher melting temperature of magnesium than sodium using a simple metallic-bonding model?",
+    "options": [
+      "Mg has more shells than Na",
+      "Mg contributes more delocalized electrons and has a greater cation charge",
+      "Na has stronger directional bonds",
+      "Mg consists of separate molecules"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Mg contributes two delocalized electrons per atom and forms more highly charged, relatively small metal cations, strengthening attraction to the electron sea."
+    ]
+  },
+  {
+    "topic": "S2.4",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "Which structural change occurs when ethene forms poly(ethene)?",
+    "options": [
+      "The C=C double bond opens and new C–C links join monomers",
+      "Carbon atoms are removed as carbon dioxide",
+      "Water is released from every monomer",
+      "The monomer becomes an ionic lattice"
+    ],
+    "correct": 0,
+    "scheme": [
+      "Addition polymerization uses the carbon–carbon double bond to connect monomer units; no small by-product is required."
+    ]
+  },
+  {
+    "topic": "S2.4",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "A diol reacts with a dicarboxylic acid to make a condensation polymer. Which linkage is formed?",
+    "options": [
+      "Amide, –CONH–",
+      "Ester, –COO–",
+      "Carbon–carbon triple bond",
+      "Ionic bond"
+    ],
+    "correct": 1,
+    "scheme": [
+      "An alcohol group and carboxyl group react to make an ester linkage with elimination of a small molecule such as water."
+    ]
+  },
+  {
+    "topic": "S3.1",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Which statement explains the decrease in atomic radius across period 3?",
+    "options": [
+      "An extra principal shell is added at every element",
+      "Nuclear charge increases while shielding by inner shells changes little",
+      "Electrons are removed from every atom",
+      "Protons are lost across the period"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Electrons are added to the same principal shell while increasing proton number strengthens attraction; the outer electron cloud contracts."
+    ]
+  },
+  {
+    "topic": "S3.1",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "A transition-metal complex appears blue in white light. What can be deduced?",
+    "options": [
+      "It emits only blue light through radioactive decay",
+      "It absorbs the complementary region of visible light",
+      "Its d orbitals must all be completely filled",
+      "Its colour is unrelated to electronic transitions"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Visible light absorbed can promote an electron between split d-orbital energies. Transmitted/reflected light has a complementary observed colour."
+    ]
+  },
+  {
+    "topic": "S3.2",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "Which compound is a ketone?",
+    "options": [
+      "CH₃CH₂OH",
+      "CH₃CHO",
+      "CH₃COCH₃",
+      "CH₃COOH"
+    ],
+    "correct": 2,
+    "scheme": [
+      "CH₃COCH₃ contains a carbonyl bonded to carbon groups on both sides; this is a ketone functional group."
+    ]
+  },
+  {
+    "topic": "S3.2",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "An organic compound shows two proton NMR signals with integration ratio 3:2. Which structure is consistent?",
+    "options": [
+      "CH₃CH₂Br",
+      "CH₃OCH₃",
+      "CH₃CH₂CH₂Br",
+      "CH₃COCH₃"
+    ],
+    "correct": 0,
+    "scheme": [
+      "CH₃CH₂Br has a three-H methyl environment and a two-H methylene environment. The other options have either one or three proton environments."
+    ]
+  },
+  {
+    "topic": "R1.1",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "In an exothermic reaction carried out in an insulated cup, what is usually observed?",
+    "options": [
+      "The solution temperature increases",
+      "The solution temperature decreases",
+      "The reaction enthalpy is positive",
+      "Products have greater enthalpy than reactants"
+    ],
+    "correct": 0,
+    "scheme": [
+      "An exothermic system transfers heat to its surroundings; the solution commonly warms and the reaction has negative ΔH."
+    ]
+  },
+  {
+    "topic": "R1.1",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "A solution of mass 100.0 g warms by 5.0 K. Using c = 4.18 J g⁻¹ K⁻¹, what heat has the solution absorbed?",
+    "options": [
+      "20.9 J",
+      "209 J",
+      "2.09 kJ",
+      "20.9 kJ"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Q = mcΔT = 100.0 × 4.18 × 5.0 = 2090 J = 2.09 kJ."
+    ]
+  },
+  {
+    "topic": "R1.2",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Bond enthalpies are H–H = 436, Cl–Cl = 243 and H–Cl = 431 kJ mol⁻¹. Estimate ΔH for H₂(g) + Cl₂(g) → 2HCl(g).",
+    "options": [
+      "−183 kJ mol⁻¹",
+      "+183 kJ mol⁻¹",
+      "−679 kJ mol⁻¹",
+      "+862 kJ mol⁻¹"
+    ],
+    "correct": 0,
+    "scheme": [
+      "ΔH ≈ bonds broken − bonds formed = (436 + 243) − 2(431) = −183 kJ mol⁻¹."
+    ]
+  },
+  {
+    "topic": "R1.2",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Which species has a standard enthalpy of formation of zero by definition at 298 K?",
+    "options": [
+      "O(g)",
+      "O₂(g) in its standard state",
+      "O₃(g)",
+      "H₂O(l)"
+    ],
+    "correct": 1,
+    "scheme": [
+      "The standard enthalpy of formation of an element in its standard state is zero; oxygen’s standard state at 298 K is O₂(g)."
+    ]
+  },
+  {
+    "topic": "R1.3",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "Which product is associated with incomplete combustion of a hydrocarbon and is toxic?",
+    "options": [
+      "Carbon monoxide",
+      "Only water",
+      "Sodium chloride",
+      "Hydrogen peroxide"
+    ],
+    "correct": 0,
+    "scheme": [
+      "An insufficient oxygen supply can produce carbon monoxide, which is toxic; complete combustion would instead produce carbon dioxide and water."
+    ]
+  },
+  {
+    "topic": "R1.3",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Which statement describes a hydrogen fuel cell during operation?",
+    "options": [
+      "It converts chemical energy directly into electrical energy",
+      "It stores all energy only as an increase in temperature",
+      "It always requires electrical energy to force its overall discharge reaction",
+      "Its fuel is regenerated indefinitely without input"
+    ],
+    "correct": 0,
+    "scheme": [
+      "A fuel cell combines a continuously supplied fuel and oxidant in electrochemical reactions that convert chemical energy directly to electrical energy."
+    ]
+  },
+  {
+    "topic": "R1.4",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "For a reaction with ΔH° = +40 kJ mol⁻¹ and ΔS° = +100 J K⁻¹ mol⁻¹, at what temperatures is ΔG° negative, assuming both quantities are temperature independent?",
+    "options": [
+      "Below 40 K",
+      "Below 400 K",
+      "Above 400 K",
+      "At all temperatures"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Convert ΔS° to 0.100 kJ K⁻¹ mol⁻¹. ΔG° = 40 − 0.100T is negative for T > 400 K."
+    ]
+  },
+  {
+    "topic": "R1.4",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "If K > 1 at a specified temperature, what is the sign of ΔG° for the reaction as written?",
+    "options": [
+      "Positive",
+      "Negative",
+      "Exactly zero for every K",
+      "Cannot be related to K"
+    ],
+    "correct": 1,
+    "scheme": [
+      "ΔG° = −RT ln K. When K > 1, ln K is positive and ΔG° is negative."
+    ]
+  },
+  {
+    "topic": "R2.1",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "For 2H₂(g) + O₂(g) → 2H₂O(g), 3.0 mol H₂ and 1.0 mol O₂ are mixed. What is the maximum amount of H₂O?",
+    "options": [
+      "1.0 mol",
+      "2.0 mol",
+      "3.0 mol",
+      "4.0 mol"
+    ],
+    "correct": 1,
+    "scheme": [
+      "O₂ is limiting: 1.0 mol O₂ consumes 2.0 mol H₂ and makes 2.0 mol H₂O; 1.0 mol H₂ remains."
+    ]
+  },
+  {
+    "topic": "R2.1",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "An experiment produces 7.2 g of product from a theoretical yield of 9.0 g. What is the percentage yield?",
+    "options": [
+      "20%",
+      "72%",
+      "80%",
+      "125%"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Percentage yield = actual/theoretical × 100 = 7.2/9.0 × 100 = 80%."
+    ]
+  },
+  {
+    "topic": "R2.2",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "How does a catalyst increase reaction rate?",
+    "options": [
+      "It raises the temperature of every reaction",
+      "It provides a pathway with lower activation energy",
+      "It increases the enthalpy difference between products and reactants",
+      "It shifts every equilibrium to the products"
+    ],
+    "correct": 1,
+    "scheme": [
+      "A catalyst provides an alternative pathway with lower activation energy so a greater fraction of collisions can lead to reaction; ΔH and equilibrium position are unchanged."
+    ]
+  },
+  {
+    "topic": "R2.2",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "For rate = k[A]²[B], what happens to the rate when [A] doubles and [B] halves at constant temperature?",
+    "options": [
+      "It halves",
+      "It stays the same",
+      "It doubles",
+      "It increases eightfold"
+    ],
+    "correct": 2,
+    "scheme": [
+      "The factor is 2² × 1/2 = 2. The rate doubles, while k remains constant at unchanged temperature."
+    ]
+  },
+  {
+    "topic": "R2.3",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "What is true at dynamic chemical equilibrium in a closed system?",
+    "options": [
+      "Reactants and products always have equal concentrations",
+      "Both forward and reverse reactions stop",
+      "The forward and reverse reaction rates are equal",
+      "Every equilibrium constant equals one"
+    ],
+    "correct": 2,
+    "scheme": [
+      "At dynamic equilibrium both reactions continue at equal rates; concentrations are constant but not necessarily equal."
+    ]
+  },
+  {
+    "topic": "R2.3",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "For a reaction at fixed temperature, Q = 0.20 and K = 4.0. Which direction is favoured as equilibrium is approached?",
+    "options": [
+      "Forward, making more products",
+      "Reverse, making more reactants",
+      "No net change because Q is non-zero",
+      "Neither; Q cannot be compared with K"
+    ],
+    "correct": 0,
+    "scheme": [
+      "Q < K, so net forward reaction increases the product-to-reactant ratio until Q reaches K."
+    ]
+  },
+  {
+    "topic": "R3.1",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "What is the pH of a solution with [H⁺] = 2.0 × 10⁻³ mol dm⁻³?",
+    "options": [
+      "2.0",
+      "2.70",
+      "3.30",
+      "11.30"
+    ],
+    "correct": 1,
+    "scheme": [
+      "pH = −log₁₀(2.0 × 10⁻³) = 2.70 to two decimal places."
+    ]
+  },
+  {
+    "topic": "R3.1",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "A buffer contains a weak acid HA and its conjugate base A⁻ at equal concentrations. What is the relationship between pH and pKₐ?",
+    "options": [
+      "pH = 0",
+      "pH = 7 under all conditions",
+      "pH = pKₐ",
+      "pH = 2pKₐ"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Kₐ = [H⁺][A⁻]/[HA]. When [A⁻] = [HA], [H⁺] = Kₐ, so pH = pKₐ."
+    ]
+  },
+  {
+    "topic": "R3.2",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "In a voltaic cell, where does oxidation occur?",
+    "options": [
+      "At the positive cathode",
+      "At the negative anode",
+      "At both electrodes simultaneously by definition",
+      "Only in the salt bridge"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Oxidation occurs at the anode. In a voltaic cell the anode supplies electrons and is the negative electrode."
+    ]
+  },
+  {
+    "topic": "R3.2",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Standard reduction potentials are E°(Cu²⁺/Cu) = +0.34 V and E°(Zn²⁺/Zn) = −0.76 V. What is E°cell for the spontaneous zinc–copper cell?",
+    "options": [
+      "−1.10 V",
+      "−0.42 V",
+      "+0.42 V",
+      "+1.10 V"
+    ],
+    "correct": 3,
+    "scheme": [
+      "Cu²⁺ is reduced at the cathode and Zn is oxidized at the anode. E°cell = 0.34 − (−0.76) = +1.10 V."
+    ]
+  },
+  {
+    "topic": "R3.3",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "Which process produces chlorine radicals from Cl₂ under UV light?",
+    "options": [
+      "Heterolytic fission with both electrons on one atom",
+      "Homolytic fission with one electron on each atom",
+      "Proton transfer",
+      "Condensation polymerization"
+    ],
+    "correct": 1,
+    "scheme": [
+      "Homolytic fission gives one bonding electron to each chlorine atom: Cl₂ → 2Cl•."
+    ]
+  },
+  {
+    "topic": "R3.3",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Which equation is a termination step in methane chlorination?",
+    "options": [
+      "Cl₂ → 2Cl•",
+      "Cl• + CH₄ → HCl + CH₃•",
+      "CH₃• + Cl₂ → CH₃Cl + Cl•",
+      "CH₃• + Cl• → CH₃Cl"
+    ],
+    "correct": 3,
+    "scheme": [
+      "Termination combines two radicals to form a non-radical product without regenerating another radical."
+    ]
+  },
+  {
+    "topic": "R3.4",
+    "level": "SL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Easy",
+    "text": "Which statement defines a nucleophile?",
+    "options": [
+      "It donates a pair of electrons to form a bond",
+      "It must always have a positive charge",
+      "It accepts a proton in every possible reaction",
+      "It contains no lone pairs or π electrons"
+    ],
+    "correct": 0,
+    "scheme": [
+      "A nucleophile donates both electrons of a newly formed bond. It can be neutral or negatively charged."
+    ]
+  },
+  {
+    "topic": "R3.4",
+    "level": "HL",
+    "paper": "Paper 1A",
+    "kind": "mcq",
+    "marks": 1,
+    "difficulty": "Medium",
+    "text": "Which rate equation is consistent with a one-step SN2 reaction between a primary halogenoalkane RBr and OH⁻?",
+    "options": [
+      "rate = k[RBr]",
+      "rate = k[OH⁻] only",
+      "rate = k[RBr][OH⁻]",
+      "rate = k[RBr]²[OH⁻]"
+    ],
+    "correct": 2,
+    "scheme": [
+      "Both the halogenoalkane and nucleophile participate in the concerted bimolecular substitution step; the rate is first order in each."
+    ]
+  },
+  {
+    "topic": "S2.3",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "Explain why a pure metal can be both malleable and electrically conducting.",
+    "scheme": [
+      "Metal cations are surrounded by delocalized electrons in a metallic lattice [1].",
+      "The electrons are mobile and carry electrical charge [1].",
+      "Layers can change position while non-directional attraction between cations and electrons is maintained, allowing deformation [1]."
+    ]
+  },
+  {
+    "topic": "S2.4",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "Draw or describe the repeating unit of the addition polymer formed from CH₂=CHCl. Explain why its formation can have 100% atom economy.",
+    "scheme": [
+      "Open the C=C double bond to give the backbone repeating unit –CH₂–CHCl– [1].",
+      "Show the repeating unit in brackets with bonds continuing through the brackets and subscript n [1].",
+      "All monomer atoms are incorporated in the polymer; no small-molecule by-product is required [1]."
+    ]
+  },
+  {
+    "topic": "S2.4",
+    "level": "HL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Medium",
+    "text": "A polyester is made from HO–CH₂–CH₂–OH and HOOC–CH₂–COOH. Describe its repeat linkage and explain the small molecule released.",
+    "scheme": [
+      "The alcohol groups of the diol react with carboxyl groups of the dicarboxylic acid [1].",
+      "An ester linkage –C(=O)–O– forms between monomer residues [1].",
+      "A valid repeat unit is –O–CH₂–CH₂–O–C(=O)–CH₂–C(=O)– with continuous backbone bonds [1].",
+      "Water is eliminated when an –OH and H combine during formation of each ester linkage [1]."
+    ]
+  },
+  {
+    "topic": "S3.1",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "Predict and explain the reaction when chlorine is added to aqueous potassium bromide. Include an ionic equation.",
+    "scheme": [
+      "Chlorine oxidizes bromide ions to bromine because chlorine is the stronger oxidizing halogen [1].",
+      "Cl₂(aq) + 2Br⁻(aq) → 2Cl⁻(aq) + Br₂(aq) [1].",
+      "An orange/brown colour from bromine develops; Br⁻ loses electrons while chlorine gains electrons [1]."
+    ]
+  },
+  {
+    "topic": "S3.2",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "Give the IUPAC name of CH₃CH(OH)CH₂CH₃ and explain why it is classified as a secondary alcohol.",
+    "scheme": [
+      "The longest chain contains four carbons: butane parent [1].",
+      "The hydroxyl group receives the lowest possible locant, giving butan-2-ol [1].",
+      "The carbon bearing –OH is bonded to two other carbon atoms, so the alcohol is secondary [1]."
+    ]
+  },
+  {
+    "topic": "S3.2",
+    "level": "HL",
+    "paper": "Paper 1B",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Hard",
+    "text": "A compound has molecular formula C₂H₄O₂. Its IR spectrum has a broad absorption spanning approximately 2500–3300 cm⁻¹ and a strong carbonyl absorption. Its ¹H NMR contains a 3H singlet and a 1H downfield signal. Deduce a structure and justify it.",
+    "scheme": [
+      "The formula and carbonyl absorption support a carbonyl-containing molecule [1].",
+      "The very broad O–H absorption is consistent with a carboxylic acid group [1].",
+      "A 3H singlet is consistent with CH₃ next to a carbonyl carbon with no adjacent hydrogen [1].",
+      "CH₃COOH (ethanoic acid) satisfies the molecular formula and gives a separate acidic O–H proton [1]."
+    ]
+  },
+  {
+    "topic": "R1.1",
+    "level": "SL",
+    "paper": "Paper 1B",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Medium",
+    "text": "A reaction warms 150.0 g of solution from 20.0 °C to 27.0 °C. A total of 0.0500 mol of limiting reactant reacts. Use c = 4.18 J g⁻¹ K⁻¹ and ignore calorimeter heat capacity and heat loss. Calculate the molar reaction enthalpy.",
+    "scheme": [
+      "ΔT = 27.0 − 20.0 = 7.0 K [1].",
+      "Qsolution = mcΔT = 150.0 × 4.18 × 7.0 = 4389 J [1].",
+      "Heat released by the reaction is −4.389 kJ [1].",
+      "ΔH = −4.389/0.0500 = −87.8 kJ mol⁻¹ (approximately −88 kJ mol⁻¹ to two significant figures) [1]."
+    ]
+  },
+  {
+    "topic": "R1.2",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "Given A → B has ΔH = +45 kJ mol⁻¹ and B → C has ΔH = −120 kJ mol⁻¹, determine ΔH for C → A. Explain the principle used.",
+    "scheme": [
+      "For A → C, add the two steps: +45 − 120 = −75 kJ mol⁻¹ [1].",
+      "Reverse the process: C → A has ΔH = +75 kJ mol⁻¹ [1].",
+      "Hess’s law: enthalpy change depends only on initial and final states, not the pathway [1]."
+    ]
+  },
+  {
+    "topic": "R1.2",
+    "level": "HL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Hard",
+    "text": "For CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), calculate ΔH° using ΔHf°(CH₄) = −74.8, ΔHf°(CO₂) = −393.5 and ΔHf°(H₂O(l)) = −285.8 kJ mol⁻¹.",
+    "scheme": [
+      "Use ΔH° = ΣνΔHf°(products) − ΣνΔHf°(reactants) [1].",
+      "ΔHf° for O₂(g), the standard-state element, is zero [1].",
+      "Substitute: [−393.5 + 2(−285.8)] − [−74.8 + 2(0)] [1].",
+      "ΔH° = −890.3 kJ mol⁻¹ [1]."
+    ]
+  },
+  {
+    "topic": "R1.3",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "Write balanced equations for complete combustion of methane and incomplete combustion forming carbon monoxide. Explain why limited oxygen poses an additional health risk.",
+    "scheme": [
+      "Complete combustion: CH₄ + 2O₂ → CO₂ + 2H₂O [1].",
+      "Incomplete combustion to CO: 2CH₄ + 3O₂ → 2CO + 4H₂O [1].",
+      "Carbon monoxide is toxic; incomplete combustion can therefore create a serious additional health hazard [1]."
+    ]
+  },
+  {
+    "topic": "R1.4",
+    "level": "HL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Medium",
+    "text": "A reaction has ΔH° = −50.0 kJ mol⁻¹ and ΔS° = −120 J K⁻¹ mol⁻¹. Calculate ΔG° at 298 K and determine the temperature range for thermodynamic spontaneity under standard conditions, assuming ΔH° and ΔS° are constant.",
+    "scheme": [
+      "Convert ΔS° to −0.120 kJ K⁻¹ mol⁻¹ [1].",
+      "ΔG° = ΔH° − TΔS° = −50.0 − 298(−0.120) = −14.24 kJ mol⁻¹ [1].",
+      "Set ΔG° = 0: T = ΔH°/ΔS° = (−50.0)/(−0.120) ≈ 417 K [1].",
+      "ΔG° < 0 for T < 417 K; spontaneity does not imply a rapid reaction [1]."
+    ]
+  },
+  {
+    "topic": "R2.1",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Medium",
+    "text": "Calcium carbonate decomposes: CaCO₃(s) → CaO(s) + CO₂(g). Using molar masses CaCO₃ = 100.09 and CaO = 56.08 g mol⁻¹, calculate the theoretical mass of CaO from 10.00 g CaCO₃ and the percentage yield if 4.80 g CaO is recovered.",
+    "scheme": [
+      "n(CaCO₃) = 10.00/100.09 ≈ 0.09991 mol [1].",
+      "The 1:1 ratio gives 0.09991 mol CaO [1].",
+      "Theoretical mass = 0.09991 × 56.08 ≈ 5.603 g [1].",
+      "Percentage yield = 4.80/5.603 × 100 ≈ 85.7% [1]."
+    ]
+  },
+  {
+    "topic": "R2.2",
+    "level": "SL",
+    "paper": "Paper 1B",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "A tangent to a gas-volume/time curve passes through (10 s, 20 cm³) and (30 s, 50 cm³). Estimate the instantaneous rate represented by this tangent and explain why it is not necessarily the average rate for the whole reaction.",
+    "scheme": [
+      "Calculate tangent gradient ΔV/Δt = (50 − 20)/(30 − 10) [1].",
+      "Rate = 1.5 cm³ s⁻¹ [1].",
+      "A tangent estimates the rate at one chosen time; a whole-reaction average uses the overall change and elapsed time [1]."
+    ]
+  },
+  {
+    "topic": "R2.2",
+    "level": "HL",
+    "paper": "Paper 1B",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Hard",
+    "text": "At constant temperature, doubling [A] with [B] fixed multiplies the rate by four; doubling [B] with [A] fixed has no effect. When [A] = 0.200 mol dm⁻³, the rate is 8.0 × 10⁻⁴ mol dm⁻³ s⁻¹. Deduce the rate equation and calculate k with units.",
+    "scheme": [
+      "The reaction is second order in A because doubling [A] gives a fourfold rate [1].",
+      "It is zero order in B, so rate = k[A]² [1].",
+      "k = (8.0 × 10⁻⁴)/(0.200)² = 2.0 × 10⁻² [1].",
+      "Units of k are dm³ mol⁻¹ s⁻¹ [1]."
+    ]
+  },
+  {
+    "topic": "R2.3",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Medium",
+    "text": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g), the forward reaction is exothermic. Predict the effects of increasing pressure, increasing temperature and adding a catalyst on the equilibrium amount of NH₃. State which change alters K.",
+    "scheme": [
+      "Increasing pressure at constant temperature favours the side with fewer gas particles, so increases the equilibrium amount of NH₃ [1].",
+      "Increasing temperature favours the endothermic reverse direction, so decreases NH₃ [1].",
+      "A catalyst changes neither equilibrium composition nor K; it accelerates attainment of equilibrium [1].",
+      "Only temperature changes K here; increasing T decreases K for the exothermic forward reaction [1]."
+    ]
+  },
+  {
+    "topic": "R3.1",
+    "level": "SL",
+    "paper": "Paper 1B",
+    "kind": "written",
+    "marks": 3,
+    "difficulty": "Medium",
+    "text": "25.00 cm³ of hydrochloric acid is neutralized by 20.00 cm³ of 0.1500 mol dm⁻³ NaOH. Calculate the HCl concentration.",
+    "scheme": [
+      "HCl + NaOH → NaCl + H₂O gives a 1:1 mole ratio [1].",
+      "n(NaOH) = 0.1500 × 0.02000 = 0.003000 mol = n(HCl) [1].",
+      "[HCl] = 0.003000/0.02500 = 0.1200 mol dm⁻³ [1]."
+    ]
+  },
+  {
+    "topic": "R3.1",
+    "level": "HL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Hard",
+    "text": "A buffer contains 0.100 mol dm⁻³ ethanoic acid and 0.150 mol dm⁻³ ethanoate ions. Given Kₐ = 1.8 × 10⁻⁵, estimate its pH and explain what happens to added small amounts of H⁺.",
+    "scheme": [
+      "Kₐ = [H⁺][CH₃COO⁻]/[CH₃COOH] [1].",
+      "[H⁺] ≈ (1.8 × 10⁻⁵)(0.100/0.150) = 1.2 × 10⁻⁵ mol dm⁻³ [1].",
+      "pH ≈ 4.92 [1].",
+      "Ethanoate removes added H⁺: CH₃COO⁻ + H⁺ → CH₃COOH, limiting the pH change [1]."
+    ]
+  },
+  {
+    "topic": "R3.2",
+    "level": "HL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Hard",
+    "text": "A spontaneous voltaic cell has E°cell = +1.10 V and transfers 2 mol of electrons per mole of reaction. Calculate ΔG° using F = 96,500 C mol⁻¹ and explain the sign.",
+    "scheme": [
+      "Use ΔG° = −nFE°cell [1].",
+      "Substitute −2 × 96,500 × 1.10 = −212,300 J mol⁻¹ [1].",
+      "ΔG° = −212 kJ mol⁻¹ to three significant figures [1].",
+      "A negative standard Gibbs energy change is consistent with thermodynamic spontaneity under standard conditions [1]."
+    ]
+  },
+  {
+    "topic": "R3.3",
+    "level": "SL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Medium",
+    "text": "Write the initiation step and two propagation steps in the UV-initiated chlorination of methane, then give one termination step.",
+    "scheme": [
+      "Initiation: Cl₂ → 2Cl• under UV light [1].",
+      "Propagation: Cl• + CH₄ → HCl + CH₃• [1].",
+      "Propagation: CH₃• + Cl₂ → CH₃Cl + Cl• [1].",
+      "A valid termination such as Cl• + CH₃• → CH₃Cl or 2Cl• → Cl₂ or 2CH₃• → C₂H₆ [1]."
+    ]
+  },
+  {
+    "topic": "R3.4",
+    "level": "HL",
+    "paper": "Paper 2",
+    "kind": "written",
+    "marks": 4,
+    "difficulty": "Hard",
+    "text": "Predict the major product when propene reacts with HBr and explain the carbocation argument. Assume ordinary electrophilic addition conditions.",
+    "scheme": [
+      "The major product is 2-bromopropane, CH₃CHBrCH₃ [1].",
+      "The π bond initially reacts with H⁺, and protonation can give two possible carbocations [1].",
+      "A secondary carbocation, CH₃CH⁺CH₃, is more stable than the alternative primary carbocation [1].",
+      "Br⁻ attacks the secondary carbocation, producing the major product [1]."
+    ]
+  }
+]

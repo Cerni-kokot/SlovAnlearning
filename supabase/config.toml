@@ -1,0 +1,6 @@
+project_id = "chemistry-atlas"
+
+[functions.chemistry-tutor]
+# The handler validates every bearer token with Supabase Auth getUser.
+# This also supports current Supabase signing keys when gateway JWT verification differs.
+verify_jwt = false

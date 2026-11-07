@@ -1,0 +1,1776 @@
+[
+  {
+    "id": "S2.3",
+    "name": "The metallic model",
+    "group": "Structure",
+    "sections": [
+      {
+        "id": "S2.3.1",
+        "title": "Metallic bonding and metal properties",
+        "hl": false,
+        "summary": "Mobile electrons attract a lattice of metal cations.",
+        "explain": [
+          "In a metal, outer electrons are delocalized across an extended structure rather than confined to one bond. Electrostatic attraction between these electrons and positive metal ions holds the solid together.",
+          "Mobile electrons transport charge and energy, explaining electrical and thermal conductivity. Metallic attraction is non-directional, so layers can move while attraction to the electron cloud remains; this explains malleability."
+        ],
+        "steps": [
+          "Identify cations and delocalized electrons",
+          "For conductivity, identify mobile electrons",
+          "For malleability, explain maintained attraction as layers move"
+        ],
+        "example": {
+          "q": "Why can a metal be hammered into shape without shattering like an ionic crystal?",
+          "steps": [
+            "Metal ions can change relative positions under force",
+            "Electrons remain delocalized across the structure",
+            "Electrostatic attraction is maintained rather than creating strongly repelling like-charge planes"
+          ],
+          "answer": "Non-directional metallic bonding permits deformation."
+        },
+        "mistake": "Do not say positive metal ions conduct electricity by moving through a solid wire.",
+        "visual": {
+          "kind": "lattice",
+          "title": "Metallic bonding and metal properties",
+          "labels": [
+            "Cation lattice",
+            "Delocalized electrons",
+            "Mobile charge",
+            "Non-directional attraction"
+          ]
+        }
+      },
+      {
+        "id": "S2.3.2",
+        "title": "What strengthens metallic bonding?",
+        "hl": false,
+        "summary": "Greater cation charge and smaller radius usually strengthen metallic attraction.",
+        "explain": [
+          "Metallic bonding depends on how strongly the cations attract the delocalized electrons. A greater positive charge and a smaller ionic radius increase this attraction, provided comparable structures are being considered.",
+          "Across the period-3 metals sodium, magnesium and aluminium, increasing numbers of contributed electrons and higher cation charge generally strengthen metallic bonding. More energy is required to overcome the stronger attractions, giving higher melting points in this simple comparison."
+        ],
+        "steps": [
+          "Compare cation charges",
+          "Compare radii and electron density",
+          "Relate attraction strength to melting point"
+        ],
+        "example": {
+          "q": "Explain the general increase in melting point from Na to Mg to Al.",
+          "steps": [
+            "Na contributes one outer electron, Mg two and Al three in the simple model",
+            "Cation charge increases while size generally decreases",
+            "The denser electron cloud and stronger attraction require more energy to overcome"
+          ],
+          "answer": "Metallic bonding generally strengthens from Na to Al."
+        },
+        "mistake": "Do not describe a metal as separate molecules joined by intermolecular forces.",
+        "visual": {
+          "kind": "trend",
+          "title": "What strengthens metallic bonding?",
+          "labels": [
+            "Higher cation charge",
+            "Smaller radius",
+            "Stronger attraction",
+            "Higher melting point"
+          ]
+        }
+      },
+      {
+        "id": "S2.3.3",
+        "title": "Transition-metal bonding",
+        "hl": true,
+        "summary": "Delocalized d electrons contribute to transition-metal properties.",
+        "explain": [
+          "Transition elements can involve d electrons as well as outer s electrons in metallic bonding. Their delocalized electron population can produce strong attractions to the positive ion framework.",
+          "This helps explain their typically high melting temperatures and good electrical conductivity. Melting trends across the d block are less simple than the s-block model because electron arrangements and solid structures vary."
+        ],
+        "steps": [
+          "Identify available delocalized d and s electrons",
+          "Connect stronger attraction to melting temperature",
+          "Connect mobile electrons to conductivity"
+        ],
+        "example": {
+          "q": "Why is iron generally a high-melting electrical conductor?",
+          "steps": [
+            "Its solid contains metallic bonding with delocalized electrons",
+            "Strong attraction throughout the lattice requires substantial energy to overcome",
+            "Mobile delocalized electrons carry charge"
+          ],
+          "answer": "Strong metallic bonding and mobile electrons explain the properties."
+        },
+        "mistake": "Avoid claiming every transition element has a higher melting point than every main-group metal.",
+        "visual": {
+          "kind": "lattice",
+          "title": "Transition-metal bonding",
+          "labels": [
+            "s electrons + d electrons",
+            "Delocalization",
+            "Strong metallic lattice",
+            "Electrical conduction"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "S2.4",
+    "name": "From models to materials",
+    "group": "Structure",
+    "sections": [
+      {
+        "id": "S2.4.1",
+        "title": "The bonding continuum",
+        "hl": false,
+        "summary": "Ionic, covalent and metallic descriptions are useful limiting models.",
+        "explain": [
+          "Real bonding does not always fit into three completely separate boxes. Some substances combine unequal electron sharing, directional covalent character and more widespread electron delocalization. A bonding triangle represents this continuum.",
+          "Use the dominant bonding contribution to explain observed behaviour, while recognizing mixed character. A material near an ionic region may have high melting temperature and conduct when molten; a material with metallic character is more likely to conduct as a solid."
+        ],
+        "steps": [
+          "Identify observed properties",
+          "Choose the most useful bonding model",
+          "State where mixed character limits a simple classification"
+        ],
+        "example": {
+          "q": "Why is a bonding continuum more useful than insisting every compound is perfectly ionic or covalent?",
+          "steps": [
+            "Electron sharing varies continuously with the atoms involved",
+            "Many real bonds have mixed character",
+            "A continuum helps connect this mixture to measured physical properties"
+          ],
+          "answer": "Bonding models are limits, not perfectly separated categories."
+        },
+        "mistake": "A triangle position is a model of bonding character, not a claim that a sample contains three separate phases.",
+        "visual": {
+          "kind": "triangle",
+          "title": "The bonding continuum",
+          "labels": [
+            "Ionic limit",
+            "Covalent limit",
+            "Metallic limit",
+            "Mixed bonding character"
+          ]
+        }
+      },
+      {
+        "id": "S2.4.2",
+        "title": "Using electronegativity in a bonding triangle",
+        "hl": false,
+        "summary": "Electronegativity difference and average locate binary substances in a bonding model.",
+        "explain": [
+          "For a binary compound, calculate the electronegativity difference Δχ = |χA − χB| and the average χaverage = (χA + χB)/2. Use these values with the axes and regions of the supplied bonding triangle.",
+          "A large difference usually suggests substantial ionic character. A small difference combined with a high average suggests shared electrons in covalent bonding; a small difference and low average is associated with metallic character. These are tendencies, not universal rules."
+        ],
+        "steps": [
+          "Look up both electronegativities",
+          "Calculate difference and average",
+          "Plot using the supplied axes and infer properties"
+        ],
+        "example": {
+          "q": "For atoms with χ = 0.9 and 3.0, calculate the coordinates used with a bonding triangle.",
+          "steps": [
+            "Difference = ",
+            "3.0 − 0.9",
+            " = 2.1",
+            "Average = (3.0 + 0.9)/2 = 1.95",
+            "Use the supplied triangle; the relatively large difference suggests ionic character"
+          ],
+          "answer": "Δχ = 2.1 and χaverage = 1.95."
+        },
+        "mistake": "Do not calculate percentage ionic character; the syllabus does not require it.",
+        "visual": {
+          "kind": "triangle",
+          "title": "Using electronegativity in a bonding triangle",
+          "labels": [
+            "χA and χB",
+            "Difference: 2.1",
+            "Average: 1.95",
+            "Plot on supplied triangle"
+          ]
+        }
+      },
+      {
+        "id": "S2.4.3",
+        "title": "Alloys and enhanced properties",
+        "hl": false,
+        "summary": "Alloys are mixtures with modified metallic structures and useful properties.",
+        "explain": [
+          "An alloy contains a metal mixed with one or more other elements. Differently sized atoms can disrupt the regular arrangement of a pure metal, making it harder for layers or defects to move. This often increases hardness.",
+          "Metallic bonding remains non-directional, allowing mixtures without needing a fixed molecular ratio. Alloy composition can be selected for strength, corrosion resistance or other properties; examples include brass, bronze and stainless steel, but specific recipes need not be memorized."
+        ],
+        "steps": [
+          "Identify the base metal and mixed atoms",
+          "Explain disruption of a regular lattice",
+          "Relate restricted sliding to hardness"
+        ],
+        "example": {
+          "q": "Why can an alloy be harder than a pure metal?",
+          "steps": [
+            "Added atoms can differ in size",
+            "They distort the regular metal arrangement",
+            "Movement of layers becomes more difficult while metallic attraction remains"
+          ],
+          "answer": "Lattice distortion can increase hardness."
+        },
+        "mistake": "Alloys are mixtures, not necessarily compounds with fixed formulas.",
+        "visual": {
+          "kind": "lattice",
+          "title": "Alloys and enhanced properties",
+          "labels": [
+            "Pure regular lattice",
+            "Different-sized atoms",
+            "Distorted arrangement",
+            "Harder to deform"
+          ]
+        }
+      },
+      {
+        "id": "S2.4.4",
+        "title": "Polymer structure and plastic properties",
+        "hl": false,
+        "summary": "Polymers are macromolecules built from repeated monomer units.",
+        "explain": [
+          "A polymer is a very large molecule constructed from many repeated subunits. Long covalently bonded chains may become entangled, and attractions between chains help determine flexibility, strength and softening behaviour.",
+          "Many plastics are lightweight, mouldable and poor electrical conductors because they lack mobile charge carriers. Natural polymers and synthetic polymers share the repeated-unit idea, although their functional groups and chain structures differ considerably."
+        ],
+        "steps": [
+          "Identify the repeated structural pattern",
+          "Distinguish covalent chain bonds from attractions between chains",
+          "Connect chain arrangement to a stated property"
+        ],
+        "example": {
+          "q": "Why can a common polymer plastic be a useful electrical insulator?",
+          "steps": [
+            "Its electrons are largely localized in covalent bonds",
+            "It lacks mobile ions in the solid",
+            "There are no abundant mobile charge carriers to transport current"
+          ],
+          "answer": "A lack of mobile charge carriers explains insulation."
+        },
+        "mistake": "Do not say all polymers are identical or all are biodegradable.",
+        "visual": {
+          "kind": "chain",
+          "title": "Polymer structure and plastic properties",
+          "labels": [
+            "Monomer units",
+            "Long covalent chains",
+            "Interchain attractions",
+            "Material properties"
+          ]
+        }
+      },
+      {
+        "id": "S2.4.5",
+        "title": "Addition polymerization",
+        "hl": false,
+        "summary": "Alkene double bonds open to connect monomers without eliminating a small molecule.",
+        "explain": [
+          "In addition polymerization, the carbon–carbon double bond in each alkene monomer becomes a carbon–carbon single bond as new bonds form to neighbouring units. The polymer backbone contains the two original alkene carbons.",
+          "Draw one repeat unit in brackets with continuation bonds passing through both sides and n outside. All monomer atoms remain in the polymer, so the ideal addition process has 100% atom economy. Side groups stay attached to their original carbon."
+        ],
+        "steps": [
+          "Identify the C=C bond",
+          "Change it to a C–C backbone and retain side groups",
+          "Add continuation bonds, brackets and n"
+        ],
+        "example": {
+          "q": "Write the repeat unit formed from propene, CH2=CHCH3.",
+          "steps": [
+            "The two double-bond carbons become the backbone",
+            "Retain CH3 attached to the second backbone carbon",
+            "Represent one repeat unit with open continuation bonds"
+          ],
+          "answer": "[–CH2–CH(CH3)–]n."
+        },
+        "mistake": "Do not include the original C=C bond inside a simple alkene addition-polymer repeat unit.",
+        "visual": {
+          "kind": "chain",
+          "title": "Addition polymerization",
+          "labels": [
+            "CH2=CH–R",
+            "Open double bond",
+            "–CH2–CH(R)–",
+            "n repeat units"
+          ]
+        }
+      },
+      {
+        "id": "S2.4.6",
+        "title": "Condensation polymers",
+        "hl": true,
+        "summary": "Functional groups join monomers while releasing a small molecule.",
+        "explain": [
+          "Condensation polymerization joins monomers with suitable functional groups at two sites. A carboxylic acid plus alcohol forms an ester link, while a carboxylic acid plus amine forms an amide link; water is commonly released.",
+          "Polyesters contain –COO– links and polyamides contain –CONH– links. Identify the small molecule removed at each link and preserve the rest of each monomer in the repeat unit. Hydrolysis reverses these link-forming reactions and can break the chain."
+        ],
+        "steps": [
+          "Identify two reactive groups on each monomer",
+          "Remove the atoms forming water at each link",
+          "Join through ester or amide links and draw continuation bonds"
+        ],
+        "example": {
+          "q": "What link forms between a dicarboxylic acid and a diamine?",
+          "steps": [
+            "A –COOH group reacts with a –NH2 group",
+            "OH from acid and H from amine form water",
+            "The remaining fragments join as –CO–NH–"
+          ],
+          "answer": "A polyamide link, –CONH–, with water eliminated."
+        },
+        "mistake": "Do not confuse an amide link with an amine group: an amide contains a carbonyl beside N.",
+        "visual": {
+          "kind": "chain",
+          "title": "Condensation polymers",
+          "labels": [
+            "Dicarboxylic acid",
+            "Diamine",
+            "–CO–NH– link",
+            "Water released"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "S3.1",
+    "name": "The periodic table: Classification of elements",
+    "group": "Structure",
+    "sections": [
+      {
+        "id": "S3.1.1",
+        "title": "Periods, groups and blocks",
+        "hl": false,
+        "summary": "The periodic table arranges elements by atomic number and electronic structure.",
+        "explain": [
+          "Rows are periods and columns are groups, numbered 1–18. The s, p, d and f blocks reflect the types of sublevel being filled across those regions. Metals mostly occupy the left and centre, while non-metals are concentrated on the upper right.",
+          "Metalloids occupy parts of the boundary region between typical metals and non-metals and show intermediate properties. Use the data-booklet periodic table to locate elements instead of trying to infer every property from a single category."
+        ],
+        "steps": [
+          "Locate the element by atomic number",
+          "Read its row and column",
+          "Identify block and broad metal/non-metal region"
+        ],
+        "example": {
+          "q": "Where is chlorine (Z = 17) located?",
+          "steps": [
+            "Find atomic number 17",
+            "It is in the third row and group 17",
+            "Its differentiating electron enters a p sublevel"
+          ],
+          "answer": "Period 3, group 17, p block, non-metal."
+        },
+        "mistake": "Group and period are not interchangeable.",
+        "visual": {
+          "kind": "periodic",
+          "title": "Periods, groups and blocks",
+          "labels": [
+            "Rows: periods",
+            "Columns: groups",
+            "s p d f blocks",
+            "Metal–non-metal regions"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.2",
+        "title": "Position and electron configuration",
+        "hl": false,
+        "summary": "Period and group information connects to occupied shells and valence electrons.",
+        "explain": [
+          "The period usually identifies the highest occupied principal energy level in an atom. For main-group atoms, group membership is related to the outer s and p electron count, explaining similar chemical behaviour within a group.",
+          "Use configurations up to Z = 36 to connect electronic structure with table position. Recognize group 1 alkali metals, group 17 halogens, group 18 noble gases and the d-block transition region. Electron configuration gives a stronger explanation than simply learning group labels."
+        ],
+        "steps": [
+          "Write the configuration",
+          "Identify the highest occupied n",
+          "Count outer-shell electrons for main-group placement"
+        ],
+        "example": {
+          "q": "Deduce the position of an atom with configuration [Ne]3s2 3p4.",
+          "steps": [
+            "Highest occupied principal shell is n = 3",
+            "The outer shell has 2 + 4 = 6 electrons",
+            "A p-block atom with six valence electrons is in group 16"
+          ],
+          "answer": "Period 3, group 16: sulfur."
+        },
+        "mistake": "For d-block atoms, group placement cannot be determined by treating outer s electrons alone like a main-group rule.",
+        "visual": {
+          "kind": "periodic",
+          "title": "Position and electron configuration",
+          "labels": [
+            "Configuration",
+            "Highest n → period",
+            "Outer electrons → group",
+            "Block from sublevel"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.3",
+        "title": "Periodic trends",
+        "hl": false,
+        "summary": "Radius and electronic attraction explain recurring property patterns.",
+        "explain": [
+          "Across a period, increasing nuclear charge with limited additional shielding generally reduces atomic radius and increases ionization energy and electronegativity. Down a group, added electron shells increase size and shielding, generally reducing attraction for outer electrons.",
+          "Cations are smaller than their parent atoms because electron loss can remove a shell and increases attraction per remaining electron. Anions are larger because additional electron repulsion expands the electron distribution. Electron affinity concerns the energy change when an electron is added to a gaseous atom and has exceptions; specify the sign convention used."
+        ],
+        "steps": [
+          "Identify nuclear charge, shell count and shielding",
+          "Use these to compare attraction to outer electrons",
+          "Apply the reasoning to the requested property and note relevant exceptions"
+        ],
+        "example": {
+          "q": "Why is Na+ much smaller than Na?",
+          "steps": [
+            "Neutral Na has an electron in the third shell",
+            "Na+ has lost this outer electron and has only occupied first and second shells",
+            "The remaining electrons are attracted by the same nucleus"
+          ],
+          "answer": "Loss of the outer occupied shell produces a much smaller cation."
+        },
+        "mistake": "Never explain a trend only with “it wants a full shell”; discuss electrostatic attraction.",
+        "visual": {
+          "kind": "trend",
+          "title": "Periodic trends",
+          "labels": [
+            "Across: stronger attraction",
+            "Down: more shells",
+            "Cation smaller",
+            "Anion larger"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.4",
+        "title": "Group 1 and group 17 reactivity",
+        "hl": false,
+        "summary": "Metal electron loss and halogen electron gain change systematically down groups.",
+        "explain": [
+          "Group 1 metals react with water to form a metal hydroxide and hydrogen. Down the group, outer electrons are further from the nucleus and more shielded, so electron loss becomes easier and reactions become more vigorous.",
+          "Halogens act as oxidizing agents by accepting electrons. Down group 17, increased radius and shielding make electron gain less favourable, so oxidizing strength decreases. A more reactive halogen displaces a less reactive halogen from its halide solution."
+        ],
+        "steps": [
+          "For group 1, write metal + water → hydroxide + hydrogen",
+          "For halogens, compare positions in group 17",
+          "Predict displacement only when the free halogen is a stronger oxidant"
+        ],
+        "example": {
+          "q": "Predict whether chlorine reacts with bromide ions and write the ionic equation.",
+          "steps": [
+            "Chlorine is above bromine in group 17",
+            "Chlorine is the stronger oxidant and accepts electrons from Br−",
+            "Balance atoms and charge"
+          ],
+          "answer": "Cl2 + 2Br− → 2Cl− + Br2."
+        },
+        "mistake": "Do not apply the group-1 reactivity trend to halogens; their electron-transfer roles differ.",
+        "visual": {
+          "kind": "trend",
+          "title": "Group 1 and group 17 reactivity",
+          "labels": [
+            "Group 1: lose e−",
+            "Reactivity increases down",
+            "Group 17: gain e−",
+            "Oxidizing power decreases down"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.5",
+        "title": "Oxide acidity and environmental effects",
+        "hl": false,
+        "summary": "Oxides range from basic through amphoteric to acidic across a period.",
+        "explain": [
+          "Typical metal oxides are basic and react with acids; some react with water to form hydroxides. Many non-metal oxides are acidic and react with water to form acids or with bases to form salts. Amphoteric oxides react with both acids and bases.",
+          "Examples include Na2O + H2O → 2NaOH, CaO + H2O → Ca(OH)2, CO2 + H2O ⇌ H2CO3 and SO2 + H2O ⇌ H2SO3. Atmospheric sulfur and nitrogen oxides contribute to acid rain; dissolved CO2 shifts ocean carbonate equilibria toward greater acidity."
+        ],
+        "steps": [
+          "Identify whether the oxide is predominantly metal or non-metal",
+          "Classify as basic, amphoteric or acidic using evidence",
+          "Write a balanced reaction with water where appropriate"
+        ],
+        "example": {
+          "q": "Write the reaction of sodium oxide with water and classify the product.",
+          "steps": [
+            "Sodium oxide is a basic metal oxide",
+            "It forms aqueous sodium hydroxide",
+            "Balance Na using coefficient 2 for NaOH"
+          ],
+          "answer": "Na2O + H2O → 2NaOH; alkaline product."
+        },
+        "mistake": "Not every metal oxide reacts rapidly with water, even when it is classified as basic.",
+        "visual": {
+          "kind": "trend",
+          "title": "Oxide acidity and environmental effects",
+          "labels": [
+            "Metal oxides: basic",
+            "Boundary oxides: amphoteric",
+            "Non-metal oxides: acidic",
+            "CO2 dissolution"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.6",
+        "title": "Oxidation states",
+        "hl": false,
+        "summary": "Oxidation state is a formal electron-allocation number, not necessarily an actual charge.",
+        "explain": [
+          "Assign oxidation states as if each bond were ionic, with bonding electrons allocated to the more electronegative atom. An uncombined element has oxidation state zero because no net electron allocation to a different element occurs.",
+          "The sum of oxidation states equals the total species charge. Oxygen is usually −2 but is −1 in peroxides; hydrogen is usually +1 but is −1 in metal hydrides. Use known assignments to solve for unknown values and recognize nitrate/nitrite and sulfate/sulfite names."
+        ],
+        "steps": [
+          "Apply familiar element rules and exceptions",
+          "Set the sum equal to the overall charge",
+          "Solve for the unknown oxidation state"
+        ],
+        "example": {
+          "q": "Find sulfur’s oxidation state in SO4^2−.",
+          "steps": [
+            "Assign each oxygen −2",
+            "Let sulfur be x: x + 4(−2) = −2",
+            "Solve x − 8 = −2"
+          ],
+          "answer": "Sulfur is +6."
+        },
+        "mistake": "Write oxidation state as +6, not 6+; oxidation state is not the same notation as ion charge.",
+        "visual": {
+          "kind": "equation",
+          "title": "Oxidation states",
+          "labels": [
+            "Known O states",
+            "Sum = ion charge",
+            "x − 8 = −2",
+            "S = +6"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.7",
+        "title": "Ionization-energy discontinuities",
+        "hl": true,
+        "summary": "Sublevels and electron pairing explain small decreases in an overall increasing trend.",
+        "explain": [
+          "Across a period, the overall increase in first ionization energy is interrupted when the removed electron occupies a higher-energy p sublevel instead of an s sublevel, or when it becomes paired in an already occupied orbital.",
+          "For example, the electron removed from aluminium is in 3p, at higher energy than magnesium’s removed 3s electron. Sulfur has a paired 3p electron, experiencing repulsion; phosphorus has singly occupied p orbitals. Explain the energy of the electron removed rather than invoking unexplained special stability."
+        ],
+        "steps": [
+          "Compare removed-electron sublevels",
+          "Check whether it is paired",
+          "Explain how higher orbital energy or repulsion lowers removal energy"
+        ],
+        "example": {
+          "q": "Why is IE1 of Al lower than that of Mg despite greater nuclear charge?",
+          "steps": [
+            "Mg loses a 3s electron",
+            "Al loses a 3p electron",
+            "The 3p electron has higher energy and is easier to remove"
+          ],
+          "answer": "A change from s to higher-energy p removal creates the discontinuity."
+        },
+        "mistake": "The guide explicitly prefers electron-energy explanations to slogans about “special stability” of half-filled shells.",
+        "visual": {
+          "kind": "trend",
+          "title": "Ionization-energy discontinuities",
+          "labels": [
+            "General increase",
+            "3s → 3p change",
+            "Pairing repulsion",
+            "Small discontinuities"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.8",
+        "title": "Characteristic transition-element properties",
+        "hl": true,
+        "summary": "Incomplete d sublevels support distinctive chemical and physical behaviour.",
+        "explain": [
+          "Transition elements characteristically form ions with incomplete d sublevels. Their properties include variable oxidation states, coloured compounds, complex-ion formation, catalytic activity, magnetic behaviour and often high melting points.",
+          "Do not assume every compound of every d-block element shows every property. An ion with d0 or d10 configuration may not show colour from d–d transitions. Catalysis and complex formation arise from accessible electron arrangements and interaction with other species."
+        ],
+        "steps": [
+          "Identify incomplete d occupation",
+          "Name characteristic properties relevant to the question",
+          "Relate a property to electronic structure without overgeneralizing"
+        ],
+        "example": {
+          "q": "Why might a d10 ion fail to show the usual transition-ion colour?",
+          "steps": [
+            "d–d absorption needs an occupied lower d orbital and an accessible higher d orbital",
+            "A filled d10 arrangement lacks the usual available d–d transition",
+            "No ordinary visible d–d absorption is expected"
+          ],
+          "answer": "A filled d sublevel does not support the usual d–d colour mechanism."
+        },
+        "mistake": "“All d-block compounds are coloured” is false.",
+        "visual": {
+          "kind": "orbitals",
+          "title": "Characteristic transition-element properties",
+          "labels": [
+            "Incomplete d sublevel",
+            "Variable oxidation",
+            "Complex ions",
+            "Catalysis and colour"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.9",
+        "title": "Transition-metal ions and oxidation states",
+        "hl": true,
+        "summary": "Similar s/d energies permit more than one stable oxidation state.",
+        "explain": [
+          "The energies associated with removing successive valence electrons in transition elements can be close enough that different numbers are lost in different compounds. The accessible s and d electrons therefore allow variable oxidation states.",
+          "When writing configurations for first-row transition ions, remove 4s electrons before 3d electrons. A neutral atom’s Aufbau filling order is not the same as the electron-removal order from its ions."
+        ],
+        "steps": [
+          "Write neutral-atom configuration",
+          "Remove 4s electrons first",
+          "Remove additional electrons from 3d and recount"
+        ],
+        "example": {
+          "q": "Give electron configurations of Fe2+ and Fe3+ from Fe = [Ar]3d6 4s2.",
+          "steps": [
+            "Remove two 4s electrons for Fe2+",
+            "This leaves [Ar]3d6",
+            "Remove one further 3d electron for Fe3+"
+          ],
+          "answer": "Fe2+: [Ar]3d6; Fe3+: [Ar]3d5."
+        },
+        "mistake": "Do not remove 3d electrons before 4s electrons in these cation configurations.",
+        "visual": {
+          "kind": "orbitals",
+          "title": "Transition-metal ions and oxidation states",
+          "labels": [
+            "Neutral 3d6 4s2",
+            "Lose 4s electrons",
+            "Fe2+: 3d6",
+            "Fe3+: 3d5"
+          ]
+        }
+      },
+      {
+        "id": "S3.1.10",
+        "title": "Colour in transition complexes",
+        "hl": true,
+        "summary": "Visible-light absorption can promote an electron between split d orbitals.",
+        "explain": [
+          "Ligands change the energies of the metal’s d orbitals, splitting them into sets. If the energy difference matches a visible photon, absorption can promote an electron between these levels. The detailed splitting patterns for different coordination geometries are not required.",
+          "The observed colour is complementary to the absorbed colour. Use the supplied colour wheel to identify the absorbed wavelength range, then f = c/λ to calculate frequency. Remember that nanometres must become metres in SI calculations."
+        ],
+        "steps": [
+          "Read the observed colour",
+          "Use the colour wheel for the complementary absorbed colour",
+          "Convert wavelength and calculate frequency if required"
+        ],
+        "example": {
+          "q": "A complex absorbs 600 nm light. Estimate the absorbed frequency using c = 3.00 × 10^8 m s−1.",
+          "steps": [
+            "Convert 600 nm to 6.00 × 10−7 m",
+            "Use f = c/λ",
+            "f = 3.00 × 10^8 / 6.00 × 10−7"
+          ],
+          "answer": "f = 5.00 × 10^14 Hz."
+        },
+        "mistake": "The colour seen is generally not the colour absorbed.",
+        "visual": {
+          "kind": "orbitals",
+          "title": "Colour in transition complexes",
+          "labels": [
+            "Ligand field",
+            "Split d levels",
+            "Absorbed photon",
+            "Complementary observed colour"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "S3.2",
+    "name": "Functional groups: Classification of organic compounds",
+    "group": "Structure",
+    "sections": [
+      {
+        "id": "S3.2.1",
+        "title": "Representations of organic molecules",
+        "hl": false,
+        "summary": "Different formulas emphasize different information about a molecule.",
+        "explain": [
+          "A molecular formula counts atoms, whereas a full structural formula shows bonds and a condensed formula groups atoms along the chain. Skeletal drawings omit carbon labels and most hydrogens attached to carbon: each unlabelled line end or vertex represents carbon.",
+          "When reading a skeletal formula, add enough hydrogen to give each neutral carbon four bonds. Show heteroatoms such as O, N and halogens explicitly. Three-dimensional models reveal spatial arrangement that flat drawings can hide."
+        ],
+        "steps": [
+          "Count carbons at vertices and ends",
+          "Identify all explicit heteroatoms and multiple bonds",
+          "Complete normal carbon valence and count hydrogens"
+        ],
+        "example": {
+          "q": "Convert CH3CH2CH2OH to a molecular formula.",
+          "steps": [
+            "There are three carbon atoms",
+            "Hydrogens total 3 + 2 + 2 + 1 = 8",
+            "There is one oxygen atom"
+          ],
+          "answer": "C3H8O."
+        },
+        "mistake": "Hydrogens on O or N may be explicitly shown and must be counted separately.",
+        "visual": {
+          "kind": "molecule",
+          "title": "Representations of organic molecules",
+          "labels": [
+            "Molecular: atom counts",
+            "Condensed: grouped atoms",
+            "Skeletal: corners = C",
+            "3D: spatial positions"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.2",
+        "title": "Recognizing functional groups",
+        "hl": false,
+        "summary": "Functional groups determine characteristic patterns of reactivity.",
+        "explain": [
+          "Look for distinctive atom groupings: halogeno C–X; hydroxyl –OH; carbonyl C=O; carboxyl –COOH; alkoxy –OR; amino –NH2; amido –CONH–; ester –COO–; and phenyl C6H5–. A carbonyl alone does not identify every compound class.",
+          "Saturated hydrocarbons contain only C–C single bonds; unsaturated hydrocarbons contain C=C or C≡C. Functional groups influence polarity, intermolecular forces and the types of reactions a molecule can undergo."
+        ],
+        "steps": [
+          "Find heteroatoms and multiple bonds",
+          "Identify the whole local group, not one bond only",
+          "Classify the compound using its group"
+        ],
+        "example": {
+          "q": "Identify the functional group in CH3COOCH2CH3.",
+          "steps": [
+            "Locate the carbonyl C=O",
+            "The carbonyl carbon is bonded to an oxygen linked to another carbon group",
+            "The combined –COO– arrangement identifies an ester"
+          ],
+          "answer": "The molecule contains an ester functional group."
+        },
+        "mistake": "An ester’s –COO– is not a carboxylic acid unless the single-bonded O is attached to H.",
+        "visual": {
+          "kind": "molecule",
+          "title": "Recognizing functional groups",
+          "labels": [
+            "Hydroxyl –OH",
+            "Carboxyl –COOH",
+            "Ester –COO–",
+            "Amide –CONH–"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.3",
+        "title": "Homologous series and general formulas",
+        "hl": false,
+        "summary": "Members share a functional pattern and differ successively by CH2.",
+        "explain": [
+          "A homologous series is a family with a common functional group pattern and similar chemical reactions. Successive members normally differ by a CH2 unit and have predictable general formulas. For open-chain single-functional hydrocarbons, alkanes are CnH2n+2, monoalkenes CnH2n and monoalkynes CnH2n−2.",
+          "Recognize alkanes, alkenes, alkynes, halogenoalkanes, alcohols, aldehydes, ketones, carboxylic acids, ethers, amines, amides and esters from their structures. Formula alone may not be sufficient because different series can share a molecular formula."
+        ],
+        "steps": [
+          "Identify the functional group",
+          "Check the carbon skeleton and saturation",
+          "Use a suitable general formula with its assumptions"
+        ],
+        "example": {
+          "q": "Which series includes CH3CH2CHO?",
+          "steps": [
+            "The terminal carbon has C=O and is bonded to H",
+            "This is a terminal –CHO group",
+            "Compounds with this group are aldehydes"
+          ],
+          "answer": "Aldehyde homologous series."
+        },
+        "mistake": "CnH2n is not uniquely an alkene formula: cycloalkanes can have it too.",
+        "visual": {
+          "kind": "chain",
+          "title": "Homologous series and general formulas",
+          "labels": [
+            "Same functional group",
+            "Similar reactions",
+            "Successive +CH2",
+            "Predictable physical trend"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.4",
+        "title": "Physical-property trends in organic families",
+        "hl": false,
+        "summary": "Chain length and branching influence intermolecular attractions.",
+        "explain": [
+          "As chain length increases within a homologous series, electron count and polarizability generally rise, increasing London dispersion forces. This usually increases boiling temperature because more energy is needed to separate molecules.",
+          "Branching often reduces the contact area between similarly sized molecules, lowering dispersion interactions and boiling temperature relative to a less-branched isomer. Melting patterns can be less regular because crystal packing also matters; functional groups add further interactions such as hydrogen bonding."
+        ],
+        "steps": [
+          "Compare functional groups first",
+          "Compare chain length or molar mass",
+          "For isomers, consider branching and packing"
+        ],
+        "example": {
+          "q": "Why does hexane usually boil at a higher temperature than butane?",
+          "steps": [
+            "Both are non-polar alkanes dominated by dispersion forces",
+            "Hexane has more electrons and a larger polarizable electron cloud",
+            "Its stronger attractions require more energy to overcome"
+          ],
+          "answer": "Stronger London dispersion in the larger molecules."
+        },
+        "mistake": "Do not explain boiling by breaking C–C bonds; molecules remain chemically intact.",
+        "visual": {
+          "kind": "trend",
+          "title": "Physical-property trends in organic families",
+          "labels": [
+            "Longer chain",
+            "More polarizable electrons",
+            "Stronger dispersion",
+            "Higher boiling temperature"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.5",
+        "title": "IUPAC naming up to six-carbon parents",
+        "hl": false,
+        "summary": "Systematic names encode the parent chain, substituents and functional group.",
+        "explain": [
+          "Choose a parent chain containing the principal functional group and any relevant multiple bond. Number to give the relevant group or unsaturation a low locant, then identify substituents and use the appropriate suffix. This syllabus requires saturated or mono-unsaturated compounds with up to six carbons in the parent chain and one type of specified group.",
+          "Examples include halogeno prefixes, –ol for alcohols, –al for aldehydes, –one for ketones and –oic acid for carboxylic acids. Repeated substituents use di-, tri-, tetra-, penta- or hexa-. Make sure names distinguish position and branching."
+        ],
+        "steps": [
+          "Choose parent chain",
+          "Number for the principal group",
+          "Locate and name branches and substituents"
+        ],
+        "example": {
+          "q": "Name CH3CH(OH)CH2CH3.",
+          "steps": [
+            "The longest chain contains four carbons: butan-",
+            "Number from the end giving OH carbon 2 rather than 3",
+            "Use the alcohol suffix –ol with its locant"
+          ],
+          "answer": "Butan-2-ol."
+        },
+        "mistake": "Do not choose a longest chain that excludes the principal functional group.",
+        "visual": {
+          "kind": "molecule",
+          "title": "IUPAC naming up to six-carbon parents",
+          "labels": [
+            "Parent chain",
+            "Number positions",
+            "Substituent prefixes",
+            "Functional suffix"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.6",
+        "title": "Structural isomers and carbon classification",
+        "hl": false,
+        "summary": "Structural isomers share a molecular formula but differ in connectivity.",
+        "explain": [
+          "Structural isomers can differ in branching, position of a functional group or the functional group itself. They contain the same numbers of each atom but connect those atoms differently, which can change both physical and chemical properties.",
+          "For alcohols and halogenoalkanes, primary/secondary/tertiary describes the number of carbon groups attached to the carbon carrying OH or halogen. For amines, it describes how many carbon groups are attached directly to nitrogen—these are related ideas but different counting locations."
+        ],
+        "steps": [
+          "Check equal molecular formulas",
+          "Compare connectivity rather than orientation",
+          "Identify chain, position or functional-group isomerism"
+        ],
+        "example": {
+          "q": "Are ethanol CH3CH2OH and methoxymethane CH3OCH3 structural isomers?",
+          "steps": [
+            "Both have molecular formula C2H6O",
+            "Ethanol contains an alcohol group while methoxymethane is an ether",
+            "Their atom connectivities differ"
+          ],
+          "answer": "Yes: functional-group structural isomers."
+        },
+        "mistake": "Rotating a single bond does not create a new structural isomer.",
+        "visual": {
+          "kind": "molecule",
+          "title": "Structural isomers and carbon classification",
+          "labels": [
+            "Same molecular formula",
+            "Different connectivity",
+            "Chain or position",
+            "Functional-group change"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.7",
+        "title": "Stereoisomers, cis–trans and chirality",
+        "hl": true,
+        "summary": "The same connectivity can produce distinct arrangements in space.",
+        "explain": [
+          "Stereoisomers have the same atom connectivity and bond multiplicities but different spatial arrangements. Restricted rotation about C=C allows cis–trans isomerism when each alkene carbon has two different substituents; rings can also restrict arrangement, including C3 and C4 cycloalkanes.",
+          "A chiral tetrahedral carbon has four different attached groups and can give non-superimposable mirror-image enantiomers. Enantiomers rotate plane-polarized light oppositely and can behave differently in chiral environments. A racemic mixture contains equal amounts and has no net optical rotation. Use wedge–dash drawings; E/Z naming is not assessed."
+        ],
+        "steps": [
+          "Check for restricted rotation and appropriate substituents",
+          "For chirality, look for four different groups on a tetrahedral carbon",
+          "Test whether mirror images superimpose"
+        ],
+        "example": {
+          "q": "Why is carbon 2 in butan-2-ol chiral?",
+          "steps": [
+            "Carbon 2 is tetrahedral",
+            "It is attached to H, OH, CH3 and CH2CH3",
+            "Those four groups are all different"
+          ],
+          "answer": "It is a chiral centre and can form two enantiomers."
+        },
+        "mistake": "A carbon attached to two identical groups is not chiral by the four-different-groups criterion.",
+        "visual": {
+          "kind": "molecule",
+          "title": "Stereoisomers, cis–trans and chirality",
+          "labels": [
+            "Same connectivity",
+            "Different spatial arrangement",
+            "Four different groups",
+            "Mirror-image pair"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.8",
+        "title": "Organic mass spectra and fragmentation",
+        "hl": true,
+        "summary": "Fragment ions reveal structural features of organic molecules.",
+        "explain": [
+          "The molecular ion forms when an electron is removed from a molecule without initial fragmentation. Its m/z can help identify molecular mass, provided the ion’s charge is known. Fragmentation then breaks bonds to produce smaller positive ions and neutral fragments.",
+          "Interpret prominent fragment masses using the data booklet and compare proposed structures against several peaks. A high-intensity peak represents an abundant ion, often relatively stable; the base peak is not automatically the molecular ion."
+        ],
+        "steps": [
+          "Locate a possible molecular-ion peak",
+          "Use fragment m/z values to suggest groups",
+          "Check all evidence against candidate structures"
+        ],
+        "example": {
+          "q": "A molecular ion is at m/z 46 and a prominent fragment at m/z 31. What information can this provide?",
+          "steps": [
+            "For a singly charged molecular ion, relative molecular mass is about 46",
+            "A 31 fragment may be consistent with CH2OH+ using supplied fragment data",
+            "The evidence supports an alcohol candidate but is not sufficient alone to prove one structure"
+          ],
+          "answer": "Molecular mass and a possible oxygen-containing fragment narrow the candidates."
+        },
+        "mistake": "Do not identify a whole molecule from one fragment peak alone.",
+        "visual": {
+          "kind": "spectrum",
+          "title": "Organic mass spectra and fragmentation",
+          "labels": [
+            "Molecular ion M+",
+            "Bond cleavage",
+            "Fragment ions",
+            "Combine peaks"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.9",
+        "title": "IR spectroscopy and bond identification",
+        "hl": true,
+        "summary": "IR absorption probes bond vibrations and functional groups.",
+        "explain": [
+          "Infrared radiation can be absorbed when its energy matches a molecular vibration that changes dipole moment. Different bonds and bonding environments absorb in characteristic wavenumber ranges, so the functional-group region of a spectrum helps identify groups.",
+          "Use the data booklet rather than relying on guessed exact numbers. A broad O–H absorption and a strong C=O absorption provide different clues. Greenhouse gases absorb outgoing terrestrial infrared in suitable vibrational modes, helping explain their influence on energy transfer through the atmosphere."
+        ],
+        "steps": [
+          "Inspect broad versus sharp absorptions",
+          "Compare characteristic ranges with the data booklet",
+          "Combine presence and absence of key bands"
+        ],
+        "example": {
+          "q": "An IR spectrum shows a strong carbonyl band and a very broad acid O–H absorption. Which group is likely?",
+          "steps": [
+            "A strong C=O band identifies a carbonyl-containing structure",
+            "A broad O–H band in the carboxylic-acid region suggests acidic OH",
+            "Together these indicate –COOH"
+          ],
+          "answer": "A carboxylic acid group."
+        },
+        "mistake": "Do not assume every bond absorbs all IR; the vibration must involve a dipole change.",
+        "visual": {
+          "kind": "spectrum",
+          "title": "IR spectroscopy and bond identification",
+          "labels": [
+            "IR radiation",
+            "Bond vibration",
+            "Dipole change",
+            "Functional-group signature"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.10",
+        "title": "Proton NMR: signals, shifts and integration",
+        "hl": true,
+        "summary": "1H NMR distinguishes hydrogen chemical environments.",
+        "explain": [
+          "Hydrogen nuclei in different electronic environments respond at different chemical shifts in a magnetic field. Chemically equivalent hydrogens give the same signal, so the number of distinct signals reveals the number of hydrogen environments.",
+          "The integration ratio indicates relative numbers of hydrogens in each environment. Chemical shift values suggest neighbouring atoms or groups; use the data booklet and combine shifts with integrals instead of interpreting one feature in isolation."
+        ],
+        "steps": [
+          "Count chemically different H environments",
+          "Read relative integrations",
+          "Use chemical shifts to identify likely surroundings"
+        ],
+        "example": {
+          "q": "Why does CH3OCH3 have one main proton environment?",
+          "steps": [
+            "The two methyl groups are related by molecular symmetry",
+            "All six methyl hydrogens are chemically equivalent in the usual spectrum",
+            "Equivalent hydrogens contribute to the same signal"
+          ],
+          "answer": "One signal integrating for six hydrogens."
+        },
+        "mistake": "Signal count is the number of chemical environments, not the number of hydrogen atoms.",
+        "visual": {
+          "kind": "spectrum",
+          "title": "Proton NMR: signals, shifts and integration",
+          "labels": [
+            "Different environments",
+            "Different chemical shifts",
+            "Signal count",
+            "Integration ratio"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.11",
+        "title": "Proton NMR splitting",
+        "hl": true,
+        "summary": "Neighbouring hydrogens split signals into characteristic multiplets.",
+        "explain": [
+          "In simple first-order cases, a proton set with n equivalent neighbouring hydrogens on an adjacent carbon gives n + 1 peaks: singlet, doublet, triplet or quartet for zero, one, two or three such neighbours. Equivalent protons do not split one another.",
+          "Splitting gives local connectivity information that complements integration. Exchangeable O–H or N–H signals may behave differently and often do not follow the simple rule reliably; interpret the provided data rather than forcing every peak into it."
+        ],
+        "steps": [
+          "Identify equivalent proton sets",
+          "Count adjacent equivalent H neighbours",
+          "Apply n + 1 and compare with integration"
+        ],
+        "example": {
+          "q": "Predict the splitting of the two carbon-bound proton sets in CH3CH2Br.",
+          "steps": [
+            "CH3 hydrogens have two equivalent adjacent CH2 hydrogens",
+            "They give a triplet",
+            "CH2 hydrogens have three adjacent CH3 hydrogens and give a quartet"
+          ],
+          "answer": "CH3 triplet and CH2 quartet, integration 3:2."
+        },
+        "mistake": "A triplet is one signal split into three peaks, not three independent chemical environments.",
+        "visual": {
+          "kind": "spectrum",
+          "title": "Proton NMR splitting",
+          "labels": [
+            "0 neighbours: singlet",
+            "1: doublet",
+            "2: triplet",
+            "3: quartet"
+          ]
+        }
+      },
+      {
+        "id": "S3.2.12",
+        "title": "Combining analytical evidence",
+        "hl": true,
+        "summary": "A secure structure must satisfy all available analytical data.",
+        "explain": [
+          "Molecular formula, mass spectrum, IR and proton NMR each answer a different question. Molecular mass and formula constrain composition; IR suggests functional groups; NMR shows hydrogen environments, counts and neighbours; fragmentation adds structural clues.",
+          "Generate plausible candidate structures and reject those contradicting any strong observation. A good answer explains why one structure fits the complete pattern, not merely why it could produce a single peak."
+        ],
+        "steps": [
+          "Establish composition and molecular mass",
+          "Identify likely functional groups from IR",
+          "Use NMR signals, integration and splitting to connect groups",
+          "Check fragments and all remaining data"
+        ],
+        "example": {
+          "q": "A C2H6O molecule has an O–H IR band and carbon-bound NMR signals with a 3:2 integration and triplet/quartet pattern. Identify it.",
+          "steps": [
+            "C2H6O allows ethanol or an ether",
+            "O–H absorption favours an alcohol",
+            "A CH3CH2 unit explains the triplet/quartet with integration 3:2"
+          ],
+          "answer": "Ethanol, CH3CH2OH."
+        },
+        "mistake": "A candidate that matches IR but contradicts NMR is not a valid final identification.",
+        "visual": {
+          "kind": "spectrum",
+          "title": "Combining analytical evidence",
+          "labels": [
+            "Formula + mass",
+            "IR functional group",
+            "NMR connectivity",
+            "One consistent structure"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R1.1",
+    "name": "Measuring enthalpy changes",
+    "group": "Reactivity",
+    "sections": [
+      {
+        "id": "R1.1.1",
+        "title": "System, surroundings, heat and temperature",
+        "hl": false,
+        "summary": "Energy transfers between system and surroundings while total energy is conserved.",
+        "explain": [
+          "The system is the part of the universe being studied, such as the chemicals reacting in a calorimeter. Everything else is the surroundings. Energy leaving one enters the other, so a temperature change does not mean energy has been created or destroyed.",
+          "Heat is energy transferred because of a temperature difference; temperature measures average particle kinetic energy. Two samples can have the same temperature but different total thermal energies because they contain different amounts of matter."
+        ],
+        "steps": [
+          "Define the system boundary",
+          "Identify the measured surroundings",
+          "Describe transfer and conserve total energy"
+        ],
+        "example": {
+          "q": "A reaction warms the water around it. Where did the water’s energy come from?",
+          "steps": [
+            "Define the reacting chemicals as the system",
+            "Water is part of the surroundings",
+            "Energy transferred from the system to the water"
+          ],
+          "answer": "The system lost energy while the surroundings gained it."
+        },
+        "mistake": "Heat and temperature are different physical quantities.",
+        "visual": {
+          "kind": "energy",
+          "title": "System, surroundings, heat and temperature",
+          "labels": [
+            "Reacting system",
+            "Energy transfer",
+            "Surrounding water",
+            "Total energy conserved"
+          ]
+        }
+      },
+      {
+        "id": "R1.1.2",
+        "title": "Exothermic and endothermic reactions",
+        "hl": false,
+        "summary": "The sign of enthalpy depends on the direction of heat transfer.",
+        "explain": [
+          "An exothermic reaction transfers heat from the reacting system to the surroundings; the surroundings often warm and the reaction enthalpy change is negative. An endothermic reaction absorbs heat from the surroundings, often cooling them, and has positive enthalpy change.",
+          "Always state whose temperature is measured. A thermometer in solution measures part of the surroundings relative to the chemical reaction; its warming indicates energy release by the system, not a positive reaction enthalpy."
+        ],
+        "steps": [
+          "Identify whether surroundings warm or cool",
+          "Infer direction of heat transfer",
+          "Assign negative ΔH for exothermic and positive ΔH for endothermic"
+        ],
+        "example": {
+          "q": "A reaction mixture cools from 22°C to 17°C. Classify the reaction.",
+          "steps": [
+            "The measured surroundings lose thermal energy",
+            "The reaction system absorbs that energy",
+            "Energy absorption corresponds to positive enthalpy change"
+          ],
+          "answer": "Endothermic, ΔH > 0."
+        },
+        "mistake": "A temperature decrease does not mean the reaction enthalpy change is negative.",
+        "visual": {
+          "kind": "energy",
+          "title": "Exothermic and endothermic reactions",
+          "labels": [
+            "Exothermic: heat out",
+            "Surroundings warm",
+            "Endothermic: heat in",
+            "Surroundings cool"
+          ]
+        }
+      },
+      {
+        "id": "R1.1.3",
+        "title": "Energy profiles and relative stability",
+        "hl": false,
+        "summary": "Product and reactant energy levels determine the sign of ΔH.",
+        "explain": [
+          "An energy profile plots potential energy on the vertical axis against reaction coordinate on the horizontal axis. Exothermic reactions end with products below reactants; endothermic reactions end with products above reactants.",
+          "A lower-energy chemical arrangement is more stable relative to a higher-energy one under this simple comparison. The peak represents an energy barrier, but the overall enthalpy difference is between product and reactant levels, not between reactants and the peak."
+        ],
+        "steps": [
+          "Label axes correctly",
+          "Place reactant and product energy levels",
+          "Draw ΔH from reactants to products and assign sign"
+        ],
+        "example": {
+          "q": "Products lie 75 kJ mol−1 below reactants. What is ΔH and which side is lower in energy?",
+          "steps": [
+            "Calculate final minus initial energy",
+            "The product level is 75 lower",
+            "Therefore ΔH is negative"
+          ],
+          "answer": "ΔH = −75 kJ mol−1; products are lower in energy."
+        },
+        "mistake": "Reaction coordinate is not time and the peak height is not the overall enthalpy change.",
+        "visual": {
+          "kind": "energy",
+          "title": "Energy profiles and relative stability",
+          "labels": [
+            "Reactants",
+            "Energy barrier",
+            "Products",
+            "ΔH = final − initial"
+          ]
+        }
+      },
+      {
+        "id": "R1.1.4",
+        "title": "Calorimetry calculations",
+        "hl": false,
+        "summary": "Temperature change of surroundings can reveal reaction enthalpy.",
+        "explain": [
+          "A calorimeter estimates heat absorbed by a known mass using Q = mcΔT, where c is specific heat capacity. At constant pressure, reaction enthalpy per mole is estimated from ΔH = −Q/n if Q measures heat gained by the surroundings.",
+          "Use mass in grams with c in J g−1 K−1, then convert joules to kilojoules for ΔH. Heat loss, calorimeter absorption and incomplete combustion can make measured changes smaller in magnitude than theoretical predictions."
+        ],
+        "steps": [
+          "Compute ΔT = final − initial",
+          "Calculate Q = mcΔT for the measured material",
+          "Divide by reacted moles, reverse sign and convert J to kJ"
+        ],
+        "example": {
+          "q": "50.0 g water warms by 10.0 K when 0.0250 mol reacts. Use c = 4.18 J g−1 K−1. Find ΔH.",
+          "steps": [
+            "Q = 50.0 × 4.18 × 10.0 = 2090 J",
+            "The water gains heat, so the reaction loses 2090 J",
+            "ΔH = −2090/0.0250 = −83,600 J mol−1"
+          ],
+          "answer": "ΔH = −83.6 kJ mol−1."
+        },
+        "mistake": "Q for water and ΔH for the reacting system have opposite signs.",
+        "visual": {
+          "kind": "equation",
+          "title": "Calorimetry calculations",
+          "labels": [
+            "m c ΔT",
+            "Q surroundings",
+            "−Q / n",
+            "kJ mol−1"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R1.2",
+    "name": "Energy cycles in reactions",
+    "group": "Reactivity",
+    "sections": [
+      {
+        "id": "R1.2.1",
+        "title": "Average bond enthalpy calculations",
+        "hl": false,
+        "summary": "Breaking bonds absorbs energy; making bonds releases it.",
+        "explain": [
+          "To estimate a reaction enthalpy, imagine first breaking all relevant reactant bonds and then making product bonds. Energy input is positive for bond breaking, while the energy released on formation is subtracted.",
+          "Use ΔH ≈ ΣE(bonds broken) − ΣE(bonds formed). Average bond enthalpies apply to gaseous bonds and average across different chemical environments, so estimates may differ from measured enthalpies involving particular molecules and states."
+        ],
+        "steps": [
+          "Balance the equation and draw structures",
+          "Count broken and formed bonds with coefficients",
+          "Subtract total formed-bond energies from broken-bond energies"
+        ],
+        "example": {
+          "q": "Estimate ΔH for H2 + Cl2 → 2HCl using H–H 436, Cl–Cl 243 and H–Cl 431 kJ mol−1.",
+          "steps": [
+            "Bonds broken: 436 + 243 = 679 kJ mol−1",
+            "Bonds formed: 2 × 431 = 862 kJ mol−1",
+            "ΔH = 679 − 862"
+          ],
+          "answer": "ΔH ≈ −183 kJ mol−1."
+        },
+        "mistake": "Bond breaking never releases energy by itself; bond formation is the releasing step.",
+        "visual": {
+          "kind": "energy",
+          "title": "Average bond enthalpy calculations",
+          "labels": [
+            "Break: +679",
+            "Form: −862",
+            "Net: −183",
+            "Average gaseous values"
+          ]
+        }
+      },
+      {
+        "id": "R1.2.2",
+        "title": "Hess’s law",
+        "hl": false,
+        "summary": "Enthalpy change depends on initial and final states, not the route.",
+        "explain": [
+          "Hess’s law follows conservation of energy. If two routes connect the same initial and final states, their total enthalpy changes must agree; otherwise a cycle could create energy from nothing.",
+          "Manipulate known equations so their sum gives the target reaction. Reversing an equation changes the sign of ΔH; multiplying an equation multiplies ΔH by the same number. Species appearing on both sides cancel."
+        ],
+        "steps": [
+          "Write the target equation",
+          "Reverse or scale known equations as necessary",
+          "Add equations and their adjusted enthalpies"
+        ],
+        "example": {
+          "q": "If A → B has ΔH = +40 and B → C has ΔH = −90 kJ mol−1, find A → C.",
+          "steps": [
+            "Add the two equations",
+            "Intermediate B cancels",
+            "Add enthalpies: +40 − 90"
+          ],
+          "answer": "ΔH(A → C) = −50 kJ mol−1."
+        },
+        "mistake": "Do not reverse a reaction without reversing its enthalpy sign.",
+        "visual": {
+          "kind": "cycle",
+          "title": "Hess’s law",
+          "labels": [
+            "A → B: +40",
+            "B → C: −90",
+            "Cancel intermediate",
+            "A → C: −50"
+          ]
+        }
+      },
+      {
+        "id": "R1.2.3",
+        "title": "Standard formation and combustion enthalpies",
+        "hl": true,
+        "summary": "Definitions fix the amount and physical states used in thermochemical equations.",
+        "explain": [
+          "Standard enthalpy of formation is the change when one mole of a substance forms from its elements in their standard states. The formation enthalpy of an element in its standard state is defined as zero.",
+          "Standard enthalpy of combustion refers to complete burning of one mole of a substance in oxygen under standard conditions and states. Carefully specify phases, since formation of liquid water differs in enthalpy from formation of water vapour."
+        ],
+        "steps": [
+          "Identify whether formation or combustion is requested",
+          "Use exactly one mole of the defined substance",
+          "Balance with correct standard-state elements and products"
+        ],
+        "example": {
+          "q": "Write the formation equation for liquid water.",
+          "steps": [
+            "Use elements in their standard states: H2(g) and O2(g)",
+            "Form exactly one mole H2O(l)",
+            "Balance oxygen with coefficient 1/2"
+          ],
+          "answer": "H2(g) + 1/2 O2(g) → H2O(l)."
+        },
+        "mistake": "Formation equations may use fractional coefficients to produce one mole of product.",
+        "visual": {
+          "kind": "cycle",
+          "title": "Standard formation and combustion enthalpies",
+          "labels": [
+            "Elements: standard states",
+            "One mole product",
+            "Specified physical state",
+            "ΔHf°"
+          ]
+        }
+      },
+      {
+        "id": "R1.2.4",
+        "title": "Formation and combustion data in cycles",
+        "hl": true,
+        "summary": "Hess’s law leads to useful sum formulas with opposite subtraction orders.",
+        "explain": [
+          "From formation data, ΔHreaction = ΣνΔHf(products) − ΣνΔHf(reactants). Formation routes start from the same elemental reference, so subtracting reactant formation energies gives the change from reactants to products.",
+          "From combustion data, ΔHreaction = ΣνΔHc(reactants) − ΣνΔHc(products), provided both sides combust to the same final products. The order reverses because both known routes go downward toward common combustion products."
+        ],
+        "steps": [
+          "Balance the target equation",
+          "Choose the correct formula and multiply by coefficients",
+          "Substitute signed values and retain units"
+        ],
+        "example": {
+          "q": "For CO + 1/2O2 → CO2, use ΔHf(CO) = −111 and ΔHf(CO2) = −394 kJ mol−1. Find ΔH.",
+          "steps": [
+            "Product formation sum = −394",
+            "Reactant sum = −111 + 0 for O2",
+            "Subtract: −394 − (−111)"
+          ],
+          "answer": "ΔH = −283 kJ mol−1."
+        },
+        "mistake": "Do not swap the subtraction orders for formation data and combustion data.",
+        "visual": {
+          "kind": "cycle",
+          "title": "Formation and combustion data in cycles",
+          "labels": [
+            "Formation: products − reactants",
+            "Combustion: reactants − products",
+            "Include coefficients",
+            "Keep signs"
+          ]
+        }
+      },
+      {
+        "id": "R1.2.5",
+        "title": "Interpreting Born–Haber cycles",
+        "hl": true,
+        "summary": "Ionic formation is related to atomization, ionization, electron affinity and lattice changes.",
+        "explain": [
+          "A Born–Haber cycle applies Hess’s law to ionic-solid formation through gaseous atoms and gaseous ions. Steps may include sublimation or atomization, bond dissociation, ionization energies, electron affinities and lattice enthalpy.",
+          "Check whether lattice enthalpy is defined for formation of a solid from gaseous ions or dissociation into gaseous ions: the signs are opposite. Divalent ions require the appropriate successive ionization energies and electron-affinity steps. The syllabus requires interpretation and calculation, not construction of a complete cycle from memory."
+        ],
+        "steps": [
+          "Read each arrow and definition",
+          "Include stoichiometric multiples and successive steps",
+          "Equate total indirect route with formation enthalpy"
+        ],
+        "example": {
+          "q": "A cycle has formation ΔH = −400, atomization total +200, IE +500 and EA −350 kJ mol−1. Find lattice formation enthalpy.",
+          "steps": [
+            "Add known indirect steps: 200 + 500 − 350 = +350",
+            "Set −400 = +350 + lattice formation enthalpy",
+            "Rearrange: lattice = −400 − 350"
+          ],
+          "answer": "Lattice formation enthalpy = −750 kJ mol−1."
+        },
+        "mistake": "Always check the stated lattice-enthalpy direction before assigning a sign.",
+        "visual": {
+          "kind": "cycle",
+          "title": "Interpreting Born–Haber cycles",
+          "labels": [
+            "Atomize",
+            "Ionize / electron affinity",
+            "Gaseous ions",
+            "Lattice formation"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R1.3",
+    "name": "Energy from fuels",
+    "group": "Reactivity",
+    "sections": [
+      {
+        "id": "R1.3.1",
+        "title": "Complete combustion equations",
+        "hl": false,
+        "summary": "Combustion in sufficient oxygen commonly forms stable oxides.",
+        "explain": [
+          "Reactive metals and non-metals can react with oxygen to form oxides. Complete combustion of hydrocarbons and alcohols produces carbon dioxide and water when oxygen is sufficiently available.",
+          "Balance carbon first, hydrogen second and oxygen last. Alcohol fuels already contain oxygen, so count oxygen atoms present in the fuel before deciding the oxygen coefficient. Physical states may affect subsequent thermochemical interpretation."
+        ],
+        "steps": [
+          "Write expected complete-combustion products",
+          "Balance C and H",
+          "Balance O last and use whole coefficients if convenient"
+        ],
+        "example": {
+          "q": "Balance complete combustion of ethanol, C2H5OH.",
+          "steps": [
+            "Two carbon atoms require 2CO2",
+            "Six H atoms require 3H2O",
+            "Products contain 7 O atoms; ethanol supplies 1, leaving 6 from 3O2"
+          ],
+          "answer": "C2H5OH + 3O2 → 2CO2 + 3H2O."
+        },
+        "mistake": "Do not ignore the oxygen already contained in an alcohol.",
+        "visual": {
+          "kind": "equation",
+          "title": "Complete combustion equations",
+          "labels": [
+            "Fuel + O2",
+            "Carbon → CO2",
+            "Hydrogen → H2O",
+            "Balance oxygen last"
+          ]
+        }
+      },
+      {
+        "id": "R1.3.2",
+        "title": "Incomplete combustion",
+        "hl": false,
+        "summary": "Insufficient oxygen can produce carbon monoxide and solid carbon.",
+        "explain": [
+          "When oxygen supply is limited, carbon in an organic fuel may not oxidize fully to CO2. Products may include CO, carbon particles and mixtures of partially oxidized compounds, together with water.",
+          "Carbon monoxide is a serious toxic pollutant; soot particles can harm health and reduce combustion efficiency. Which incomplete-combustion equation is appropriate depends on the specified carbon-containing products; there is not just one universal equation."
+        ],
+        "steps": [
+          "Read which products the question specifies",
+          "Balance C and H",
+          "Balance O and compare oxygen requirement with complete combustion"
+        ],
+        "example": {
+          "q": "Balance combustion of methane producing CO and water.",
+          "steps": [
+            "One carbon atom gives one CO",
+            "Four hydrogen atoms give 2H2O",
+            "Products need three O atoms per CH4; multiply all by 2"
+          ],
+          "answer": "2CH4 + 3O2 → 2CO + 4H2O."
+        },
+        "mistake": "Do not assume incomplete combustion always produces only soot or only CO.",
+        "visual": {
+          "kind": "equation",
+          "title": "Incomplete combustion",
+          "labels": [
+            "Limited oxygen",
+            "CO formation",
+            "Carbon / soot",
+            "Less complete oxidation"
+          ]
+        }
+      },
+      {
+        "id": "R1.3.3",
+        "title": "Comparing fossil fuels",
+        "hl": false,
+        "summary": "Fuel evaluation includes energy, carbon emissions, pollution and resource limits.",
+        "explain": [
+          "Coal, crude-oil fuels and natural gas release chemical energy on combustion but are non-renewable on human timescales. Compare their energy per unit mass and the quantity of CO2 produced per unit energy, not only CO2 per mole.",
+          "Larger carbon-rich fuels can have greater tendency toward incomplete combustion under poor mixing. CO2 absorbs appropriate outgoing infrared radiation and contributes to the greenhouse effect. Environmental comparisons should also consider extraction, leakage, transport and other pollutants."
+        ],
+        "steps": [
+          "Balance combustion and find CO2 moles",
+          "Convert to mass or per-energy basis as required",
+          "Compare with wider environmental and practical factors"
+        ],
+        "example": {
+          "q": "How much CO2 is produced by complete combustion of one mole of methane?",
+          "steps": [
+            "CH4 + 2O2 → CO2 + 2H2O",
+            "One mole CH4 produces one mole CO2",
+            "M(CO2) is approximately 44.01 g mol−1"
+          ],
+          "answer": "Approximately 44.01 g CO2 per mole CH4."
+        },
+        "mistake": "Lower CO2 per mole of fuel is not automatically lower CO2 per kJ of useful energy.",
+        "visual": {
+          "kind": "energy",
+          "title": "Comparing fossil fuels",
+          "labels": [
+            "Energy released",
+            "CO2 per energy",
+            "Incomplete combustion",
+            "Finite resources"
+          ]
+        }
+      },
+      {
+        "id": "R1.3.4",
+        "title": "Biofuels and renewable carbon",
+        "hl": false,
+        "summary": "Photosynthesis fixes carbon recently enough for biomass to replenish.",
+        "explain": [
+          "Photosynthesis converts carbon dioxide and water into organic material using light energy. A simplified equation is 6CO2 + 6H2O → C6H12O6 + 6O2. Biofuels derive from such recently fixed biological carbon rather than ancient fossil carbon.",
+          "Biofuels may be renewable if their sources can regrow sustainably, but they are not automatically carbon-neutral. Farming, fertilizer, processing and transport use energy, while land-use change and competition with food production can be important disadvantages."
+        ],
+        "steps": [
+          "Explain the source and timescale of carbon fixation",
+          "Distinguish renewable resource from zero emissions",
+          "Evaluate life-cycle benefits and costs"
+        ],
+        "example": {
+          "q": "Why can a biofuel be renewable but still cause net greenhouse-gas emissions?",
+          "steps": [
+            "Its biomass can regrow and replace harvested material",
+            "Production and transport may consume fossil energy",
+            "Land-use change may release stored carbon"
+          ],
+          "answer": "Renewability does not guarantee zero life-cycle emissions."
+        },
+        "mistake": "Never call a fuel carbon-neutral solely because a plant originally absorbed CO2.",
+        "visual": {
+          "kind": "cycle",
+          "title": "Biofuels and renewable carbon",
+          "labels": [
+            "Photosynthesis",
+            "Recently fixed carbon",
+            "Regrowth potential",
+            "Life-cycle emissions"
+          ]
+        }
+      },
+      {
+        "id": "R1.3.5",
+        "title": "Hydrogen and methanol fuel cells",
+        "hl": false,
+        "summary": "Fuel cells continuously convert supplied chemical fuel into electrical energy.",
+        "explain": [
+          "A fuel cell separates oxidation and reduction at electrodes so electrons can travel through an external circuit. Fresh fuel and oxidant are supplied continuously; unlike a sealed primary cell, operation can continue while reactants are provided.",
+          "In acidic conditions, hydrogen oxidation is H2 → 2H+ + 2e−, and oxygen reduction is O2 + 4H+ + 4e− → 2H2O. Methanol oxidation can be written CH3OH + H2O → CO2 + 6H+ + 6e−. Half-equations depend on acidic or alkaline conditions, so follow the medium specified."
+        ],
+        "steps": [
+          "Identify the supplied fuel and electrolyte conditions",
+          "Balance oxidation and oxygen-reduction half-equations",
+          "Equalize electrons and add to obtain the overall equation"
+        ],
+        "example": {
+          "q": "Combine acidic hydrogen fuel-cell half-equations.",
+          "steps": [
+            "Multiply H2 → 2H+ + 2e− by two",
+            "Add O2 + 4H+ + 4e− → 2H2O",
+            "Cancel electrons and H+"
+          ],
+          "answer": "2H2 + O2 → 2H2O."
+        },
+        "mistake": "Fuel-cell electrodes are where electron-transfer reactions occur; electrons travel through the external circuit, not through the electrolyte.",
+        "visual": {
+          "kind": "cell",
+          "title": "Hydrogen and methanol fuel cells",
+          "labels": [
+            "Fuel oxidation",
+            "Electrons through circuit",
+            "Oxygen reduction",
+            "Continuous supply"
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "id": "R1.4",
+    "name": "Entropy and spontaneity",
+    "group": "Reactivity",
+    "sections": [
+      {
+        "id": "R1.4.1",
+        "title": "Entropy and dispersal",
+        "hl": true,
+        "summary": "Entropy measures the ways matter and energy can be distributed.",
+        "explain": [
+          "Entropy increases when energy and matter can be distributed among more possible arrangements. Under comparable conditions, a gas usually has greater molar entropy than a liquid, which in turn exceeds a solid. More gas particles often mean greater entropy, but detailed data provide the quantitative answer.",
+          "Calculate a standard entropy change using ΔS° = ΣνS°(products) − ΣνS°(reactants). Values are commonly in J K−1 mol−1; unlike formation enthalpy, an element’s standard molar entropy at ordinary temperature is generally not zero."
+        ],
+        "steps": [
+          "Predict dispersal from phases and gas-particle counts",
+          "Multiply standard entropies by coefficients",
+          "Subtract reactant sum from product sum"
+        ],
+        "example": {
+          "q": "For A(g) → 2B(g), S°(A) = 200 and S°(B) = 130 J K−1 mol−1. Find ΔS°.",
+          "steps": [
+            "Product entropy sum = 2 × 130 = 260",
+            "Reactant sum = 200",
+            "ΔS° = 260 − 200"
+          ],
+          "answer": "ΔS° = +60 J K−1 mol−1."
+        },
+        "mistake": "Entropy is not simply “messiness”; link it to distributions of energy and matter.",
+        "visual": {
+          "kind": "energy",
+          "title": "Entropy and dispersal",
+          "labels": [
+            "More possible distributions",
+            "Phase matters",
+            "Gas particle counts",
+            "Products − reactants"
+          ]
+        }
+      },
+      {
+        "id": "R1.4.2",
+        "title": "Gibbs energy calculations",
+        "hl": true,
+        "summary": "ΔG = ΔH − TΔS combines enthalpy and entropy effects.",
+        "explain": [
+          "Gibbs energy change relates reaction enthalpy and entropy at a specified absolute temperature. Under constant temperature and pressure, it provides a criterion for thermodynamic direction. The standard form is ΔG° = ΔH° − TΔS°.",
+          "Match units before substituting. If ΔH is kJ mol−1 and ΔS is J K−1 mol−1, divide ΔS by 1000 before calculating TΔS. Use kelvin, never Celsius. The sign of the result is as important as the magnitude."
+        ],
+        "steps": [
+          "Convert temperature to K",
+          "Put ΔH and TΔS in matching energy units",
+          "Substitute with signs and calculate"
+        ],
+        "example": {
+          "q": "At 298 K, ΔH° = −50.0 kJ mol−1 and ΔS° = −100 J K−1 mol−1. Find ΔG°.",
+          "steps": [
+            "Convert ΔS° to −0.100 kJ K−1 mol−1",
+            "TΔS° = 298 × (−0.100) = −29.8 kJ mol−1",
+            "ΔG° = −50.0 − (−29.8)"
+          ],
+          "answer": "ΔG° = −20.2 kJ mol−1."
+        },
+        "mistake": "The minus sign in ΔH − TΔS must be applied even when ΔS is negative.",
+        "visual": {
+          "kind": "equation",
+          "title": "Gibbs energy calculations",
+          "labels": [
+            "ΔH term",
+            "T in kelvin",
+            "Convert ΔS units",
+            "ΔG = ΔH − TΔS"
+          ]
+        }
+      },
+      {
+        "id": "R1.4.3",
+        "title": "Spontaneity and temperature thresholds",
+        "hl": true,
+        "summary": "A negative Gibbs energy change favours forward thermodynamic change.",
+        "explain": [
+          "At constant temperature and pressure, ΔG < 0 indicates a thermodynamically spontaneous forward change, while ΔG > 0 favours the reverse and ΔG = 0 indicates equilibrium. Spontaneous does not mean fast: a large activation barrier can make a favourable reaction very slow.",
+          "At a threshold temperature, set ΔG = 0, so T = ΔH/ΔS with consistent units. If ΔH and ΔS are both positive, higher temperature favours spontaneity; if both are negative, lower temperature favours it. Opposite signs give temperature-independent tendencies within the assumption of constant values."
+        ],
+        "steps": [
+          "Inspect ΔH and ΔS signs",
+          "Set ΔG = 0 to calculate threshold",
+          "Test above or below the threshold using the inequality"
+        ],
+        "example": {
+          "q": "For ΔH = +40.0 kJ mol−1 and ΔS = +100 J K−1 mol−1, above what temperature is forward change favoured?",
+          "steps": [
+            "Convert ΔS to +0.100 kJ K−1 mol−1",
+            "Set 0 = 40.0 − T(0.100), giving T = 400 K",
+            "For T > 400 K, TΔS exceeds ΔH"
+          ],
+          "answer": "Forward change is favoured above 400 K."
+        },
+        "mistake": "Thermodynamic spontaneity does not guarantee an observable rapid reaction.",
+        "visual": {
+          "kind": "trend",
+          "title": "Spontaneity and temperature thresholds",
+          "labels": [
+            "ΔG < 0: forward",
+            "ΔG = 0: equilibrium",
+            "Threshold T = ΔH/ΔS",
+            "Kinetics is separate"
+          ]
+        }
+      },
+      {
+        "id": "R1.4.4",
+        "title": "Gibbs energy and equilibrium",
+        "hl": true,
+        "summary": "Reaction composition changes ΔG until equilibrium is reached.",
+        "explain": [
+          "Standard Gibbs energy ΔG° refers to standard states, but actual Gibbs energy depends on the mixture composition: ΔG = ΔG° + RT ln Q. As a forward-favoured reaction progresses, Q changes and ΔG approaches zero.",
+          "At equilibrium Q = K and ΔG = 0, giving ΔG° = −RT ln K. Thus K > 1 corresponds to negative ΔG°, while K < 1 corresponds to positive ΔG°. Use R = 8.31 J mol−1 K−1 and express ΔG° in joules if using this value."
+        ],
+        "steps": [
+          "Distinguish actual ΔG from standard ΔG°",
+          "Use ΔG = 0 and Q = K at equilibrium",
+          "Calculate K or ΔG° with matching units"
+        ],
+        "example": {
+          "q": "At 298 K, K = 10.0. Estimate ΔG° using R = 8.31 J mol−1 K−1.",
+          "steps": [
+            "Use ΔG° = −RT ln K",
+            "Substitute −8.31 × 298 × ln(10.0)",
+            "This is approximately −5700 J mol−1"
+          ],
+          "answer": "ΔG° ≈ −5.70 kJ mol−1."
+        },
+        "mistake": "At equilibrium actual ΔG is zero, but ΔG° need not be zero unless K = 1.",
+        "visual": {
+          "kind": "equation",
+          "title": "Gibbs energy and equilibrium",
+          "labels": [
+            "Composition Q changes",
+            "ΔG approaches zero",
+            "At equilibrium Q = K",
+            "ΔG° = −RT ln K"
+          ]
+        }
+      }
+    ]
+  }
+]
